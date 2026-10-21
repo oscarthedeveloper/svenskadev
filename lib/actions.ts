@@ -289,3 +289,73 @@ export async function saveHomepage(content: unknown, revision: number): Promise<
   refreshContent();
   return {ok:true,revision:data.homepage_revision};
 }
+
+export async function saveThesisDraft(
+  slug: string,
+  content: unknown,
+  revision = 0
+): Promise<ActionResult> {
+  const denied = await requireAdmin();
+  if (denied) return { ok: false, error: denied };
+  const { validateThesisEditorialConfig } = await import("@/lib/thesis/editorial-config");
+  const invalid = validateThesisEditorialConfig(content);
+  if (invalid) return { ok: false, error: invalid };
+  const supabase = await createSupabaseServerClient();
+  const { data, error } = await supabase.rpc("svenska_save_thesis_draft", {
+    p_slug: slug,
+    p_content: content,
+    p_revision: revision,
+  });
+  if (error) return { ok: false, error: error.message };
+  refreshContent();
+  return { ok: true, revision: data as number };
+}
+
+export async function publishThesisEdition(
+  slug: string,
+  revision: number
+): Promise<ActionResult> {
+  const denied = await requireAdmin();
+  if (denied) return { ok: false, error: denied };
+  const supabase = await createSupabaseServerClient();
+  const { data, error } = await supabase.rpc("svenska_publish_thesis", {
+    p_slug: slug,
+    p_revision: revision,
+  });
+  if (error) return { ok: false, error: error.message };
+  refreshContent();
+  return { ok: true, revision: data as number };
+}
+
+export async function unpublishThesisEdition(
+  slug: string,
+  revision: number
+): Promise<ActionResult> {
+  const denied = await requireAdmin();
+  if (denied) return { ok: false, error: denied };
+  const supabase = await createSupabaseServerClient();
+  const { data, error } = await supabase.rpc("svenska_unpublish_thesis", {
+    p_slug: slug,
+    p_revision: revision,
+  });
+  if (error) return { ok: false, error: error.message };
+  refreshContent();
+  return { ok: true, revision: data as number };
+}
+
+export async function restoreThesisEdition(
+  slug: string,
+  revision: number
+): Promise<ActionResult> {
+  const denied = await requireAdmin();
+  if (denied) return { ok: false, error: denied };
+  const supabase = await createSupabaseServerClient();
+  const { data, error } = await supabase.rpc("svenska_restore_thesis_published", {
+    p_slug: slug,
+    p_revision: revision,
+  });
+  if (error) return { ok: false, error: error.message };
+  refreshContent();
+  return { ok: true, revision: data as number };
+}
+

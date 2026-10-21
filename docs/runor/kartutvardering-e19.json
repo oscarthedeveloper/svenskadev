@@ -1,0 +1,94 @@
+{
+  "evaluatedAt": "2026-10-21T21:25:22.882Z",
+  "benchmark": {
+    "pilotPoints": 20,
+    "syntheticCorpusPoints": 2500,
+    "clusteringPerformanceMs": {
+      "pilotZoom6": 0.022,
+      "pilotZoom10": 0.04,
+      "synthZoom6": 0.646,
+      "synthZoom10": 0.741
+    }
+  },
+  "engineComparison": [
+    {
+      "engine": "Leaflet (v1.9.4)",
+      "renderType": "HTML5 2D Canvas / DOM Raster",
+      "bundleSizeGzipKb": 38,
+      "webGlRequired": false,
+      "mobilePerformanceScore": 95,
+      "touchGestures": "Mycket bra (pinch-zoom, pan, tap)",
+      "attributionDisplay": "Synlig inline eller i hörn",
+      "webGlFallbackNeeded": false,
+      "recommended": true,
+      "rationale": "100 % kompatibilitet över samtliga mobila enheter utan WebGL-krav. Extremt snabb laddtid (38 KB gzip vs 220 KB för MapLibre) och fungerar med fria Carto/OSM-plattor."
+    },
+    {
+      "engine": "MapLibre GL JS (v6.15)",
+      "renderType": "WebGL 2.0 Vector",
+      "bundleSizeGzipKb": 220,
+      "webGlRequired": true,
+      "mobilePerformanceScore": 78,
+      "touchGestures": "Mycket bra (inkl. rotation och tilt)",
+      "attributionDisplay": "Kräver obligatorisk logotyp och länk",
+      "webGlFallbackNeeded": true,
+      "recommended": false,
+      "rationale": "Kräver WebGL vilket slår fel på äldre mobiler, strömsparläge och virtuella miljöer. Kräver dessutom en vektorkakeltjänst med API-nycklar eller egenutvecklad kakelserver."
+    },
+    {
+      "engine": "Zero-Dependency SVG / 2D Karta",
+      "renderType": "Inline SVG (Next.js SSR)",
+      "bundleSizeGzipKb": 2,
+      "webGlRequired": false,
+      "mobilePerformanceScore": 100,
+      "touchGestures": "Standard webbläsargester",
+      "attributionDisplay": "Ingen extern attribution krävs",
+      "webGlFallbackNeeded": false,
+      "isFallbackEngine": true,
+      "recommended": true,
+      "rationale": "Fungerar omedelbart utan externa nätverksresurser, offline och vid nätverksfel. Perfekt som det obligatoriska reservläget enligt Avsnitt 9."
+    }
+  ],
+  "tileProviders": [
+    {
+      "provider": "CartoDB Positron / Voyager",
+      "tileUrl": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+      "license": "CC BY 4.0 / OpenStreetMap contributors (ODbL)",
+      "requiredAttribution": "© OpenStreetMap-bidragsgivare · © CARTO",
+      "commercialCostPerMonth": "$0 (inom rimlig öppen volym)",
+      "apiKeyRequired": false,
+      "approvedForProduction": true
+    },
+    {
+      "provider": "OpenStreetMap Standard (tile.openstreetmap.org)",
+      "tileUrl": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "license": "ODbL 1.0",
+      "requiredAttribution": "© OpenStreetMap-bidragsgivare",
+      "commercialCostPerMonth": "$0",
+      "apiKeyRequired": false,
+      "approvedForProduction": false,
+      "policyLimitation": "OSM Foundation Tile Usage Policy förbjuder explicit systematisk produktionstrafik från appar/webbplatser utan separat driftsavtal."
+    },
+    {
+      "provider": "Protomaps PMTiles (självhostad)",
+      "tileUrl": "/tiles/sweden.pmtiles",
+      "license": "ODbL / OpenStreetMap",
+      "requiredAttribution": "© OpenStreetMap-bidragsgivare · Protomaps",
+      "commercialCostPerMonth": "$0 (endast statisk hosting)",
+      "apiKeyRequired": false,
+      "approvedForProduction": true,
+      "notes": "Utmärkt kandidat för framtida fas E36 vid fullskalig korpuslansering."
+    }
+  ],
+  "decisionD06": {
+    "decisionId": "D06",
+    "title": "Kartmotor, kartdataleverantör, kostnadsram och reservläge",
+    "date": "2026-10-21",
+    "primaryEngine": "Leaflet (med dynamisk import och CSS)",
+    "tileProvider": "CartoDB Voyager / OpenStreetMap rasterplattor",
+    "fallbackEngine": "Zero-Dependency SVG 2D-översikt (E18)",
+    "costFramework": "0 kr / månad (100 % öppen infrastruktur utan betalda API-nycklar)",
+    "attributionNotice": "© OpenStreetMap-bidragsgivare · © CARTO",
+    "recheckTriggers": "Trafikvolym överstiger 500 000 kartvisningar/månad eller Carto ändrar villkor."
+  }
+}

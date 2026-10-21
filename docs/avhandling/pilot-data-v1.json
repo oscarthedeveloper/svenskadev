@@ -1,0 +1,2471 @@
+{
+  "editionId": "svenskadev-thesis-pilot-v1",
+  "version": "1.0.0",
+  "createdAt": "2026-10-19",
+  "status": "verified_pilot",
+  "sourceDocument": {
+    "id": "horn-af-aminne-2022",
+    "author": "Adam Horn af Åminne",
+    "year": 2022,
+    "title": "Från person till person",
+    "subtitle": "Avvecklingen av nordisk personkongruens ur ett diakront typologiskt perspektiv",
+    "englishTitle": "From person to person. The dismantle of Nordic person agreement from a diachronic typological perspective",
+    "series": "Studia philologiae Scandinavicae Upsaliensia 21",
+    "publisher": "Acta Universitatis Upsaliensis",
+    "isbn": "978-91-513-1394-8",
+    "issn": "0081-6809",
+    "urn": "urn:nbn:se:uu:diva-466066",
+    "urnUrl": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-466066",
+    "printedPagesTotal": 288,
+    "pdfPagesTotal": 292,
+    "pdfByteSize": 18348331,
+    "pdfSha256": "64b9980bac02a28377cf2297de91e180017eb7f74d1021688569f32ebc548284",
+    "copyrightNotice": "© Adam Horn af Åminne 2022. Alla faktapåståenden, kartor och paradigm i piloten hänvisar till tryckt sida och PDF-sida i originalutgåvan."
+  },
+  "timeSpecifications": {
+    "trad-southwest-synthesis-1850-1950": {
+      "id": "trad-southwest-synthesis-1850-1950",
+      "role": "historical_synthesis_period",
+      "label": "Traditionella sydvästsvenska dialekter ca 1850–1950 (syntes med tyngdpunkt kring sekelskiftet 1900)",
+      "startYear": 1850,
+      "endYear": 1950,
+      "isApproximate": true,
+      "isUnknown": false,
+      "allowsInterpolation": false,
+      "warningAgainstMisinterpretation": "Karta 10 och Tablå 28 sammanfattar belägg från en sekelbred insamlingsperiod (ca 1850–1950) med tyngdpunkt kring sekelskiftet 1900. De får inte läsas som ett exakt tvärsnitt från ett enskilt år.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Karta 10 / kap. 7.1",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 152,
+        "pdfPageEnd": 152,
+        "section": "7.1 Plural indikativ",
+        "underlyingSources": [
+          "OSDs samlingar (främst typordlistor från 1890-talet och några årtionden framåt)",
+          "Dialektmonografier och uppteckningar (se Horn af Åminne 2015)"
+        ],
+        "quoteOrReading": "Materialet härrör från ungefär hundra år (ca 1850–1950) med klar tyngdpunkt kring sekelskiftet 1900 (s. 149)."
+      }
+    },
+    "tl-window-1890-1920": {
+      "id": "tl-window-1890-1920",
+      "role": "collection_window",
+      "label": "Typordlistornas huvudsakliga insamlingsfönster (1890-talet och några årtionden framåt)",
+      "startYear": 1890,
+      "endYear": 1925,
+      "isApproximate": true,
+      "isUnknown": false,
+      "allowsInterpolation": false,
+      "warningAgainstMisinterpretation": "Avser perioden då huvuddelen av Landsmålsarkivets typordlistor fylldes i, inte talarnas födelseår.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 7.1 (typordlistor)",
+        "printedPage": 149,
+        "pdfPage": 149,
+        "section": "7.1 Plural indikativ",
+        "underlyingSources": [
+          "Typordlistor (TL) i OSDs samlingar"
+        ],
+        "quoteOrReading": "En stor och viktig del av OSDs samlingar utgörs av så kallade typordlistor som samlades in under 1890-talet och några årtionden framåt (s. 149)."
+      }
+    },
+    "unknown-collection-date-template": {
+      "id": "unknown-collection-date-template",
+      "role": "attestation_year",
+      "label": "Odaterat äldre dialektbelägg (okänt uppteckningsår)",
+      "startYear": null,
+      "endYear": null,
+      "isApproximate": false,
+      "isUnknown": true,
+      "allowsInterpolation": false,
+      "warningAgainstMisinterpretation": "När uppteckningsår eller inspelningsår saknas i källan måste uppgiften redovisas som \"okänt år\" och får aldrig ersättas med informantens födelseår eller periodens mittpunkt.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 2.1 & 7.1",
+        "printedPage": 34,
+        "pdfPage": 34,
+        "printedPageEnd": 149,
+        "pdfPageEnd": 149,
+        "section": "2.1 / 7.1",
+        "quoteOrReading": "Källkritisk regel för belägg där exakt uppteckningsår saknas i sammanställningen."
+      }
+    }
+  },
+  "paradigms": [
+    {
+      "id": "um-bojning",
+      "name": "um-böjning",
+      "shortLabel": "1p -um · 2p -e(n) · 3p -a / -e",
+      "regionName": "um-området",
+      "agreementType": "personkongruens",
+      "distinctPersonsInPlural": 3,
+      "syncretismPattern": "1p ≠ 2p ≠ 3p",
+      "syncretismDescription": "Full trepersonersdistinktion i plural indikativ: 1 person (-um), 2 person (-e(n)) och 3 person (-a / -e) hålls helt åtskilda.",
+      "thesisMapColorName": "röd (Tablå 28 cell 1p: ljusorange)",
+      "webDisplayColorHex": "#C84B31",
+      "patternMarkerLabel": "Mönster A (diagonal linjering / tre distinkta pluralpersoner)",
+      "summary": "Det mest konservativa av de fyra sydvästsvenska pluralparadigmen. Bevarar den fornsvenska trevägsdistinktionen mellan första, andra och tredje person plural i både presens och preteritum indikativ.",
+      "historicalDevelopmentNote": "Utgör det äldre sydvästsvenska utgångsläget i Figur 6 (s. 160). Var omkring sekelskiftet 1900 på väg att ersättas av e-böjning i ytterområdena, särskilt i södra Kinds härad (s. 152).",
+      "cells": [
+        {
+          "id": "tabla28-um-1p",
+          "paradigmId": "um-bojning",
+          "person": 1,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-um",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": false,
+          "presentEnding": "-um",
+          "pastEnding": "-um",
+          "nDropVariantInNorth": null,
+          "allomorphs": [
+            {
+              "form": "-um",
+              "condition": "Normaliserad grundform i Tablå 28 samt vanlig betonad form i um-området.",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 / s. 152",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 152,
+                "pdfPageEnd": 152,
+                "section": "7.1–7.1.1"
+              }
+            },
+            {
+              "form": "-om",
+              "condition": "Vokalvariant i delar av um-området (s. 152).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Kap. 7.1.1",
+                "printedPage": 152,
+                "pdfPage": 152,
+                "section": "7.1.1 um-området",
+                "underlyingSources": [
+                  "Götlind & Landtmansson 1940–50 (4):129–130"
+                ]
+              }
+            },
+            {
+              "form": "-em",
+              "condition": "Reducerad variant som förekommer främst i sammanhängande tal när verbet är obetonat (s. 152).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Kap. 7.1.1",
+                "printedPage": 152,
+                "pdfPage": 152,
+                "section": "7.1.1 um-området",
+                "underlyingSources": [
+                  "Götlind & Landtmansson 1940–50 (4):129–130"
+                ]
+              }
+            },
+            {
+              "form": "-m",
+              "condition": "Realisering efter vokal p.g.a. vokalkrock, t.ex. i preteritum av första svaga konjugationen (vi kastam < kast-a-um) samt i enstaviga verb som äm och gem (s. 147, Tablå 29 s. 153).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Kap. 7.1 & Tablå 29",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 153,
+                "pdfPageEnd": 153,
+                "section": "7.1 / 7.1.1"
+              }
+            }
+          ],
+          "hiatusRule": "Vid vokalkrock faller ändelsens inledande vokal: i 1 svaga konjugationen heter det i presens \"vi kastum\" (< kast-um) men i preteritum \"vi kastam\" (< kast-a-um, med bevarat preteritummorfem -a-).",
+          "syncretismGroup": "unique-1pl-um",
+          "etymologyNote": "Fortsätter äldre nordisk 1p-ändelse -um/-om.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (um-böjning, 1p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 1p, kolumn um-böjning: \"-um\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        },
+        {
+          "id": "tabla28-um-2p",
+          "paradigmId": "um-bojning",
+          "person": 2,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-e(n)",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": false,
+          "presentEnding": "-e(n)",
+          "pastEnding": "-e(n)",
+          "nDropVariantInNorth": "-e",
+          "allomorphs": [
+            {
+              "form": "-e",
+              "condition": "Utan finalt /n/ i den norra delen av um-området (markerad med prickskraffering på Karta 10, norr om den vågformade gräns där Halland, Västergötland och Småland möts).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 / Karta 10 / s. 152",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 152,
+                "pdfPageEnd": 152,
+                "section": "7.1–7.1.1"
+              }
+            },
+            {
+              "form": "-en",
+              "condition": "Med bevarat finalt /n/ i den södra delen av um-området (söder om den vågformade gränslinjen på Karta 10).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 / Karta 10 / s. 152",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 152,
+                "pdfPageEnd": 152,
+                "section": "7.1–7.1.1"
+              }
+            },
+            {
+              "form": "-n",
+              "condition": "Realisering i södra um-området efter vokal vid vokalkrock, t.ex. preteritum \"I kastan\" (< kast-a-en) och presens \"I än\", \"I gen\" (Tablå 29 s. 153).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 29",
+                "printedPage": 153,
+                "pdfPage": 153,
+                "section": "7.1.1 um-området"
+              }
+            }
+          ],
+          "hiatusRule": "Vid vokalkrock faller ändelsens inledande vokal e-: i södra um-området ger kast-a-en i preteritum \"I kastan\" (Tablå 29 s. 153).",
+          "syncretismGroup": "person-2pl-or-12pl-en",
+          "etymologyNote": "Äldre 2p-ändelse -in/-en med regionalt n-bortfall i norr.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (um-böjning, 2p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 2p, kolumn um-böjning: \"-e(n)\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        },
+        {
+          "id": "tabla28-um-3p",
+          "paradigmId": "um-bojning",
+          "person": 3,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-a / -e",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": true,
+          "presentEnding": "-a",
+          "pastEnding": "-e",
+          "nDropVariantInNorth": null,
+          "allomorphs": [
+            {
+              "form": "-a",
+              "condition": "3 person plural presens indikativ, samt 3 person plural preteritum av första svaga konjugationen (ar-verb) p.g.a. vokalkrock (< kast-a-e).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 & Tablå 29",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 153,
+                "pdfPageEnd": 153,
+                "section": "7.1–7.1.1"
+              }
+            },
+            {
+              "form": "-e",
+              "condition": "3 person plural preteritum indikativ (starka verb samt övriga svaga verb, t.ex. vôre, gôve, dömde).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 & Tablå 29",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 153,
+                "pdfPageEnd": 153,
+                "section": "7.1–7.1.1"
+              }
+            }
+          ],
+          "hiatusRule": "Snedstrecket anger presens (-a) / preteritum (-e). Vid vokalkrock i ar-verbens preteritum (< kast-a-e) faller ändelsens -e så att formen även i preteritum slutar på -a (\"di kasta\", Tablå 29 s. 153).",
+          "syncretismGroup": "person-3pl-or-general-pl-a-e",
+          "etymologyNote": "Fortsätter äldre 3p presens -a och 3p preteritum -u/-o > -e.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (um-böjning, 3p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 3p, kolumn um-böjning: \"-a / -e\" (presens / preteritum)."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        }
+      ],
+      "exampleForms": [
+        {
+          "person": 1,
+          "number": "plural",
+          "pronoun": "vi",
+          "presentForm": "kastum",
+          "pastForm": "kastam",
+          "translationPresent": "vi kastar",
+          "translationPast": "vi kastade",
+          "verbLemma": "kasta",
+          "formType": "inflected_form",
+          "comment": "Direkt citerat i avhandlingstexten s. 147 (marbomål) och i Tablå 29 s. 153 (södra um-området): visar hur vokalkrock skiljer presens kastum (< kast-um) från preteritum kastam (< kast-a-um).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Kap. 7.1 & Tablå 29",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 153,
+            "pdfPageEnd": 153,
+            "section": "7.1 / 7.1.1"
+          }
+        },
+        {
+          "person": 2,
+          "number": "plural",
+          "pronoun": "I",
+          "presentForm": "kasten / dömmmen",
+          "pastForm": "kastan / dömden",
+          "translationPresent": "ni kastar / ni dömer",
+          "translationPast": "ni kastade / ni dömde",
+          "verbLemma": "kasta / dömma",
+          "formType": "inflected_form",
+          "comment": "Former enligt Tablå 29 (s. 153) för södra um-området med bevarat /n/; i norra um-området utan /n/ (-e).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 29",
+            "printedPage": 153,
+            "pdfPage": 153,
+            "section": "7.1.1 um-området"
+          }
+        },
+        {
+          "person": 3,
+          "number": "plural",
+          "pronoun": "di",
+          "presentForm": "kasta / dömma",
+          "pastForm": "kasta / dömde",
+          "translationPresent": "de kastar / de dömer",
+          "translationPast": "de kastade / de dömde",
+          "verbLemma": "kasta / dömma",
+          "formType": "inflected_form",
+          "comment": "Former enligt Tablå 29 (s. 153): i er-verb (dömma) och starka verb (ge -> ge / gôve) syns skiftet mellan presens -a och preteritum -e tydligt.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 29",
+            "printedPage": 153,
+            "pdfPage": 153,
+            "section": "7.1.1 um-området"
+          }
+        }
+      ],
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Tablå 28 (kolumn 1: um-böjning)",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 153,
+        "pdfPageEnd": 153,
+        "section": "7.1 & 7.1.1"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "e-bojning",
+      "name": "e-böjning",
+      "shortLabel": "1p -e(n) · 2p -e(n) · 3p -a / -e",
+      "regionName": "e-området",
+      "agreementType": "personkongruens",
+      "distinctPersonsInPlural": 2,
+      "syncretismPattern": "1p = 2p ≠ 3p",
+      "syncretismDescription": "Synkretism mellan 1 och 2 person plural (-e(n)), medan 3 person plural (-a / -e) hålls skild.",
+      "thesisMapColorName": "blå (Tablå 28 cell 1p–2p: ljus blågrå)",
+      "webDisplayColorHex": "#2B6CB0",
+      "patternMarkerLabel": "Mönster B (horisontell linjering / 1p = 2p -e(n))",
+      "summary": "Personkongruerande pluralparadigm där första och andra person plural har sammanfallit i ändelsen -e(n) (-e i norr, -en i söder), i kontrast mot tredje person plural -a / -e.",
+      "historicalDevelopmentNote": "Enligt Figur 6 (s. 160) uppstår e-böjning ur um-böjning genom att 2p-ändelsen -e(n) analogiskt överförs till 1p.",
+      "cells": [
+        {
+          "id": "tabla28-e-1p",
+          "paradigmId": "e-bojning",
+          "person": 1,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-e(n)",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": false,
+          "presentEnding": "-e(n)",
+          "pastEnding": "-e(n)",
+          "nDropVariantInNorth": "-e",
+          "allomorphs": [
+            {
+              "form": "-e",
+              "condition": "I norra e-området (prickskrafferat på Karta 10) där finalt /n/ saknas.",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 / Karta 10 / s. 153–154",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 154,
+                "pdfPageEnd": 154,
+                "section": "7.1 & 7.1.2"
+              }
+            },
+            {
+              "form": "-en",
+              "condition": "I södra e-området (söder om prickskrafferingen på Karta 10) med bevarat /n/.",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 / Karta 10 / s. 153–154",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 154,
+                "pdfPageEnd": 154,
+                "section": "7.1 & 7.1.2"
+              }
+            }
+          ],
+          "hiatusRule": "Vid vokalkrock faller ändelsens inledande vokal e- efter stam- eller preteritumvokal.",
+          "syncretismGroup": "person-2pl-or-12pl-en",
+          "etymologyNote": "Uppkommen genom analogisk överföring av 2p -e(n) till 1p (se kap. 7.3, Figur 6 s. 160).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (e-böjning, 1p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 1p, kolumn e-böjning: \"-e(n)\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        },
+        {
+          "id": "tabla28-e-2p",
+          "paradigmId": "e-bojning",
+          "person": 2,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-e(n)",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": false,
+          "presentEnding": "-e(n)",
+          "pastEnding": "-e(n)",
+          "nDropVariantInNorth": "-e",
+          "allomorphs": [
+            {
+              "form": "-e",
+              "condition": "I norra e-området (prickskrafferat på Karta 10) utan finalt /n/.",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 / Karta 10 / s. 153–154",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 154,
+                "pdfPageEnd": 154,
+                "section": "7.1 & 7.1.2"
+              }
+            },
+            {
+              "form": "-en",
+              "condition": "I södra e-området med bevarat /n/.",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 / Karta 10 / s. 153–154",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 154,
+                "pdfPageEnd": 154,
+                "section": "7.1 & 7.1.2"
+              }
+            }
+          ],
+          "hiatusRule": "Vid vokalkrock faller ändelsens inledande vokal e- efter stam- eller preteritumvokal.",
+          "syncretismGroup": "person-2pl-or-12pl-en",
+          "etymologyNote": "Äldre 2p-ändelse som i e-böjning delas med 1p.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (e-böjning, 2p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 2p, kolumn e-böjning: \"-e(n)\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        },
+        {
+          "id": "tabla28-e-3p",
+          "paradigmId": "e-bojning",
+          "person": 3,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-a / -e",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": true,
+          "presentEnding": "-a",
+          "pastEnding": "-e",
+          "nDropVariantInNorth": null,
+          "allomorphs": [
+            {
+              "form": "-a",
+              "condition": "3 person plural presens indikativ (samt ar-verbens preteritum vid vokalkrock).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "section": "7.1 Plural indikativ"
+              }
+            },
+            {
+              "form": "-e",
+              "condition": "3 person plural preteritum indikativ (och i norra e-området sammanfallande med 1p/2p -e i preteritum).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "section": "7.1 Plural indikativ"
+              }
+            }
+          ],
+          "hiatusRule": "Snedstrecket anger presens (-a) / preteritum (-e). Vid vokalkrock i ar-verbens preteritum faller -e efter preteritummorfemet -a-.",
+          "syncretismGroup": "person-3pl-or-general-pl-a-e",
+          "etymologyNote": "Bevarad 3p-ändelse -a (presens) / -e (preteritum).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (e-böjning, 3p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 3p, kolumn e-böjning: \"-a / -e\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        }
+      ],
+      "exampleForms": [
+        {
+          "person": 1,
+          "number": "plural",
+          "pronoun": "vi",
+          "presentForm": "dömme(n)",
+          "pastForm": "dömde(n)",
+          "translationPresent": "vi dömer",
+          "translationPast": "vi dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "Pedagogiskt exempel bildat efter Tablå 28 (s. 147) och stammarna i Tablå 29 (s. 153): 1p har samma ändelse -e(n) som 2p.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 & Tablå 29",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 153,
+            "pdfPageEnd": 153,
+            "section": "7.1–7.1.2"
+          }
+        },
+        {
+          "person": 2,
+          "number": "plural",
+          "pronoun": "I",
+          "presentForm": "dömme(n)",
+          "pastForm": "dömde(n)",
+          "translationPresent": "ni dömer",
+          "translationPast": "ni dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "2p plural har ändelsen -e i norra e-området och -en i södra e-området.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 & s. 153–154",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 154,
+            "pdfPageEnd": 154,
+            "section": "7.1.2 e-området"
+          }
+        },
+        {
+          "person": 3,
+          "number": "plural",
+          "pronoun": "di",
+          "presentForm": "dömma",
+          "pastForm": "dömde",
+          "translationPresent": "de dömer",
+          "translationPast": "de dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "3p plural behåller -a i presens och -e i preteritum.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ"
+          }
+        }
+      ],
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Tablå 28 (kolumn 2: e-böjning)",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 154,
+        "pdfPageEnd": 154,
+        "section": "7.1 & 7.1.2"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "skansk-bojning",
+      "name": "skånsk böjning",
+      "shortLabel": "1p -a / -e · 2p -e(n) · 3p -a / -e",
+      "regionName": "det skånska området",
+      "agreementType": "personkongruens",
+      "distinctPersonsInPlural": 2,
+      "syncretismPattern": "1p = 3p ≠ 2p",
+      "syncretismDescription": "Synkretism mellan 1 och 3 person plural (-a i presens, -e i preteritum), medan 2 person plural (-e(n), i praktiken nästan alltid -en) är särhållen.",
+      "thesisMapColorName": "lila (Tablå 28 cell 1p & 3p: ljus olivgrön, 2p: ljus blågrå)",
+      "webDisplayColorHex": "#7B341E",
+      "patternMarkerLabel": "Mönster C (krysslinjering / 1p = 3p -a/-e, 2p -en)",
+      "summary": "Personkongruerande pluralparadigm där första och tredje person plural har sammanfallit i -a / -e, medan andra person plural behåller en egen ändelse -e(n) (i det sydliga utbredningsområdet så gott som alltid -en).",
+      "historicalDevelopmentNote": "Enligt Figur 6 (s. 160) uppkommer skånsk böjning ur um-böjning genom att 3p-ändelsen (-a i presens / -e i preteritum) överförs till 1p. Under början av 1900-talet var skånsk böjning på frammarsch norrut på e-böjningens bekostnad i bl.a. norra Villand, norra Östra Göinge och Lister (s. 154).",
+      "cells": [
+        {
+          "id": "tabla28-skansk-1p",
+          "paradigmId": "skansk-bojning",
+          "person": 1,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-a / -e",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": true,
+          "presentEnding": "-a",
+          "pastEnding": "-e",
+          "nDropVariantInNorth": null,
+          "allomorphs": [
+            {
+              "form": "-a",
+              "condition": "1 person plural presens indikativ (samt ar-verbens preteritum vid vokalkrock).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 & s. 154",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 154,
+                "pdfPageEnd": 154,
+                "section": "7.1 & 7.1.3"
+              }
+            },
+            {
+              "form": "-e",
+              "condition": "1 person plural preteritum indikativ.",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 & s. 154",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 154,
+                "pdfPageEnd": 154,
+                "section": "7.1 & 7.1.3"
+              }
+            }
+          ],
+          "hiatusRule": "Snedstrecket anger presens (-a) / preteritum (-e). Vid vokalkrock faller ändelsens inledande vokal.",
+          "syncretismGroup": "person-3pl-or-general-pl-a-e",
+          "etymologyNote": "Uppkommen genom analogisk överföring av 3p -a / -e till 1p (se kap. 7.3, Figur 6 s. 160).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (skånsk böjning, 1p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 1p, kolumn skånsk böjning: \"-a / -e\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        },
+        {
+          "id": "tabla28-skansk-2p",
+          "paradigmId": "skansk-bojning",
+          "person": 2,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-e(n)",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": false,
+          "presentEnding": "-e(n)",
+          "pastEnding": "-e(n)",
+          "nDropVariantInNorth": "-e",
+          "allomorphs": [
+            {
+              "form": "-en",
+              "condition": "Normalrealisering i det skånska huvudområdet: på grund av den sydliga utbredningen slutar 2p här i nästan samtliga fall på -en med bevarat /n/ (s. 154).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Kap. 7.1.3",
+                "printedPage": 154,
+                "pdfPage": 154,
+                "section": "7.1.3 Det skånska området"
+              }
+            },
+            {
+              "form": "-e",
+              "condition": "Endast i nordliga ströbelägg norr om n-bortfallsgränsen (t.ex. Ods sn i Gäsene hd, VG, s. 154).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Kap. 7.1.3",
+                "printedPage": 154,
+                "pdfPage": 154,
+                "section": "7.1.3 Det skånska området"
+              }
+            }
+          ],
+          "hiatusRule": "Vid vokalkrock faller ändelsens inledande vokal e- efter vokal.",
+          "syncretismGroup": "person-2pl-or-12pl-en",
+          "etymologyNote": "Bevarad särform för 2 person plural.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (skånsk böjning, 2p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 2p, kolumn skånsk böjning: \"-e(n)\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        },
+        {
+          "id": "tabla28-skansk-3p",
+          "paradigmId": "skansk-bojning",
+          "person": 3,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-a / -e",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": true,
+          "presentEnding": "-a",
+          "pastEnding": "-e",
+          "nDropVariantInNorth": null,
+          "allomorphs": [
+            {
+              "form": "-a",
+              "condition": "3 person plural presens indikativ.",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "section": "7.1 Plural indikativ"
+              }
+            },
+            {
+              "form": "-e",
+              "condition": "3 person plural preteritum indikativ.",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "section": "7.1 Plural indikativ"
+              }
+            }
+          ],
+          "hiatusRule": "Snedstrecket anger presens (-a) / preteritum (-e). Vid vokalkrock faller ändelsens inledande vokal.",
+          "syncretismGroup": "person-3pl-or-general-pl-a-e",
+          "etymologyNote": "Äldre 3p-ändelse som i skånsk böjning delas med 1p.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (skånsk böjning, 3p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 3p, kolumn skånsk böjning: \"-a / -e\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        }
+      ],
+      "exampleForms": [
+        {
+          "person": 1,
+          "number": "plural",
+          "pronoun": "vi",
+          "presentForm": "dömma",
+          "pastForm": "dömde",
+          "translationPresent": "vi dömer",
+          "translationPast": "vi dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "Pedagogiskt exempel bildat efter Tablå 28 (s. 147) och stammarna i Tablå 29 (s. 153): 1p har samma ändelse (-a / -e) som 3p.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 & s. 154",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 154,
+            "pdfPageEnd": 154,
+            "section": "7.1.3 Det skånska området"
+          }
+        },
+        {
+          "person": 2,
+          "number": "plural",
+          "pronoun": "I",
+          "presentForm": "dömmen",
+          "pastForm": "dömden",
+          "translationPresent": "ni dömer",
+          "translationPast": "ni dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "2p behåller -en i nästan hela det skånska området (s. 154).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 & s. 154",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 154,
+            "pdfPageEnd": 154,
+            "section": "7.1.3 Det skånska området"
+          }
+        },
+        {
+          "person": 3,
+          "number": "plural",
+          "pronoun": "di",
+          "presentForm": "dömma",
+          "pastForm": "dömde",
+          "translationPresent": "de dömer",
+          "translationPast": "de dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "3p har -a i presens och -e i preteritum, liksom 1p.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ"
+          }
+        }
+      ],
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Tablå 28 (kolumn 3: skånsk böjning)",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 154,
+        "pdfPageEnd": 154,
+        "section": "7.1 & 7.1.3"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "a-bojning",
+      "name": "a-böjning",
+      "shortLabel": "1p -a / -e · 2p -a / -e · 3p -a / -e",
+      "regionName": "a-området",
+      "agreementType": "numeruskongruens",
+      "distinctPersonsInPlural": 1,
+      "syncretismPattern": "1p = 2p = 3p",
+      "syncretismDescription": "Full synkretism mellan alla tre personer i plural (-a i presens, -e i preteritum). Innebär ren numeruskongruens (singular mot plural) utan personkongruens i plural.",
+      "thesisMapColorName": "grön (Tablå 28 alla tre rader: ljus olivgrön)",
+      "webDisplayColorHex": "#2F855A",
+      "patternMarkerLabel": "Mönster D (prick-/rutnät / ren numeruskongruens 1p = 2p = 3p)",
+      "summary": "Pluralparadigm med en gemensam pluraländelse (-a i presens, -e i preteritum) för alla tre personer. Utgör därmed ren numerusböjning i plural, identisk med den äldre nysvenska skriftspråksnormen (vi/I/de kasta, vi/I/de döma).",
+      "historicalDevelopmentNote": "Enligt Figur 6 (s. 160) är a-böjning slutsteget i avvecklingen av plural personkongruens i både den nordliga grenen (via e-böjning) och den sydliga grenen (via skånsk böjning), innan även numeruskongruensen i yngre mål ersätts av enhetsböjning.",
+      "cells": [
+        {
+          "id": "tabla28-a-1p",
+          "paradigmId": "a-bojning",
+          "person": 1,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-a / -e",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": true,
+          "presentEnding": "-a",
+          "pastEnding": "-e",
+          "nDropVariantInNorth": null,
+          "allomorphs": [
+            {
+              "form": "-a",
+              "condition": "Gemensam pluraländelse i presens indikativ (1 person plural).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 & s. 154–155",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 155,
+                "pdfPageEnd": 155,
+                "section": "7.1 & 7.1.4"
+              }
+            },
+            {
+              "form": "-e",
+              "condition": "Gemensam pluraländelse i preteritum indikativ (1 person plural).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 & s. 154–155",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 155,
+                "pdfPageEnd": 155,
+                "section": "7.1 & 7.1.4"
+              }
+            }
+          ],
+          "hiatusRule": "Snedstrecket anger presens (-a) / preteritum (-e). Vid vokalkrock faller ändelsens inledande vokal.",
+          "syncretismGroup": "person-3pl-or-general-pl-a-e",
+          "etymologyNote": "Generaliserad 3p-ändelse i hela pluralparadigmet (Figur 6 s. 160).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (a-böjning, 1p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 1p, kolumn a-böjning: \"-a / -e\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        },
+        {
+          "id": "tabla28-a-2p",
+          "paradigmId": "a-bojning",
+          "person": 2,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-a / -e",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": true,
+          "presentEnding": "-a",
+          "pastEnding": "-e",
+          "nDropVariantInNorth": null,
+          "allomorphs": [
+            {
+              "form": "-a",
+              "condition": "Gemensam pluraländelse i presens indikativ (2 person plural).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 & s. 154–155",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 155,
+                "pdfPageEnd": 155,
+                "section": "7.1 & 7.1.4"
+              }
+            },
+            {
+              "form": "-e",
+              "condition": "Gemensam pluraländelse i preteritum indikativ (2 person plural).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28 & s. 154–155",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "printedPageEnd": 155,
+                "pdfPageEnd": 155,
+                "section": "7.1 & 7.1.4"
+              }
+            }
+          ],
+          "hiatusRule": "Snedstrecket anger presens (-a) / preteritum (-e). Vid vokalkrock faller ändelsens inledande vokal.",
+          "syncretismGroup": "person-3pl-or-general-pl-a-e",
+          "etymologyNote": "2p -e(n) har ersatts av 3p (och i sydlig gren även 1p) -a / -e (Figur 6 s. 160, fotnot 89).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (a-böjning, 2p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 2p, kolumn a-böjning: \"-a / -e\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        },
+        {
+          "id": "tabla28-a-3p",
+          "paradigmId": "a-bojning",
+          "person": 3,
+          "number": "plural",
+          "mood": "indikativ",
+          "rawCellText": "-a / -e",
+          "formType": "normalized_ending",
+          "splitsTenseBySlash": true,
+          "presentEnding": "-a",
+          "pastEnding": "-e",
+          "nDropVariantInNorth": null,
+          "allomorphs": [
+            {
+              "form": "-a",
+              "condition": "Gemensam pluraländelse i presens indikativ (3 person plural).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "section": "7.1 Plural indikativ"
+              }
+            },
+            {
+              "form": "-e",
+              "condition": "Gemensam pluraländelse i preteritum indikativ (3 person plural).",
+              "source": {
+                "sourceId": "horn-af-aminne-2022",
+                "objectId": "Tablå 28",
+                "printedPage": 147,
+                "pdfPage": 147,
+                "section": "7.1 Plural indikativ"
+              }
+            }
+          ],
+          "hiatusRule": "Snedstrecket anger presens (-a) / preteritum (-e). Vid vokalkrock faller ändelsens inledande vokal.",
+          "syncretismGroup": "person-3pl-or-general-pl-a-e",
+          "etymologyNote": "Bevarad 3p-ändelse som nu omfattar hela plural.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 (a-böjning, 3p)",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ",
+            "quoteOrReading": "Tablå 28, rad 3p, kolumn a-böjning: \"-a / -e\"."
+          },
+          "reviewStatus": "dubbelkontrollerad_pilotklar"
+        }
+      ],
+      "exampleForms": [
+        {
+          "person": 1,
+          "number": "plural",
+          "pronoun": "vi",
+          "presentForm": "dömma",
+          "pastForm": "dömde",
+          "translationPresent": "vi dömer",
+          "translationPast": "vi dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "Alla tre personer i plural böjs lika (-a i presens, -e i preteritum).",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 & s. 154–155",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 155,
+            "pdfPageEnd": 155,
+            "section": "7.1.4 a-området"
+          }
+        },
+        {
+          "person": 2,
+          "number": "plural",
+          "pronoun": "I",
+          "presentForm": "dömma",
+          "pastForm": "dömde",
+          "translationPresent": "ni dömer",
+          "translationPast": "ni dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "Ingen särform i 2 person plural: sammanfall med 1 och 3 person plural.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28 & s. 154–155",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 155,
+            "pdfPageEnd": 155,
+            "section": "7.1.4 a-området"
+          }
+        },
+        {
+          "person": 3,
+          "number": "plural",
+          "pronoun": "di",
+          "presentForm": "dömma",
+          "pastForm": "dömde",
+          "translationPresent": "de dömer",
+          "translationPast": "de dömde",
+          "verbLemma": "dömma",
+          "formType": "pedagogical_example",
+          "comment": "3p plural delar form med 1p och 2p plural.",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Tablå 28",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "section": "7.1 Plural indikativ"
+          }
+        }
+      ],
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Tablå 28 (kolumn 4: a-böjning)",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 155,
+        "pdfPageEnd": 155,
+        "section": "7.1 & 7.1.4"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    }
+  ],
+  "regions": [
+    {
+      "id": "region-um-omradet",
+      "name": "um-området",
+      "paradigmId": "um-bojning",
+      "geographicSummary": "Sydligaste Västergötland (södra och mellersta Marks härad, sydvästra Kinds härad), norra delen av mellersta Halland samt västligaste Småland (bl.a. Burseryds sn i Västbo härad).",
+      "provincesCovered": [
+        "Västergötland",
+        "Halland",
+        "Småland"
+      ],
+      "geometrySourceType": "schematic_synthesis_after_karta_10",
+      "precisionLevel": "approximate_synthesis",
+      "hasNorthernNDropSubzone": true,
+      "nDropNote": "Vågformad gränslinje där Halland, Västergötland och Småland möts delar um-området i en nordlig prickskrafferad zon med 2p -e (utan /n/) och en sydlig zon med 2p -en (med /n/).",
+      "timeSpecification": {
+        "id": "trad-southwest-synthesis-1850-1950",
+        "role": "historical_synthesis_period",
+        "label": "Traditionella sydvästsvenska dialekter ca 1850–1950 (syntes med tyngdpunkt kring sekelskiftet 1900)",
+        "startYear": 1850,
+        "endYear": 1950,
+        "isApproximate": true,
+        "isUnknown": false,
+        "allowsInterpolation": false,
+        "warningAgainstMisinterpretation": "Karta 10 och Tablå 28 sammanfattar belägg från en sekelbred insamlingsperiod (ca 1850–1950) med tyngdpunkt kring sekelskiftet 1900. De får inte läsas som ett exakt tvärsnitt från ett enskilt år.",
+        "source": {
+          "sourceId": "horn-af-aminne-2022",
+          "objectId": "Karta 10 / kap. 7.1",
+          "printedPage": 147,
+          "pdfPage": 147,
+          "printedPageEnd": 152,
+          "pdfPageEnd": 152,
+          "section": "7.1 Plural indikativ",
+          "underlyingSources": [
+            "OSDs samlingar (främst typordlistor från 1890-talet och några årtionden framåt)",
+            "Dialektmonografier och uppteckningar (se Horn af Åminne 2015)"
+          ],
+          "quoteOrReading": "Materialet härrör från ungefär hundra år (ca 1850–1950) med klar tyngdpunkt kring sekelskiftet 1900 (s. 149)."
+        }
+      },
+      "uncertainty": {
+        "level": "moderate_synthesis",
+        "patternStyle": "dashed_border",
+        "whatSourceShows": "Rödmarkerat kärnområde på Karta 10 (s. 148) med prickskraffering i den norra hälften för n-bortfall i 2p -e(n).",
+        "howWeRepresentIt": "Schematiskt område med separat markering av nordlig n-bortfallszon (-e) och sydlig n-bevarande zon (-en).",
+        "whatIsUncertain": "Gränserna är ungefärliga synteser av ca 100 års belägg (1850–1950). I ytterområdena, t.ex. södra Kinds härad, höll um-böjningen kring sekelskiftet 1900 på att ersättas av e-böjning (s. 152).",
+        "auditIssueIds": [
+          "K02",
+          "K03"
+        ]
+      },
+      "subAreas": [
+        {
+          "id": "subarea-um-nord-n-bortfall",
+          "name": "Norra um-området (med n-bortfall i 2p: -e)",
+          "provincesOrHundreds": [
+            "Södra och mellersta Marks härad (VG)",
+            "Sydvästra Kinds härad (VG)"
+          ],
+          "evidenceStatus": "synthesized",
+          "nDropRealization": "-e",
+          "description": "Prickskrafferad del av um-området på Karta 10 (s. 148) norr om den vågformade n-gränsen. Här realiseras 2p som -e utan finalt /n/, medan 1p har -um/-om/-em.",
+          "uncertainty": {
+            "level": "moderate_synthesis",
+            "patternStyle": "dotted_n_drop",
+            "whatSourceShows": "Röd färg med prickskraffering på Karta 10 (s. 148).",
+            "howWeRepresentIt": "Delområde med explicit n-bortfallsmarkering (2p = -e).",
+            "whatIsUncertain": "I ytterområden som södra Kinds härad konkurrerar um-böjningen med framryckande e-böjning omkring 1900 (s. 152)."
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10 & kap. 7.1.1",
+            "printedPage": 148,
+            "pdfPage": 148,
+            "printedPageEnd": 152,
+            "pdfPageEnd": 152,
+            "section": "7.1.1 um-området"
+          }
+        },
+        {
+          "id": "subarea-um-syd-bevarat-n",
+          "name": "Södra um-området (med bevarat /n/ i 2p: -en)",
+          "provincesOrHundreds": [
+            "Norra delen av mellersta Halland (Himle och Faurås härader m.fl.)",
+            "Västligaste Småland (bl.a. Burseryds sn i Västbo härad)"
+          ],
+          "evidenceStatus": "synthesized",
+          "nDropRealization": "-en",
+          "description": "Södra delen av um-området utan prickskraffering på Karta 10 (s. 148). Här har 2p bevarat finalt /n/ (-en). Tablå 29 (s. 153) illustrerar detta mål i idealiserad form.",
+          "uncertainty": {
+            "level": "moderate_synthesis",
+            "patternStyle": "dashed_border",
+            "whatSourceShows": "Röd färg utan prickskraffering på Karta 10 (s. 148) samt Tablå 29 (s. 153).",
+            "howWeRepresentIt": "Delområde med 2p = -en och koppling till referensparadigmet i Tablå 29.",
+            "whatIsUncertain": "Schematisk gräns mot det omgivande e-området i Halland och Småland."
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10, Tablå 29 & kap. 7.1.1",
+            "printedPage": 148,
+            "pdfPage": 148,
+            "printedPageEnd": 153,
+            "pdfPageEnd": 153,
+            "section": "7.1.1 um-området"
+          }
+        }
+      ],
+      "documentedExceptions": [
+        {
+          "id": "exc-sodra-kind-overgang",
+          "location": "Södra Kinds härad (Västergötland)",
+          "phenomenon": "Pågående övergång från um-böjning till e-böjning omkring 1900",
+          "deviantParadigmType": "e-bojning",
+          "explanation": "I um-områdets ytterområden, t.ex. södra Kinds härad, är um-böjningen vid sekelskiftet 1900 på väg att ersättas av e-böjning (s. 152).",
+          "evidenceStatus": "attested",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Kap. 7.1.1",
+            "printedPage": 152,
+            "pdfPage": 152,
+            "section": "7.1.1 um-området"
+          }
+        },
+        {
+          "id": "exc-burseryd-fulla-paradigm",
+          "location": "Burseryds socken (Västbo härad, Småland)",
+          "phenomenon": "Fullständiga källparadigm för fyra verb (vara, bliva, hava, binda)",
+          "deviantParadigmType": "um-bojning",
+          "explanation": "En av få källor som ger fullständiga verbparadigm ur uppteckningar; uppvisar dock kasussynkretism i personliga pronomen med objektsformer i subjektsställning (vårr bundom, er bunden, di bunda, s. 152–153).",
+          "evidenceStatus": "attested",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Kap. 7.1.1",
+            "printedPage": 152,
+            "pdfPage": 152,
+            "printedPageEnd": 153,
+            "pdfPageEnd": 153,
+            "section": "7.1.1 um-området",
+            "underlyingSources": [
+              "ULMA 1656:1"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Karta 10 (um-området) & kap. 7.1.1",
+        "printedPage": 148,
+        "pdfPage": 148,
+        "printedPageEnd": 153,
+        "pdfPageEnd": 153,
+        "section": "7.1 & 7.1.1",
+        "underlyingSources": [
+          "Horn af Åminne 2017:79",
+          "Horn af Åminne 2015"
+        ]
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "region-e-omradet",
+      "name": "e-området",
+      "paradigmId": "e-bojning",
+      "geographicSummary": "Omgärdar um-området och omfattar södra Västergötland, södra delen av mellersta Halland (samt indirekt antaget område i norra Halland), sydvästra Småland, nordöstra Skåne (norra Östra Göinge härad) och västra Blekinge (Listers härad).",
+      "provincesCovered": [
+        "Västergötland",
+        "Halland",
+        "Småland",
+        "Skåne",
+        "Blekinge"
+      ],
+      "geometrySourceType": "schematic_synthesis_after_karta_10",
+      "precisionLevel": "approximate_synthesis",
+      "hasNorthernNDropSubzone": true,
+      "nDropNote": "I norra e-området (prickskrafferat på Karta 10: Västergötland, norra Halland och nordvästligaste Småland) realiseras 1p och 2p som -e (utan /n/), medan södra e-området har -en (med /n/).",
+      "timeSpecification": {
+        "id": "trad-southwest-synthesis-1850-1950",
+        "role": "historical_synthesis_period",
+        "label": "Traditionella sydvästsvenska dialekter ca 1850–1950 (syntes med tyngdpunkt kring sekelskiftet 1900)",
+        "startYear": 1850,
+        "endYear": 1950,
+        "isApproximate": true,
+        "isUnknown": false,
+        "allowsInterpolation": false,
+        "warningAgainstMisinterpretation": "Karta 10 och Tablå 28 sammanfattar belägg från en sekelbred insamlingsperiod (ca 1850–1950) med tyngdpunkt kring sekelskiftet 1900. De får inte läsas som ett exakt tvärsnitt från ett enskilt år.",
+        "source": {
+          "sourceId": "horn-af-aminne-2022",
+          "objectId": "Karta 10 / kap. 7.1",
+          "printedPage": 147,
+          "pdfPage": 147,
+          "printedPageEnd": 152,
+          "pdfPageEnd": 152,
+          "section": "7.1 Plural indikativ",
+          "underlyingSources": [
+            "OSDs samlingar (främst typordlistor från 1890-talet och några årtionden framåt)",
+            "Dialektmonografier och uppteckningar (se Horn af Åminne 2015)"
+          ],
+          "quoteOrReading": "Materialet härrör från ungefär hundra år (ca 1850–1950) med klar tyngdpunkt kring sekelskiftet 1900 (s. 149)."
+        }
+      },
+      "uncertainty": {
+        "level": "high_inferred",
+        "patternStyle": "hatched_inferred",
+        "whatSourceShows": "Blåmarkerat bälte runt um-området på Karta 10 (s. 148), prickskrafferat i norr. Enligt fotnot 81 (s. 147) saknas belägg för 1 och 2 person i norra Hallands e-område, som därför dragits utifrån angränsande områden.",
+        "howWeRepresentIt": "Uppdelat i belagt nordligt e-område (-e), belagt sydligt e-område (-en) samt separat skrafferat delområde för norra Halland med explicit osäkerhetsmarkering enligt fotnot 81.",
+        "whatIsUncertain": "I norra Hallands e-område är 3p belagd som numeruskongruerande, men 1p och 2p saknar direkta belägg (fotnot 81 s. 147). I söder (norra Östra Göinge och Lister) trängs e-böjningen undan av skånsk böjning i början av 1900-talet (s. 154).",
+        "auditIssueIds": [
+          "K02",
+          "K03"
+        ]
+      },
+      "subAreas": [
+        {
+          "id": "subarea-e-nord-n-bortfall",
+          "name": "Norra e-området i Västergötland och nordvästligaste Småland (1p/2p -e)",
+          "provincesOrHundreds": [
+            "Södra Västergötland (utanför um-området)",
+            "Nordvästligaste Småland (norra Västbo/Mo härader)"
+          ],
+          "evidenceStatus": "synthesized",
+          "nDropRealization": "-e",
+          "description": "Prickskrafferad del av e-området på Karta 10 (s. 148) där 1p och 2p saknar finalt /n/ och ändas på -e. I preteritum sammanfaller därmed 1p, 2p och 3p i ändelsen -e, medan presens skiljer 1p/2p -e från 3p -a.",
+          "uncertainty": {
+            "level": "moderate_synthesis",
+            "patternStyle": "dotted_n_drop",
+            "whatSourceShows": "Blå färg med prickskraffering på Karta 10 (s. 148).",
+            "howWeRepresentIt": "Delområde med n-bortfallsmarkering (1p = 2p = -e).",
+            "whatIsUncertain": "Ungefärliga syntesgränser mellan um-området och a-området."
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10 & kap. 7.1.2",
+            "printedPage": 148,
+            "pdfPage": 148,
+            "printedPageEnd": 154,
+            "pdfPageEnd": 154,
+            "section": "7.1.2 e-området"
+          }
+        },
+        {
+          "id": "subarea-e-syd-bevarat-n",
+          "name": "Södra e-området i mellersta Halland, sydvästra Småland, nordöstra Skåne och Lister (1p/2p -en)",
+          "provincesOrHundreds": [
+            "Södra delen av mellersta Halland",
+            "Sydvästra Småland",
+            "Nordöstra Skåne (norra Östra Göinge härad)",
+            "Västra Blekinge (Listers härad)"
+          ],
+          "evidenceStatus": "synthesized",
+          "nDropRealization": "-en",
+          "description": "Södra delen av e-området utan prickskraffering på Karta 10 (s. 148), där 1p och 2p har bevarat finalt /n/ (-en).",
+          "uncertainty": {
+            "level": "moderate_synthesis",
+            "patternStyle": "dashed_border",
+            "whatSourceShows": "Blå färg utan prickskraffering på Karta 10 (s. 148).",
+            "howWeRepresentIt": "Delområde med 1p = 2p = -en.",
+            "whatIsUncertain": "I sydligaste delen (norra Östra Göinge, norra Villand och Lister) sprider sig skånsk böjning norrut på e-böjningens bekostnad under 1900-talets början (s. 154)."
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10 & kap. 7.1.2",
+            "printedPage": 148,
+            "pdfPage": 148,
+            "printedPageEnd": 154,
+            "pdfPageEnd": 154,
+            "section": "7.1.2 e-området"
+          }
+        },
+        {
+          "id": "subarea-e-norra-halland-inferred-fn81",
+          "name": "Ytterområdet i norra Halland (indirekt härlett e-område enligt fotnot 81)",
+          "provincesOrHundreds": [
+            "Norra Halland (Fjäre och Viske härader m.fl.)"
+          ],
+          "evidenceStatus": "inferred_from_neighbor",
+          "nDropRealization": "-e",
+          "description": "Ytterområde i norra Halland där 3 person plural är belagd, men där belägg för 1 och 2 person plural saknas. Enligt fotnot 81 (s. 147) har gränsen dragits utifrån förhållandena i angränsande områden.",
+          "uncertainty": {
+            "level": "high_inferred",
+            "patternStyle": "hatched_inferred",
+            "whatSourceShows": "Blå färg med prickskraffering i norra Halland på Karta 10 (s. 148), försett med explicit förbehåll i fotnot 81 (s. 147).",
+            "howWeRepresentIt": "Återges med särskild osäkerhetsskraffering och obligatorisk fotnotsmärkning (fotnot 81) i kart- och detaljpanelen.",
+            "whatIsUncertain": "Belägg för 1 och 2 person plural saknas i källmaterialet för detta ytterområde; tillhörigheten till e-området bygger på spatiell inferens från grannområdena.",
+            "auditIssueIds": [
+              "K02"
+            ]
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10 & fotnot 81",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 148,
+            "pdfPageEnd": 148,
+            "section": "7.1 Plural indikativ",
+            "footnotes": [
+              81
+            ],
+            "quoteOrReading": "Fotnot 81 (s. 147): \"I några ytterområden är endast 3p belagd, inte 1p eller 2p. I dessa områden har jag dragit gränserna utifrån hur det ser ut i angränsande områden. Detta gäller e-området i norra Halland och a-området i Blekinge.\""
+          }
+        }
+      ],
+      "documentedExceptions": [
+        {
+          "id": "exc-2a-bojning-redvag",
+          "location": "Hössna och Strängsereds socknar (Redvägs härad, Västergötland)",
+          "phenomenon": "2a-böjning: 1p -e, 2p -a / -e, 3p -a / -e",
+          "deviantParadigmType": "2a-bojning",
+          "explanation": "Oväntat paradigm på gränsen mellan e-området och a-området i östra Västergötland där 1p har särformen -e i presens medan 2p och 3p har -a (s. 155–156, Karta 13 s. 156). Förklaras i kap. 7.3 (s. 161) som möjlig hyperkorrektion eller omtolkning vid kontakt mellan e-böjning och a-böjning.",
+          "evidenceStatus": "attested",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Kap. 7.1.5 & Karta 13",
+            "printedPage": 155,
+            "pdfPage": 155,
+            "printedPageEnd": 156,
+            "pdfPageEnd": 156,
+            "section": "7.1.5 Två avvikande böjningstyper"
+          }
+        },
+        {
+          "id": "exc-hanger-och-od-skansk-i-norr",
+          "location": "Hångers sn (Östbo hd, Småland) och Ods sn (Gäsene hd, Västergötland)",
+          "phenomenon": "Oväntade nordliga belägg på skånsk böjning inne i e-området",
+          "deviantParadigmType": "skansk-bojning",
+          "explanation": "Två geografiskt isolerade belägg på skånsk böjning (1p = 3p -a, 2p -en/-e) långt norr om det sammanhängande skånska området (s. 154, Karta 13 s. 156). I Ods sn saknas finalt /n/ i 2p (-e).",
+          "evidenceStatus": "attested",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Kap. 7.1.3 & Karta 13",
+            "printedPage": 154,
+            "pdfPage": 154,
+            "printedPageEnd": 156,
+            "pdfPageEnd": 156,
+            "section": "7.1.3 Det skånska området"
+          }
+        }
+      ],
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Karta 10 (e-området) & kap. 7.1.2",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 154,
+        "pdfPageEnd": 154,
+        "section": "7.1 & 7.1.2",
+        "footnotes": [
+          81
+        ],
+        "underlyingSources": [
+          "Horn af Åminne 2017:79",
+          "Horn af Åminne 2015"
+        ]
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "region-skanska-omradet",
+      "name": "det skånska området",
+      "paradigmId": "skansk-bojning",
+      "geographicSummary": "Skåne (alla delar som bevarat pluralböjning i indikativ utom längst i nordost, men exklusive det ofärgade sydvästra området med enhetsböjning), södra Halland samt sydvästligaste Småland.",
+      "provincesCovered": [
+        "Skåne",
+        "Halland",
+        "Småland",
+        "Blekinge"
+      ],
+      "geometrySourceType": "schematic_synthesis_after_karta_10",
+      "precisionLevel": "approximate_synthesis",
+      "hasNorthernNDropSubzone": false,
+      "nDropNote": "På grund av det sydliga utbredningsområdet har 2p-ändelsen -e(n) i det sammanhängande skånska området i nästan samtliga fall bevarat /n/, alltså -en (s. 154).",
+      "timeSpecification": {
+        "id": "trad-southwest-synthesis-1850-1950",
+        "role": "historical_synthesis_period",
+        "label": "Traditionella sydvästsvenska dialekter ca 1850–1950 (syntes med tyngdpunkt kring sekelskiftet 1900)",
+        "startYear": 1850,
+        "endYear": 1950,
+        "isApproximate": true,
+        "isUnknown": false,
+        "allowsInterpolation": false,
+        "warningAgainstMisinterpretation": "Karta 10 och Tablå 28 sammanfattar belägg från en sekelbred insamlingsperiod (ca 1850–1950) med tyngdpunkt kring sekelskiftet 1900. De får inte läsas som ett exakt tvärsnitt från ett enskilt år.",
+        "source": {
+          "sourceId": "horn-af-aminne-2022",
+          "objectId": "Karta 10 / kap. 7.1",
+          "printedPage": 147,
+          "pdfPage": 147,
+          "printedPageEnd": 152,
+          "pdfPageEnd": 152,
+          "section": "7.1 Plural indikativ",
+          "underlyingSources": [
+            "OSDs samlingar (främst typordlistor från 1890-talet och några årtionden framåt)",
+            "Dialektmonografier och uppteckningar (se Horn af Åminne 2015)"
+          ],
+          "quoteOrReading": "Materialet härrör från ungefär hundra år (ca 1850–1950) med klar tyngdpunkt kring sekelskiftet 1900 (s. 149)."
+        }
+      },
+      "uncertainty": {
+        "level": "moderate_synthesis",
+        "patternStyle": "dashed_border",
+        "whatSourceShows": "Lilamarkerat sydligt område på Karta 10 (s. 148), som gränsar mot det ofärgade sydvästskånska området med enhetsböjning och i norr mot e-området.",
+        "howWeRepresentIt": "Schematiskt område med tydlig markering av såväl den sydvästskånska gränsen mot enhetsböjning (jämförd med Karta 12 s. 151) som den nordliga expansionszonen.",
+        "whatIsUncertain": "På Karta 12 (s. 151, baserad enbart på typordlistor) går gränsen mot det sydvästskånska området utan numerusböjning något längre mot sydväst än på synteskartan Karta 10 (s. 151).",
+        "auditIssueIds": [
+          "K02",
+          "K03"
+        ]
+      },
+      "subAreas": [
+        {
+          "id": "subarea-skanska-huvudomradet",
+          "name": "Det sammanhängande skånska området (Skåne, södra Halland, sydvästligaste Småland)",
+          "provincesOrHundreds": [
+            "Norra, mellersta och östra Skåne (utom nordligaste Östra Göinge)",
+            "Södra Halland (Höks, Tönnersjö och Halmstads härader m.fl.)",
+            "Sydvästligaste Småland (sydvästra Sunnerbo härad)"
+          ],
+          "evidenceStatus": "synthesized",
+          "nDropRealization": "-en",
+          "description": "Kärnområde för skånsk böjning (1p -a / -e, 2p -en, 3p -a / -e). Under början av 1900-talet expanderar denna böjning norrut in i norra Villands härad, norra Östra Göinge härad och Listers härad (s. 154).",
+          "uncertainty": {
+            "level": "moderate_synthesis",
+            "patternStyle": "dashed_border",
+            "whatSourceShows": "Lilafärgat område utan prickskraffering på Karta 10 (s. 148).",
+            "howWeRepresentIt": "Huvudområde med 2p = -en och dokumenterad nordlig expansion.",
+            "whatIsUncertain": "Exakt sydvästgräns mot området med enhetsböjning varierar något beroende på källtyp (Karta 10 s. 148 jfr Karta 12 s. 151)."
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10, Karta 12 & kap. 7.1.3",
+            "printedPage": 148,
+            "pdfPage": 148,
+            "printedPageEnd": 154,
+            "pdfPageEnd": 154,
+            "section": "7.1.3 Det skånska området"
+          }
+        }
+      ],
+      "documentedExceptions": [
+        {
+          "id": "exc-sydvastskane-enhetsbojning",
+          "location": "Sydvästra Skåne (ofärgat område på Karta 10)",
+          "phenomenon": "Enhetsböjning (ingen numerus- eller personkongruens i indikativ)",
+          "deviantParadigmType": "enhetsbojning",
+          "explanation": "I sydvästra Skåne saknas särskild pluralform av verben i de undersökta traditionella dialekterna; på Karta 12 (s. 151, typordlistor) går gränsen för pluralböjning dock något längre mot sydväst än på synteskartan Karta 10.",
+          "evidenceStatus": "attested",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10 & Karta 12",
+            "printedPage": 148,
+            "pdfPage": 148,
+            "printedPageEnd": 151,
+            "pdfPageEnd": 151,
+            "section": "7.1 Plural indikativ"
+          }
+        },
+        {
+          "id": "exc-osby-a-bojning-i-skane",
+          "location": "Osby socken (Östra Göinge härad, Skåne)",
+          "phenomenon": "Isolerat belägg på a-böjning i nordöstra Skåne",
+          "deviantParadigmType": "a-bojning",
+          "explanation": "Enstaka belägg på a-böjning på gränsen mellan det skånska området och e-området i nordöstra Skåne (s. 155).",
+          "evidenceStatus": "attested",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Kap. 7.1.4",
+            "printedPage": 155,
+            "pdfPage": 155,
+            "section": "7.1.4 a-området"
+          }
+        }
+      ],
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Karta 10 (det skånska området) & kap. 7.1.3",
+        "printedPage": 148,
+        "pdfPage": 148,
+        "printedPageEnd": 154,
+        "pdfPageEnd": 154,
+        "section": "7.1 & 7.1.3",
+        "underlyingSources": [
+          "Horn af Åminne 2017:79",
+          "Horn af Åminne 2015"
+        ]
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "region-a-omradet",
+      "name": "a-området",
+      "paradigmId": "a-bojning",
+      "geographicSummary": " Smalt gränsbälte längs e-områdets norra och östra kant i Västergötland (inklusive en geografiskt avskild exklav i Ale härad), västra Småland samt västra Blekinge (indirekt antaget enligt fotnot 81).",
+      "provincesCovered": [
+        "Västergötland",
+        "Småland",
+        "Blekinge",
+        "Skåne"
+      ],
+      "geometrySourceType": "schematic_synthesis_after_karta_10",
+      "precisionLevel": "approximate_synthesis",
+      "hasNorthernNDropSubzone": false,
+      "nDropNote": "Ej tillämpligt på 1p/2p/3p i a-böjning eftersom ändelsen -e(n) helt har ersatts av -a / -e.",
+      "timeSpecification": {
+        "id": "trad-southwest-synthesis-1850-1950",
+        "role": "historical_synthesis_period",
+        "label": "Traditionella sydvästsvenska dialekter ca 1850–1950 (syntes med tyngdpunkt kring sekelskiftet 1900)",
+        "startYear": 1850,
+        "endYear": 1950,
+        "isApproximate": true,
+        "isUnknown": false,
+        "allowsInterpolation": false,
+        "warningAgainstMisinterpretation": "Karta 10 och Tablå 28 sammanfattar belägg från en sekelbred insamlingsperiod (ca 1850–1950) med tyngdpunkt kring sekelskiftet 1900. De får inte läsas som ett exakt tvärsnitt från ett enskilt år.",
+        "source": {
+          "sourceId": "horn-af-aminne-2022",
+          "objectId": "Karta 10 / kap. 7.1",
+          "printedPage": 147,
+          "pdfPage": 147,
+          "printedPageEnd": 152,
+          "pdfPageEnd": 152,
+          "section": "7.1 Plural indikativ",
+          "underlyingSources": [
+            "OSDs samlingar (främst typordlistor från 1890-talet och några årtionden framåt)",
+            "Dialektmonografier och uppteckningar (se Horn af Åminne 2015)"
+          ],
+          "quoteOrReading": "Materialet härrör från ungefär hundra år (ca 1850–1950) med klar tyngdpunkt kring sekelskiftet 1900 (s. 149)."
+        }
+      },
+      "uncertainty": {
+        "level": "high_inferred",
+        "patternStyle": "hatched_inferred",
+        "whatSourceShows": "Grönmarkerat ytterbälte på Karta 10 (s. 148) samt exklav i Ale härad i västra Västergötland. Enligt fotnot 81 (s. 147) saknas belägg för 1p och 2p i Blekinges a-område.",
+        "howWeRepresentIt": "Uppdelat i det sammanhängande gränsbältet i Västergötland/Småland, exklaven i Ale härad (med preteritumanmärkning s. 158) samt det indirekt härledda området i Blekinge (med osäkerhetsskraffering enligt fotnot 81).",
+        "whatIsUncertain": "I Blekinges a-område är endast 3p direkt belagd (fotnot 81 s. 147). I Ale härad saknas belägg i typordlistorna (Karta 11 s. 150) och på kartan över presens (Karta 14 s. 158) eftersom numerusböjning i OSDs samlingar där endast är belagd i preteritum (s. 158).",
+        "auditIssueIds": [
+          "K02",
+          "K03"
+        ]
+      },
+      "subAreas": [
+        {
+          "id": "subarea-a-gransbalte-vg-sm",
+          "name": "Sammanhängande a-bälte i Västergötland och västra Småland",
+          "provincesOrHundreds": [
+            "Mellersta/östra Västergötland (norr och öster om e-området)",
+            "Västra/mellersta Småland (öster om e-området)"
+          ],
+          "evidenceStatus": "synthesized",
+          "nDropRealization": "not_applicable",
+          "description": "Smalt övergångsområde med ren numeruskongruens (-a i presens, -e i preteritum för alla tre personer) mellan det personböjande e-området och de nordligare/östligare dialekter som har genomfört enhetsböjning.",
+          "uncertainty": {
+            "level": "moderate_synthesis",
+            "patternStyle": "dashed_border",
+            "whatSourceShows": "Grönt bälte längs e-områdets nord- och östgräns på Karta 10 (s. 148).",
+            "howWeRepresentIt": "Övergångszon för ren numerusböjning (1p = 2p = 3p = -a / -e).",
+            "whatIsUncertain": "Smalt bälte där belägg för 2p ställvis är glesare i typordlistorna (jfr Karta 11 s. 150 och Karta 12 s. 151)."
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10, Karta 11 & kap. 7.1.4",
+            "printedPage": 148,
+            "pdfPage": 148,
+            "printedPageEnd": 155,
+            "pdfPageEnd": 155,
+            "section": "7.1.4 a-området"
+          }
+        },
+        {
+          "id": "subarea-a-ale-harad-exklav",
+          "name": "Exklaven i Ale härad (västra Västergötland)",
+          "provincesOrHundreds": [
+            "Ale härad (Västergötland)"
+          ],
+          "evidenceStatus": "attested",
+          "nDropRealization": "not_applicable",
+          "description": "Geografiskt avskilt grönt område i Ale härad på Karta 10 (s. 148). Saknas på Karta 11 (s. 150, typordlistor) och Karta 14 (s. 158, presens), eftersom numerusböjning i OSDs samlingar från Ale härad endast är belagd i preteritum (s. 158).",
+          "uncertainty": {
+            "level": "moderate_synthesis",
+            "patternStyle": "dashed_border",
+            "whatSourceShows": "Grön exklav i Ale härad på Karta 10 (s. 148) och Karta 15 (s. 159, preteritum), men frånvarande på Karta 11 (s. 150) och Karta 14 (s. 158).",
+            "howWeRepresentIt": "Separat delområde med källkritisk notering om att beläggen i OSDs samlingar gäller preteritum.",
+            "whatIsUncertain": "Avsaknad av belägg i typordlistor och i presens indikativ i OSDs samlingar (s. 150, 158)."
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10, Karta 11, Karta 14 & s. 154–158",
+            "printedPage": 148,
+            "pdfPage": 148,
+            "printedPageEnd": 158,
+            "pdfPageEnd": 158,
+            "section": "7.1.4 & 7.2"
+          }
+        },
+        {
+          "id": "subarea-a-blekinge-inferred-fn81",
+          "name": "Ytterområdet i Blekinge (indirekt härlett a-område enligt fotnot 81)",
+          "provincesOrHundreds": [
+            "Västra/mellersta Blekinge (öster om Listers härad, främst Bräkne härad)"
+          ],
+          "evidenceStatus": "inferred_from_neighbor",
+          "nDropRealization": "not_applicable",
+          "description": "Ytterområde i Blekinge öster om Listers härad där 3 person plural är belagd, men där belägg för 1 och 2 person plural saknas. Enligt fotnot 81 (s. 147) har gränsen dragits utifrån angränsande områden.",
+          "uncertainty": {
+            "level": "high_inferred",
+            "patternStyle": "hatched_inferred",
+            "whatSourceShows": "Grön markering i Blekinge öster om Listers härad på Karta 10 (s. 148), försedd med explicit förbehåll i fotnot 81 (s. 147).",
+            "howWeRepresentIt": "Återges med särskild osäkerhetsskraffering och obligatorisk fotnotsmärkning (fotnot 81) i kart- och detaljpanelen.",
+            "whatIsUncertain": "Direkta belägg för 1 och 2 person plural saknas i källmaterialet för detta ytterområde; klassificeringen som a-område vilar på inferens från grannområdena (fotnot 81 s. 147). Dessutom finns i Hällaryds sn (Bräkne hd) belägg på generaliserad e-böjning (s. 156).",
+            "auditIssueIds": [
+              "K02"
+            ]
+          },
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Karta 10 & fotnot 81",
+            "printedPage": 147,
+            "pdfPage": 147,
+            "printedPageEnd": 155,
+            "pdfPageEnd": 155,
+            "section": "7.1 & 7.1.4",
+            "footnotes": [
+              81
+            ],
+            "quoteOrReading": "Fotnot 81 (s. 147): \"I några ytterområden är endast 3p belagd, inte 1p eller 2p. I dessa områden har jag dragit gränserna utifrån hur det ser ut i angränsande områden. Detta gäller e-området i norra Halland och a-området i Blekinge.\""
+          }
+        }
+      ],
+      "documentedExceptions": [
+        {
+          "id": "exc-generaliserad-e-bojning-sm-bl",
+          "location": "Bergs sn (Norrvidinge hd, Småland), Södra Sandsjö sn (Konga hd, Småland) och Hällaryds sn (Bräkne hd, Blekinge)",
+          "phenomenon": "Generaliserad e-böjning: 1p -en, 2p -en, 3p -en",
+          "deviantParadigmType": "generaliserad-e-bojning",
+          "explanation": "Tre socknar i utkanterna av det sydvästsvenska området där ändelsen -en har generaliserats till alla tre personer i plural (1p = 2p = 3p -en), alltså ren numeruskongruens med -en i stället för -a / -e (s. 156–157, Karta 13 s. 156).",
+          "evidenceStatus": "attested",
+          "source": {
+            "sourceId": "horn-af-aminne-2022",
+            "objectId": "Kap. 7.1.5 & Karta 13",
+            "printedPage": 156,
+            "pdfPage": 156,
+            "printedPageEnd": 157,
+            "pdfPageEnd": 157,
+            "section": "7.1.5 Två avvikande böjningstyper"
+          }
+        }
+      ],
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Karta 10 (a-området) & kap. 7.1.4",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 155,
+        "pdfPageEnd": 155,
+        "section": "7.1 & 7.1.4",
+        "footnotes": [
+          81
+        ],
+        "underlyingSources": [
+          "Horn af Åminne 2017:79",
+          "Horn af Åminne 2015"
+        ]
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    }
+  ],
+  "changeModelFigur6": {
+    "id": "figur-6-analogisk-utveckling",
+    "title": "Figur 6. De sydvästsvenska pluralparadigmens utveckling (s. 160)",
+    "isModelNotIndividualFilmNote": "OBS! Figur 6 är en språkvetenskaplig förklaringsmodell över hur de fyra sydvästsvenska pluralparadigmen hänger ihop genom analogisk utjämning och hur geografisk utbredning speglar diakron förändring. Den får inte tolkas som en direkt kronologisk inspelning av en enskild talare.",
+    "source": {
+      "sourceId": "horn-af-aminne-2022",
+      "objectId": "Figur 6 & kap. 7.3",
+      "printedPage": 160,
+      "pdfPage": 160,
+      "printedPageEnd": 161,
+      "pdfPageEnd": 161,
+      "section": "7.3 Pluralparadigmens utveckling",
+      "footnotes": [
+        89
+      ]
+    },
+    "reviewStatus": "dubbelkontrollerad_pilotklar",
+    "steps": [
+      {
+        "id": "fig6-step-0-utgangslage-um",
+        "stepOrder": 1,
+        "fromParadigmId": null,
+        "toParadigmId": "um-bojning",
+        "branch": "utgangslage",
+        "title": "Utgångsläge: um-böjning (tre distinkta personer i plural)",
+        "changedPerson": null,
+        "sourcePersonForAnalogy": null,
+        "presentEndingsSnapshot": {
+          "p1": "-um",
+          "p2": "-en",
+          "p3": "-a"
+        },
+        "pastEndingsSnapshot": {
+          "p1": "-um",
+          "p2": "-en",
+          "p3": "-e"
+        },
+        "explanation": "Utgångspunkten i mitten av Figur 6 (s. 160): alla tre pluralpersoner har egna ändelser (1p -um, 2p -en, 3p -a i presens / -e i preteritum). Figur 6 visar normaliserade presensändelser.",
+        "evidenceStatus": "synthesized",
+        "uncertaintyNote": "Normaliserad sammanställning av det äldre sydvästsvenska trepersonerssystemet.",
+        "source": {
+          "sourceId": "horn-af-aminne-2022",
+          "objectId": "Figur 6 (mitten: um-böjning)",
+          "printedPage": 160,
+          "pdfPage": 160,
+          "section": "7.3 Pluralparadigmens utveckling"
+        }
+      },
+      {
+        "id": "fig6-step-1a-um-till-e",
+        "stepOrder": 2,
+        "fromParadigmId": "um-bojning",
+        "toParadigmId": "e-bojning",
+        "branch": "nordlig_gren",
+        "title": "Nordlig/central gren (steg 1): um-böjning → e-böjning (2p sprids till 1p)",
+        "changedPerson": 1,
+        "sourcePersonForAnalogy": 2,
+        "presentEndingsSnapshot": {
+          "p1": "-en",
+          "p2": "-en",
+          "p3": "-a"
+        },
+        "pastEndingsSnapshot": {
+          "p1": "-en",
+          "p2": "-en",
+          "p3": "-e"
+        },
+        "explanation": "I området kring um-området överförs 2p-ändelsen -e(n) analogiskt till 1p, så att 1p och 2p sammanfaller i -e(n) medan 3p behåller -a / -e.",
+        "evidenceStatus": "synthesized",
+        "uncertaintyNote": "I norra e-området där /n/ fallit i -e(n) uppstår i preteritum fullt sammanfall mellan 1p, 2p och 3p (-e), vilket enligt s. 160 kan underlätta nästa steg mot a-böjning.",
+        "source": {
+          "sourceId": "horn-af-aminne-2022",
+          "objectId": "Figur 6 (vänstra grenen: um-böjning -> e-böjning)",
+          "printedPage": 160,
+          "pdfPage": 160,
+          "section": "7.3 Pluralparadigmens utveckling"
+        }
+      },
+      {
+        "id": "fig6-step-1b-um-till-skansk",
+        "stepOrder": 3,
+        "fromParadigmId": "um-bojning",
+        "toParadigmId": "skansk-bojning",
+        "branch": "sydlig_gren",
+        "title": "Sydlig gren (steg 1): um-böjning → skånsk böjning (3p sprids till 1p)",
+        "changedPerson": 1,
+        "sourcePersonForAnalogy": 3,
+        "presentEndingsSnapshot": {
+          "p1": "-a",
+          "p2": "-en",
+          "p3": "-a"
+        },
+        "pastEndingsSnapshot": {
+          "p1": "-e",
+          "p2": "-en",
+          "p3": "-e"
+        },
+        "explanation": "I den sydliga utvecklingslinjen ersätts 1p -um i stället av 3p-ändelsen -a (i preteritum -e), medan 2p behåller sin särform -en.",
+        "evidenceStatus": "synthesized",
+        "uncertaintyNote": "I delar av norra Östra Göinge, norra Villand och Lister förekommer även direkt undanträngning av e-böjning genom spridning av skånsk böjning söderifrån (s. 154, 160).",
+        "source": {
+          "sourceId": "horn-af-aminne-2022",
+          "objectId": "Figur 6 (högra grenen: um-böjning -> skånsk böjning)",
+          "printedPage": 160,
+          "pdfPage": 160,
+          "section": "7.3 Pluralparadigmens utveckling"
+        }
+      },
+      {
+        "id": "fig6-step-2-till-a-bojning",
+        "stepOrder": 4,
+        "fromParadigmId": "e-bojning",
+        "toParadigmId": "a-bojning",
+        "branch": "gemensam_numerusbojning",
+        "title": "Steg 2 (båda grenarna): e-böjning / skånsk böjning → a-böjning (ren numeruskongruens)",
+        "changedPerson": "1_och_2",
+        "sourcePersonForAnalogy": 3,
+        "presentEndingsSnapshot": {
+          "p1": "-a",
+          "p2": "-a",
+          "p3": "-a"
+        },
+        "pastEndingsSnapshot": {
+          "p1": "-e",
+          "p2": "-e",
+          "p3": "-e"
+        },
+        "explanation": "I både den vänstra grenen (från e-böjning: 3p -a ersätter 1p och 2p -e(n)) och den högra grenen (från skånsk böjning: 3p -a, sekundärt understödd av 1p -a enligt fotnot 89, ersätter 2p -en) uppstår a-böjning där alla tre personer i plural har -a i presens och -e i preteritum.",
+        "evidenceStatus": "synthesized",
+        "uncertaintyNote": "Utvecklingen från skånsk böjning direkt till a-böjning är i Sydvästsverige svagt belagd i kartbilden (främst Osby sn i nordöstra Skåne, s. 155, 160–161), medan övergången e-böjning → a-böjning bildar ett tydligt geografiskt bälte.",
+        "source": {
+          "sourceId": "horn-af-aminne-2022",
+          "objectId": "Figur 6 (båda ytterstegen -> a-böjning) & fotnot 89",
+          "printedPage": 160,
+          "pdfPage": 160,
+          "printedPageEnd": 161,
+          "pdfPageEnd": 161,
+          "section": "7.3 Pluralparadigmens utveckling",
+          "footnotes": [
+            89
+          ]
+        }
+      }
+    ]
+  },
+  "referenceExampleTabla29": {
+    "id": "tabla-29-sodra-um-omradet",
+    "title": "Tablå 29. Indikativ och imperativ personböjning i södra um-området (s. 153)",
+    "varietyDescription": "Idealiserat traditionellt mål i norra delen av mellersta Halland (södra um-området) med bevarat finalt /n/ i ändelsen -e(n).",
+    "normalizationNote": "Tablån återger fullständiga paradigm i singular och plural (presens indikativ, preteritum indikativ samt imperativ) för kopula, hjälpverb, starka verb och två svaga konjugationer. Parenteser kring singularändelser som -(st) anger att 2s-böjning är valfri/varierande.",
+    "source": {
+      "sourceId": "horn-af-aminne-2022",
+      "objectId": "Tablå 29",
+      "printedPage": 153,
+      "pdfPage": 153,
+      "section": "7.1.1 um-området"
+    },
+    "reviewStatus": "dubbelkontrollerad_pilotklar",
+    "verbs": [
+      {
+        "category": "kopula",
+        "lemma": "vara",
+        "gloss": "vara (kopula)",
+        "presensIndikativ": {
+          "1s": "ä",
+          "2s": "ä(st)",
+          "3s": "ä",
+          "1p": "äm",
+          "2p": "än",
+          "3p": "ä"
+        },
+        "preteritumIndikativ": {
+          "1s": "va",
+          "2s": "va(st)",
+          "3s": "va",
+          "1p": "vôrum",
+          "2p": "vôren",
+          "3p": "vôre"
+        },
+        "imperativ": {
+          "2s": "va!",
+          "2p": "van!"
+        }
+      },
+      {
+        "category": "hjalpverb",
+        "lemma": "kunna",
+        "gloss": "kunna (prekamperat hjälpverb)",
+        "presensIndikativ": {
+          "1s": "kann",
+          "2s": "kann((s)t)",
+          "3s": "kann",
+          "1p": "kunnum",
+          "2p": "kunnen",
+          "3p": "kunna"
+        },
+        "preteritumIndikativ": {
+          "1s": "kunde",
+          "2s": "kunde(st)",
+          "3s": "kunde",
+          "1p": "kundum",
+          "2p": "kunden",
+          "3p": "kunde"
+        },
+        "imperativ": {
+          "2s": "–",
+          "2p": "–"
+        }
+      },
+      {
+        "category": "starka",
+        "lemma": "ge",
+        "gloss": "ge (starkt verb)",
+        "presensIndikativ": {
+          "1s": "ger",
+          "2s": "ger",
+          "3s": "ger",
+          "1p": "gem",
+          "2p": "gen",
+          "3p": "ge"
+        },
+        "preteritumIndikativ": {
+          "1s": "ga",
+          "2s": "ga(st)",
+          "3s": "ga",
+          "1p": "gôvum",
+          "2p": "gôven",
+          "3p": "gôve"
+        },
+        "imperativ": {
+          "2s": "ge!",
+          "2p": "gen!"
+        }
+      },
+      {
+        "category": "svaga",
+        "lemma": "kasta",
+        "gloss": "kasta (svagt ar-verb, 1 konjugationen)",
+        "presensIndikativ": {
+          "1s": "kastar",
+          "2s": "kastar",
+          "3s": "kastar",
+          "1p": "kastum",
+          "2p": "kasten",
+          "3p": "kasta"
+        },
+        "preteritumIndikativ": {
+          "1s": "kasta",
+          "2s": "kasta(st)",
+          "3s": "kasta",
+          "1p": "kastam",
+          "2p": "kastan",
+          "3p": "kasta"
+        },
+        "imperativ": {
+          "2s": "kasta!",
+          "2p": "kasten!"
+        }
+      },
+      {
+        "category": "svaga",
+        "lemma": "dömma",
+        "gloss": "döma (svagt er-verb, 2 konjugationen)",
+        "presensIndikativ": {
+          "1s": "dömmer",
+          "2s": "dömmer",
+          "3s": "dömmer",
+          "1p": "dömmum",
+          "2p": "dömmen",
+          "3p": "dömma"
+        },
+        "preteritumIndikativ": {
+          "1s": "dömde",
+          "2s": "dömde(st)",
+          "3s": "dömde",
+          "1p": "dömdum",
+          "2p": "dömden",
+          "3p": "dömde"
+        },
+        "imperativ": {
+          "2s": "dömm!",
+          "2p": "dömmen!"
+        }
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "id": "term-person",
+      "term": "person",
+      "shortDefinition": "Grammatisk kategori som skiljer mellan den talande (1 person: jag/vi), den tilltalade (2 person: du/I/ni) och den eller det omtalade (3 person: han/hon/den/det/de).",
+      "thesisSpecificNuance": "I avhandlingen förkortas kombinationen av person och numerus med siffra och bokstav: 1s, 2s, 3s (singular) och 1p, 2p, 3p (plural).",
+      "contrastTermIds": [
+        "term-numerus",
+        "term-personkongruens"
+      ],
+      "example": "I um-böjning har 1p (vi kastum), 2p (I kasten) och 3p (di kasta) tre olika verbändelser.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1 & 2.2 (Notationsprinciper)",
+        "printedPage": 17,
+        "pdfPage": 17,
+        "printedPageEnd": 38,
+        "pdfPageEnd": 38,
+        "section": "1 / 2.2"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-numerus",
+      "term": "numerus",
+      "shortDefinition": "Grammatiskt antal, i de nordiska språken främst skillnaden mellan singular (ental) och plural (flertal).",
+      "thesisSpecificNuance": "När ett verbparadigm skiljer mellan singular och plural men inte mellan 1, 2 och 3 person talar avhandlingen om ren numerusböjning eller numeruskongruens (t.ex. a-böjning).",
+      "contrastTermIds": [
+        "term-person",
+        "term-numeruskongruens",
+        "term-enhetsbojning"
+      ],
+      "example": "Singular \"han kastar\" gentemot plural \"vi/I/di kasta\" i a-området.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1 & 7.1.4",
+        "printedPage": 17,
+        "pdfPage": 17,
+        "printedPageEnd": 155,
+        "pdfPageEnd": 155,
+        "section": "1 / 7.1.4"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-kongruens",
+      "term": "kongruens",
+      "shortDefinition": "Grammatisk samstämmighet där ett ord (här det finita verbet) anpassar sin böjningsform efter egenskaper hos ett annat led (här subjektets person och/eller numerus).",
+      "thesisSpecificNuance": "Avhandlingen skiljer strikt mellan tre tillstånd hos verbet: 1) personkongruens (och numeruskongruens), 2) ren numeruskongruens (utan personskillnad) samt 3) enhetsböjning (varken person- eller numeruskongruens).",
+      "contrastTermIds": [
+        "term-personkongruens",
+        "term-numeruskongruens",
+        "term-enhetsbojning"
+      ],
+      "example": "Subjektet \"vi\" (1p) kräver verbformen \"kastum\" i um-böjning.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1.1",
+        "printedPage": 17,
+        "pdfPage": 17,
+        "printedPageEnd": 23,
+        "pdfPageEnd": 23,
+        "section": "1.1 Inledning"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-personkongruens",
+      "term": "personkongruens",
+      "shortDefinition": "Att verbets form växlar beroende på om subjektet är 1, 2 eller 3 person.",
+      "thesisSpecificNuance": "I Tablå 28 har um-böjning, e-böjning och skånsk böjning personkongruens i plural, medan a-böjning saknar personkongruens och endast har numeruskongruens.",
+      "contrastTermIds": [
+        "term-numeruskongruens",
+        "term-enhetsbojning"
+      ],
+      "example": "Skillnaden mellan 1p/3p \"vi/di dömma\" och 2p \"I dömmen\" i skånsk böjning.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1.1 & Tablå 28",
+        "printedPage": 17,
+        "pdfPage": 17,
+        "printedPageEnd": 147,
+        "pdfPageEnd": 147,
+        "section": "1.1 / 7.1"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-numeruskongruens",
+      "term": "numeruskongruens",
+      "shortDefinition": "Att verbet har skilda former för singular och plural, oavsett om pluralformerna dessutom skiljer på person eller ej.",
+      "thesisSpecificNuance": "Ren numeruskongruens i plural (1p = 2p = 3p, t.ex. a-böjning eller äldre skriftsvenska \"vi/I/de kasta\") är ofta det sista steget innan verbet övergår till full enhetsböjning.",
+      "contrastTermIds": [
+        "term-personkongruens",
+        "term-enhetsbojning"
+      ],
+      "example": "I a-böjning heter det i singular \"jag/du/han dömmer\" men i plural \"vi/I/di dömma\".",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1.1 & 7.1.4",
+        "printedPage": 17,
+        "pdfPage": 17,
+        "printedPageEnd": 155,
+        "pdfPageEnd": 155,
+        "section": "1.1 / 7.1.4"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-enhetsbojning",
+      "term": "enhetsböjning",
+      "shortDefinition": "Tillstånd där verbet har en och samma form i alla personer och i både singular och plural inom respektive tempus.",
+      "thesisSpecificNuance": "Kännetecknar modernt svenskt standardspråk (jag/du/han/vi/ni/de kastar) samt traditionella dialekter i bl.a. sydvästra Skåne och stora delar av övriga Sverige utanför de konservativa områdena.",
+      "contrastTermIds": [
+        "term-personkongruens",
+        "term-numeruskongruens"
+      ],
+      "example": "Presens \"kastar\" i samtliga personer i både singular och plural.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1.1 & Karta 1",
+        "printedPage": 17,
+        "pdfPage": 17,
+        "printedPageEnd": 28,
+        "pdfPageEnd": 28,
+        "section": "1.1 / 1.4"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-paradigm",
+      "term": "paradigm",
+      "shortDefinition": "Det samlade mönstret av böjningsformer för ett ord eller en ordklass (t.ex. ett verbs former i olika personer, numerus, tempus och modus).",
+      "thesisSpecificNuance": "Tablå 28 visar fyra övergripande ändelseparadigm för plural indikativ, medan Tablå 29 visar fullständiga ordparadigm för fem typverb i södra um-området.",
+      "contrastTermIds": [
+        "term-synkretism",
+        "term-allomorfi"
+      ],
+      "example": "Pluralparadigmet för um-böjning: 1p -um, 2p -e(n), 3p -a / -e.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Tablå 28 & Tablå 29",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 153,
+        "pdfPageEnd": 153,
+        "section": "7.1–7.1.1"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-synkretism",
+      "term": "synkretism",
+      "shortDefinition": "Formellt sammanfall mellan två eller flera grammatiska kategorier i ett paradigm, så att de uttrycks med samma böjningsform.",
+      "thesisSpecificNuance": "Avvecklingen av personkongruens i Sydvästsverige sker genom stegvis ökad synkretism: från um-böjning (ingen synkretism i plural) till e-böjning (synkretism 1p = 2p) eller skånsk böjning (synkretism 1p = 3p) och vidare till a-böjning (full pluralsynkretism 1p = 2p = 3p).",
+      "contrastTermIds": [
+        "term-paradigm",
+        "term-allomorfi"
+      ],
+      "example": "I e-böjning råder synkretism mellan 1p och 2p (-e(n)), t.ex. \"vi dömmen\" = \"I dömmen\".",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1.2 & 7.3 (Figur 6)",
+        "printedPage": 20,
+        "pdfPage": 20,
+        "printedPageEnd": 160,
+        "pdfPageEnd": 160,
+        "section": "1.2 / 7.3"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-allomorfi",
+      "term": "allomorfi",
+      "shortDefinition": "Att ett och samma grammatiska morfem (ändelse) realiseras i olika fonologiska varianter (allomorfer) beroende på ljudomgivning, betoning eller geografisk delvarietet.",
+      "thesisSpecificNuance": "I Tablå 28 sammanfattas allomorfer under en normaliserad etikett: t.ex. representerar \"-um\" de regionala och prosodiska varianterna -um, -om och -em samt vokalkrocksvarianten -m (s. 147, 152).",
+      "contrastTermIds": [
+        "term-synkretism",
+        "term-paradigm"
+      ],
+      "example": "1p-ändelsen realiseras som -um i \"vi kastum\" men som -m efter vokal i preteritum \"vi kastam\" (< kast-a-um).",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 7.1 & 7.1.1",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "printedPageEnd": 152,
+        "pdfPageEnd": 152,
+        "section": "7.1–7.1.1"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-indikativ",
+      "term": "indikativ",
+      "shortDefinition": "Berättande eller konstaterande modus hos verbet (påstående- och frågesatser), i motsats till imperativ (uppmaningsform) och konjunktiv.",
+      "thesisSpecificNuance": "Karta 10 och Tablå 28 avser uteslutande plural indikativ (i presens och preteritum).",
+      "contrastTermIds": [
+        "term-imperativ"
+      ],
+      "example": "Indikativ \"I kasten\" (ni kastar) i påståendesats.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 7.1 & Tablå 28",
+        "printedPage": 147,
+        "pdfPage": 147,
+        "section": "7.1 Plural indikativ"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-imperativ",
+      "term": "imperativ",
+      "shortDefinition": "Verbets uppmaningsmodus, som i traditionella nordiska dialekter ofta skiljer mellan singular (2s, till en person) och plural (2p, till flera eller vid hövligt I-tilltal).",
+      "thesisSpecificNuance": "I Tablå 29 (s. 153) redovisas 2s och 2p imperativ separat från indikativ (t.ex. 2s \"kasta!\", 2p \"kasten!\"). Imperativ i 2p behandlas i ett eget avsnitt i avhandlingen (kap. 7.6, s. 166–170).",
+      "contrastTermIds": [
+        "term-indikativ"
+      ],
+      "example": "2s imperativ \"va!\" / \"ge!\" mot 2p imperativ \"van!\" / \"gen!\" i Tablå 29 (s. 153).",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Tablå 29 & kap. 7.6",
+        "printedPage": 153,
+        "pdfPage": 153,
+        "printedPageEnd": 170,
+        "pdfPageEnd": 170,
+        "section": "7.1.1 & 7.6"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-traditionell-dialekt",
+      "term": "traditionell dialekt",
+      "shortDefinition": "De äldre lokala folkmål som dokumenterades i arkivuppteckningar, typordlistor och inspelningar främst under 1800-talets senare del och 1900-talets första hälft.",
+      "thesisSpecificNuance": "Kartorna och tablåerna i avhandlingen beskriver dessa traditionella dialekter (för Sydvästsverige ca 1850–1950 med tyngdpunkt kring 1900), inte dagens regionala talspråk.",
+      "contrastTermIds": [
+        "term-modern-dialekt"
+      ],
+      "example": "De sydvästsvenska mål kring sekelskiftet 1900 som har um-, e-, skånsk eller a-böjning.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1.4 & 7.1",
+        "printedPage": 27,
+        "pdfPage": 27,
+        "printedPageEnd": 149,
+        "pdfPageEnd": 149,
+        "section": "1.4 / 7.1"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-modern-dialekt",
+      "term": "modern dialekt",
+      "shortDefinition": "Nutida lokalt eller regionalt färgat talspråk som i hög grad har utjämnats i riktning mot standardspråket.",
+      "thesisSpecificNuance": "I moderna sydvästsvenska dialekter har den traditionella person- och numeruskongruensen på verbet i regel ersatts av standardspråklig enhetsböjning. Webbplatsen markerar alltid denna tidsskillnad.",
+      "contrastTermIds": [
+        "term-traditionell-dialekt",
+        "term-enhetsbojning"
+      ],
+      "example": "Nutida sydvästsvenskt tal med enhetsböjning (\"vi/ni/dom kastar\") på orter som omkring 1900 hade \"vi kastum / I kasten / di kasta\".",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Kap. 1.1 & 7.1",
+        "printedPage": 17,
+        "pdfPage": 17,
+        "printedPageEnd": 149,
+        "pdfPageEnd": 149,
+        "section": "1.1 / 7.1"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-horisontell-och-vertikal",
+      "term": "horisontell och vertikal förändring",
+      "shortDefinition": "Begreppspar i kapitel 6 (Figur 8 s. 173, Figur 9 s. 188) som skiljer mellan byte mellan pluralparadigm (horisontellt) och övergång till enhetsböjning (vertikalt).",
+      "thesisSpecificNuance": "Horisontell förändring sker på samhällsnivå mellan generationer (t.ex. um-böjning → a-böjning i Mark & Kind eller en-böjning → e-böjning i Östra Göinge), medan vertikal förändring till enhetsböjning sker inom enskilda talare i vuxen ålder.",
+      "contrastTermIds": [
+        "term-paradigm",
+        "term-enhetsbojning"
+      ],
+      "example": "Horisontellt skifte från en-böjning till e-böjning hos OB 1 (f. 1869) mot vertikal vacklan mellan pluralform och singularform hos yngre kohorter.",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Figur 8 (s. 173) & Figur 9 (s. 188)",
+        "printedPage": 173,
+        "pdfPage": 173,
+        "printedPageEnd": 188,
+        "pdfPageEnd": 188,
+        "section": "6.1–6.2"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    },
+    {
+      "id": "term-avvecklingstyper",
+      "term": "avvecklingstyper (Typ 1–4)",
+      "shortDefinition": "Klassificering i kapitel 7.2 (Tablå 42 s. 243, Figur 10 s. 245, Tablå 43 s. 246) av fyra huvudvägar för personkongruensens avveckling i Norden.",
+      "thesisSpecificNuance": "Typ 1 generaliserar 3PL (123PL → 2PL → 3PL → –), Typ 2 reducerar tre personer till enhetsböjning via mellansteg med 1PL/2PL, Typ 3 går direkt från 123PL till enhetsböjning (–), och Typ 4 vacklar mellan 123PL och + med osäkerhet (?) i senare steg.",
+      "contrastTermIds": [
+        "term-synkretism",
+        "term-personkongruens"
+      ],
+      "example": "Sydvästsvensk indikativ följer Typ 1 (um-böjning → e-böjning/skånsk böjning → a-böjning → enhetsböjning).",
+      "source": {
+        "sourceId": "horn-af-aminne-2022",
+        "objectId": "Tablå 42–43 & Figur 10",
+        "printedPage": 243,
+        "pdfPage": 243,
+        "printedPageEnd": 246,
+        "pdfPageEnd": 246,
+        "section": "7.2"
+      },
+      "reviewStatus": "dubbelkontrollerad_pilotklar"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "K01",
+      "summary": "Sifferdiskrepans i Östra Göinge: i löptexten på s. 212 står \"22 informanter\", medan Tablå 35 (s. 213), s. 217, Tablå 36 (s. 219), Tablå 37 (12+6+3=21, s. 220), Tablå 38 (s. 225) och Tablå 39 (s. 232) konsekvent redovisar 21 informanter.",
+      "handlingRule": "Redovisas öppet i Östra Göinge-vyn (CaseStudiesSection): de 21 faktiska informanterna i Tablå 35–38 visas utan tyst tillägg eller strykning, med källkritisk not om skrivfelet \"22\" på s. 212.",
+      "sourcePages": [
+        212,
+        213,
+        217,
+        219,
+        220,
+        225,
+        232
+      ],
+      "status": "oppen_ej_tyst_korrigerad"
+    },
+    {
+      "id": "K02",
+      "summary": "Karta 10 (s. 148) och fotnot 81 (s. 147): i norra Hallands e-område och Blekinges a-område är endast 3p belagd, inte 1p eller 2p.",
+      "handlingRule": "Registrerade som egna delområden med evidenceStatus=\"inferred_from_neighbor\", patternStyle=\"hatched_inferred\" och obligatorisk fotnot 81.",
+      "sourcePages": [
+        147,
+        148,
+        154,
+        155
+      ],
+      "status": "verifierad_regel"
+    },
+    {
+      "id": "K03",
+      "summary": "Karta 10 sammanfattar ca 100 år av belägg (ca 1850–1950) med tyngdpunkt kring sekelskiftet 1900.",
+      "handlingRule": "Alla tidsangivelser för Karta 10 använder TimeRole=\"historical_synthesis_period\" med allowsInterpolation=false och tydlig varning mot att läsa kartan som ett enskilt år eller nutida tal.",
+      "sourcePages": [
+        147,
+        148,
+        149
+      ],
+      "status": "verifierad_regel"
+    },
+    {
+      "id": "K04",
+      "summary": "Tablå 28 (s. 147) använder normaliserade ändelser och snedstreck för presens / preteritum (-a / -e) samt vokalkrocksreduktion.",
+      "handlingRule": "Varje cell i piloten lagrar både rawCellText och separerade presentEnding/pastEnding, samt dokumenterar allomorfer (-um/-om/-em, -e/-en) och vokalkrock (vi kastum vs. vi kastam).",
+      "sourcePages": [
+        147,
+        152,
+        153,
+        154
+      ],
+      "status": "verifierad_regel"
+    },
+    {
+      "id": "K05",
+      "summary": "Tablå 26 (s. 120) rad 15 (\"M Västergötland, V & M Småland, V Blekinge\") har cellerna 2PL | + | + och rad 17 (\"S Västergötland, N & M Halland, SV Småland, NÖ Skåne, V Blekinge\") har 3PL | 3PL | +, vilket kastar om områdesbeskrivningarna för e-böjning (2PL) och a-böjning (3PL) jämfört med kapitel 5 (Karta 10 s. 136).",
+      "handlingRule": "Tablå 26 återges ordagrant enligt s. 120 i NordicAtlasSection med explicit källkritisk korsreferens till kapitel 5.",
+      "sourcePages": [
+        120,
+        135,
+        136
+      ],
+      "status": "oppen_ej_tyst_korrigerad"
+    },
+    {
+      "id": "K06",
+      "summary": "Tablå 34 (s. 197) vs. Tabell 1 (s. 198) för pronomenet da i Mark & Kind: i Tablå 34 har 21 informanter grundetiketten \"plural\" (inkl. 4 \"plural (–)\") och 12 \"båda\" (21+12=33), medan Tabell 1 anger 20 plural och 13 båda (s:a 33). Vid minst 5 belägg (Tabell 2) stämmer Tablå 34 och Tabell 2 till 100 % (25 plural, 1 båda, 1 singular = 27).",
+      "handlingRule": "Både Tablå 34 och Tabell 1–3 återges ordagrant enligt trycket och skillnaden på 1 informant dokumenteras i anslutning till fotnot 112 (s. 197–198).",
+      "sourcePages": [
+        197,
+        198,
+        199
+      ],
+      "status": "oppen_ej_tyst_korrigerad"
+    },
+    {
+      "id": "K07",
+      "summary": "Karta 14 (s. 161) visar en streckad hypotetisk rekonstruktionsgräns för personkongruensens äldre utbredningsområde i Sydvästsverige, inte en direkt belagd dialektgräns.",
+      "handlingRule": "Bär evidenceStatus=\"hypothetical_reconstruction\", streckad markering och obligatorisk varningsetikett \"Hypotetisk rekonstruktion — ej direkt belagd gräns\" (A05.5).",
+      "sourcePages": [
+        161,
+        162
+      ],
+      "status": "verifierad_regel"
+    },
+    {
+      "id": "K15",
+      "summary": "Figur 6 (s. 160) är en språkvetenskaplig modell över analogisk förändring, inte en direkt kronologisk film över enskilda talare.",
+      "handlingRule": "changeModelFigur6 bär fältet isModelNotIndividualFilmNote och fotnot 89 om 1p:s sekundära roll vid skånsk böjning -> a-böjning.",
+      "sourcePages": [
+        160,
+        161
+      ],
+      "status": "verifierad_regel"
+    }
+  ]
+}

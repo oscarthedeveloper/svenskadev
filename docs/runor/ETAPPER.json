@@ -1,0 +1,1156 @@
+{
+  "version": "2.0",
+  "date": "2026-10-21",
+  "status_note": "E00 är verifierad genomförd insamling. Övriga etapper är planerade; detta dokument genomför dem inte.",
+  "phases": [
+    {
+      "id": "E00",
+      "titel": "Frys och verifiera den insamlade korpusen",
+      "beroenden": [],
+      "ansvar": "Dataansvarig",
+      "syfte": "Fastställ en spårbar baslinje för fortsatt arbete.",
+      "arbete": "Stäm av källsidans alla direkta SRI-länkar mot manifest, faktiska PDF-filer, byteantal och analys. Registrera vad som ingår och inte ingår.",
+      "leverans": "Befintliga nedladdningsmanifest.json, pdf-analys.json och INSAMLING.md.",
+      "godkannandekrav": "129 unika länkar motsvarar 129 öppningsbara original, 129 unika kontrollsummor och 7 217 analyserade sidor; inga kvarvarande delfiler eller rapporterade läsfel. Detta är verifierat i insamlingsarbetet.",
+      "vid_underkant": "Avvikande fil isoleras och hämtas om; den får inte ersättas med en till synes liknande utgåva utan ny version.",
+      "status": "klar",
+      "milstolpe": "M0",
+      "evidens": [
+        "nedladdningsmanifest.json",
+        "pdf-analys.json",
+        "INSAMLING.md"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E01",
+      "titel": "Återskapa insamlingen och prova återställning",
+      "beroenden": [
+        "E00"
+      ],
+      "ansvar": "Dataansvarig och driftansvarig",
+      "syfte": "Säkerställ att materialet överlever förlust av arbetsdatorn.",
+      "arbete": "Dokumentera Python- och verktygsversioner. Kopiera original och manifest till vald separat lagring. Prova återställning till en tom katalog och avbrott/återupptagning av hämtning. Förbättra verktygen där försöket visar brister.",
+      "leverans": "Versionsbeskriven körinstruktion, säkerhetskopia och daterat återställningsprotokoll.",
+      "godkannandekrav": "Återställd kopia matchar 129/129 SHA-256. Ett avbrutet test och en korrupt testkopia upptäcks. Befintliga original förblir orörda. Den befintliga zip-filen räknas som en extra lokal kopia, inte som bevis på separat säkerhetskopiering.",
+      "vid_underkant": "Ingen uppskalning förrän återställningen fungerar; börja med den befintliga lokala baslinjen.",
+      "status": "klar",
+      "milstolpe": "M1-del",
+      "evidens": [
+        "ATERSTALLNINGSPROTOKOLL-E01.md",
+        "KORINSTRUKTION-E01.md",
+        "scripts/runor/test-recovery-e01.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E02",
+      "titel": "Lås produktmål, målgrupper och avgränsning",
+      "beroenden": [
+        "E00"
+      ],
+      "ansvar": "Produktansvarig och redaktör",
+      "syfte": "Gör det tydligt vad den första runsidan ska hjälpa besökaren att göra.",
+      "arbete": "Formulera uppgifter för nybörjare, språkintresserade och källäsare. Prioritera hitta på karta, läsa inskrift, förstå osäkerhet och öppna källsida. Definiera krav-ID:n, utanför-scope och vad ordet färdig betyder för varje version.",
+      "leverans": "Kravbaslinje med prioritering, användarresor och mätmetoder enligt avsnitt 8.",
+      "godkannandekrav": "Varje obligatoriskt krav har en verifieringsmetod. Täckning betyder publicerade granskade poster, inte alla runor i Sverige. Ingen generell begränsning till 1225–1526.",
+      "vid_underkant": "Minska första leveransens bredd, men inte kraven på källspårbarhet eller begriplighet.",
+      "status": "klar",
+      "milstolpe": "M1-del",
+      "evidens": [
+        "E02-PRODUKTMAL-OCH-KRAVBASLINJE.md"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E03",
+      "titel": "Inventera källvillkor och återanvändning",
+      "beroenden": [
+        "E00",
+        "E02"
+      ],
+      "ansvar": "Källansvarig",
+      "syfte": "Bestäm vilket material som faktiskt kan visas och bearbetas i produkten.",
+      "arbete": "Registrera per källa och bild: upphov, utgåva, rättighetsuppgift, villkorslänk, attribuering och eventuella begränsningar. Skilj lokal analys från publik distribution. Dokumentera villkor för runtextdatabas, kartdata, kartbilder och egna bearbetningar var för sig.",
+      "leverans": "Rättighetsregister och beslut D01; mall för synlig källangivelse.",
+      "godkannandekrav": "Varje tillgång i den planerade piloten har antingen dokumenterat stöd för avsedd användning eller en beslutad ersättning: extern källänk eller egen rättighetsklar bild. Inga påståenden om generell frihet för hela PDF-serien.",
+      "vid_underkant": "Låt en text-/länkbaserad pilot gå vidare. Tillgångar med oklar återanvändning publiceras inte medan frågan utreds.",
+      "status": "klar",
+      "milstolpe": "M1-del",
+      "evidens": [
+        "E03-KALLVILLKOR-OCH-RATTIGHETSREGISTER.md"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E04",
+      "titel": "Verifiera åtkomst till geografisk kompletteringsdata",
+      "beroenden": [
+        "E02",
+        "E03"
+      ],
+      "ansvar": "Dataansvarig och GIS-granskare",
+      "syfte": "Bevisa att en karta kan byggas med spårbara verkliga lägen.",
+      "arbete": "Undersök aktuell export/API hos relevanta primärkällor. Dokumentera version, format, referenssystem, stabila URI:er, täckning, felkoder och villkor. Undersök ett litet verkligt prov före en full import. Jämför 2018-paketens status med materialet i Runor utan att anta samma innehåll.",
+      "leverans": "Åtkomstprotokoll, liten versionsmärkt råexport och beslut D02.",
+      "godkannandekrav": "Minst 10 provobjekt kan kopplas till källa och platsuppgift eller dokumenterat saknat läge. Åtkomstsättet är reproducerbart och eventuella nycklar hålls utanför klient och Git. Ingen inofficiell eller odokumenterad endpoint utgör ett outrett produktionsberoende.",
+      "vid_underkant": "Bygg listbaserad pilot och manuellt kontrollerade platsuppgifter från tillgängliga källor. Ompröva kartpilotens omfattning; uppfinn inga koordinater.",
+      "status": "klar",
+      "milstolpe": "M1-del",
+      "evidens": [
+        "E04-GEOGRAFISK-DATA-ATKOMSTPROTOKOLL.md",
+        "provdata-e04.json",
+        "scripts/runor/fetch-geo-sample-e04.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E05",
+      "titel": "Definiera inskriftsidentitet och alias",
+      "beroenden": [
+        "E00",
+        "E04"
+      ],
+      "ansvar": "Dataansvarig och runologisk granskare",
+      "syfte": "Förhindra att samma inskrift dubbleras eller olika objekt slås ihop.",
+      "arbete": "Skilj fysisk bärare, inskrift och utgåvans post. Bestäm stabilt internt ID, externa ID:n, originalsignum, alias, suffix och slughistorik. Definiera hur fragment, flera inskrifter på en bärare och signumändringar representeras.",
+      "leverans": "Identitetskontrakt med exempel och manuellt granskad korsreferens för pilotkandidater.",
+      "godkannandekrav": "Exempel täcker enkla signum, suffix, litteratursignum, alias, fragment och två inskrifter på samma bärare. Tvetydig matchning kan lagras som olöst. Titel eller normaliserad sträng är inte ensam grund för sammanslagning.",
+      "vid_underkant": "Behåll separata kandidater och lägg dem i granskningskö. Låt aldrig automatisk matchning radera källans ursprungliga identitet.",
+      "status": "klar",
+      "milstolpe": "M1-del",
+      "evidens": [
+        "E05-IDENTITETSKONTRAKT-OCH-ALIAS.md"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E06",
+      "titel": "Fastställ datamodell och valideringskontrakt",
+      "beroenden": [
+        "E03",
+        "E05"
+      ],
+      "ansvar": "Datautvecklare och redaktör",
+      "syfte": "Lagra evidens och osäkerhet utan att tvinga fram falsk precision.",
+      "arbete": "Precisera entiteterna i avsnitt 5 och 9. Lägg till källhänvisning per faktauppgift, ändringshistorik, granskningsstatus, importversion och separata rättighetsuppgifter. Definiera nullvärden, relationer och schemaändringar.",
+      "leverans": "Versionsmärkt schema, fältordlista, giltiga och ogiltiga exempel.",
+      "godkannandekrav": "Valideringen kan avvisa saknad källa, ogiltiga sidintervall och dubbla stabila ID:n men accepterar känd inskrift utan koordinat, okänd datering, alternativa läsningar och bild utan publiceringsrätt. Ett otestat fält får inte bli obligatoriskt för hela korpusen.",
+      "vid_underkant": "Ändra modellen och migreringsregler innan pilotdata massregistreras.",
+      "status": "klar",
+      "milstolpe": "M1-del",
+      "evidens": [
+        "E06-DATAMODELL-OCH-VALIDERING.md",
+        "lib/runor/types.ts",
+        "lib/runor/validation.ts"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E07",
+      "titel": "Besluta hur runmaterialet passar in i befintlig sajt",
+      "beroenden": [
+        "E01",
+        "E02",
+        "E06"
+      ],
+      "ansvar": "Tekniskt ansvarig",
+      "syfte": "Undvik en separat sidolösning som bryter befintlig källhantering.",
+      "arbete": "Inventera faktisk Next.js-version, routes, adminflöde, datakällor, Netlify-bygge och ordboks-/bibliotekskopplingar. Besluta filbaserad pilot kontra databas och hur samma läskontrakt stöder båda. Hantera att nuvarande källvalidering söker fysiska filer under Källor.",
+      "leverans": "Beslut D03–D05, planerade filområden och migrations-/kompatibilitetsstrategi.",
+      "godkannandekrav": "En ren klon ska kunna bygga den publika sajten utan 4,44 GB arbetsmaterial. Källregister och validator har en uttrycklig strategi för lokal råfil kontra publicerad lagringsreferens. Fasta källposter tillåts inte av misstag gå genom databasens redigeringsåtgärder.",
+      "vid_underkant": "Stoppa direktintegrationen och prova en isolerad läsadapter med ett fåtal poster.",
+      "status": "klar",
+      "milstolpe": "M1",
+      "evidens": [
+        "E07-SAJTINTEGRATION-OCH-BESLUT-D03-D05.md"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E08",
+      "titel": "Kartlägg PDF-sidor, tryckta sidor och planscher",
+      "beroenden": [
+        "E00",
+        "E06"
+      ],
+      "ansvar": "Dataansvarig och källgranskare",
+      "syfte": "Gör framtida hänvisningar precisa och kontrollerbara.",
+      "arbete": "Bygg sidregister per fil. Bevara tryckta sidetiketter som text, inklusive romerska siffror, tillägg, onumrerade blad och utvikskartor. Koppla planschnummer och figurer separat. Lägg specialfall i granskningskö.",
+      "leverans": "Sid- och planschregister med källbild och säkerhetsstatus.",
+      "godkannandekrav": "Alla sidor i pilotens källfiler är inventerade; samtliga sidhänvisningar som ska visas är manuellt verifierade. PDF-nummer är 1-baserade i publicerade hänvisningar. Ingen global offset antas fungera för hela serien.",
+      "vid_underkant": "Visa verifierat PDF-sidnummer och markera okänd tryckt paginering tills den kontrollerats.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E08-SID-OCH-PLANSCHREGISTER.md"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E09",
+      "titel": "Välj representativ pilot och skapa referensmaterial",
+      "beroenden": [
+        "E04",
+        "E05",
+        "E06",
+        "E08"
+      ],
+      "ansvar": "Redaktör och runologisk granskare",
+      "syfte": "Testa de svåra fallen innan en storskalig import låses.",
+      "arbete": "Välj 20 verkliga inskrifter från minst tre volymdelar. Säkra både en tät geografisk grupp och spridning. Inkludera äldre och yngre språkformer, fragment, förlorat objekt, osäker datering, flyttat objekt och en post utan säkert läge där materialet medger det. Samma post kan täcka flera fall.",
+      "leverans": "Pilotlista, urvalsmatris och manuellt kontrollerat referensmaterial för minst 30 relevanta sidor; minst 5 tillåtna bildfigurer om sådana finns.",
+      "godkannandekrav": "Fördelningen och eventuella saknade fall är dokumenterade. Referensmaterial skiljs från utvecklingsmaterial; reservera minst 20 % av jämförbara sidor som låst kontrollurval. Objekt väljs inte bort enbart för att de är svåra att importera.",
+      "vid_underkant": "Justera urvalet eller sänk bilddelens omfattning öppet. En pilot med bara lättlästa, välkända stenar godtas inte som skalbarhetsbevis.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E09-PILOTURVAL-OCH-SVARFALLSMATRIS.md",
+        "pilot-20-inskrifter.json",
+        "lib/runor/pilot-data.ts",
+        "scripts/runor/build-pilot-dataset.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E10",
+      "titel": "Mät textlagren och avgör behov av ny OCR",
+      "beroenden": [
+        "E08",
+        "E09"
+      ],
+      "ansvar": "Datautvecklare och språkgranskare",
+      "syfte": "Förbättra sökunderlaget där det behövs utan att göra det till en auktoritativ utgåva.",
+      "arbete": "Jämför befintlig extraktion med referenssidor. Mät separat brödtext, rubriker, signum, translitterering och specialtecken. Prova ny OCR endast på avgränsade bristfall. Spara motor, inställning, källa och version; välj vinnare per materialtyp.",
+      "leverans": "Jämförelserapport och reproducerbar extraktions-/OCR-pipeline.",
+      "godkannandekrav": "Referenssidornas fel är klassificerade. Pilotens identifierande signum och publicerade textsegment kräver fortsatt manuell kontroll oavsett OCR-resultat. Ny OCR införs bara om den förbättrar målsegmenten på det låsta kontrollurvalet utan oacceptabla regressioner.",
+      "vid_underkant": "Behåll befintlig text som sökunderlag, använd sidbild som förlaga och lägg svåra textsegment i manuell transkription.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E10-TEXTLAGER-OCH-OCR-UTVARDERING.md",
+        "textlager-matning-e10.json",
+        "scripts/runor/measure-textlayers-e10.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E11",
+      "titel": "Identifiera artikelgränser och kandidater",
+      "beroenden": [
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "ansvar": "Datautvecklare",
+      "syfte": "Dela dokument i användbara kandidater utan att blanda artikeltext och register.",
+      "arbete": "Identifiera artikelrubriker, sidfortsättningar, översikter, fotnoter, tillägg och register. Spara källintervall och segmenttyp. Gör samma körning reproducerbar och idempotent.",
+      "leverans": "Kandidatregister med segment, sidintervall och osäkerhetsmarkering.",
+      "godkannandekrav": "Alla pilotartiklars gränser och fortsättningar finns i referensjämförelsen; inga registerrader publiceras som inskrifter. Oavgjorda gränser är markerade och blockerar berörd publicering. Träffprecision och bortfall redovisas var för sig.",
+      "vid_underkant": "Registrera gränser manuellt för piloten; ändra heuristiken först efter dokumenterad felanalys.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E11-ARTIKELGRANSER-OCH-KANDIDATER.md",
+        "kandidatregister-e11.json",
+        "scripts/runor/segment-candidates-e11.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E12",
+      "titel": "Koppla kandidater till signum, alias och externa poster",
+      "beroenden": [
+        "E05",
+        "E06",
+        "E09",
+        "E11"
+      ],
+      "ansvar": "Datautvecklare och identitetsgranskare",
+      "syfte": "Bygg en kontrollerad relation mellan källställen och inskrifter.",
+      "arbete": "Matcha i första hand på stabila identifierare och källhänvisningar. Använd normalisering som kandidatsökning. Logga regel, evidens och eventuell konflikt för varje föreslagen koppling. Hantera flera källställen till samma inskrift.",
+      "leverans": "Versionsmärkt korsreferens med verifierad/olöst/avvisad koppling.",
+      "godkannandekrav": "20/20 pilotidentiteter har kontrollerats mot förlagor. Noll olösta sammanslagningar får ingå i den publicerade mängden. Omimport skapar inga nya dubbleringar och bevarar manuella beslut.",
+      "vid_underkant": "Separera posterna, markera konflikten och lös den manuellt; matchningspoäng räcker inte som godkännande.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E12-KORSREFERENS-OCH-IDENTITETSMATCHNING.md",
+        "korsreferensregister-e12.json",
+        "scripts/runor/cross-reference-e12.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E13",
+      "titel": "Normalisera och granska geografiska uppgifter",
+      "beroenden": [
+        "E04",
+        "E06",
+        "E09",
+        "E12"
+      ],
+      "ansvar": "GIS-granskare",
+      "syfte": "Visa rätt sorts plats med rätt säkerhet.",
+      "arbete": "Bevara originalkoordinat och referenssystem; transformera med dokumenterad metod. Skilj fyndplats, antagen ursprungsplats och nuvarande placering. Registrera osäkerhet, observationstid och konflikt mellan källor. Kontrollera axelordning och rimlighet.",
+      "leverans": "Platsregister och granskat GeoJSON-underlag för piloten.",
+      "godkannandekrav": "Varje publicerad punkt har källa, platstyp och dokumenterad precision eller uttryckligen okänd precision. GeoJSON använder longitud före latitud. Inga (0,0)-ersättningar. Saknat läge ger listpost utan exakt markör. Alla pilotpunkter är visuellt kontrollerade mot källuppgiften.",
+      "vid_underkant": "Ta bort den exakta markören från publicering, behåll posten och dess geografiska beskrivning. En osäkerhetsyta kräver också underlag för sin utbredning.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E13-GEOGRAFISK-NORMALISERING-OCH-GRANSKNING.md",
+        "geografiregister-e13.json",
+        "scripts/runor/normalize-geography-e13.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E14",
+      "titel": "Strukturera dateringar och språkklassning",
+      "beroenden": [
+        "E06",
+        "E09",
+        "E12"
+      ],
+      "ansvar": "Runologisk och språkhistorisk granskare",
+      "syfte": "Gör tid och språk sökbara utan att ersätta källans formulering.",
+      "arbete": "Bevara dateringscitat, metod, intervall och osäkerhet. Bestäm regler för epokbeteckningar och motstridiga dateringar. Märk varje normaliserings språk och utgåva; skilj runsvenska från fornsvenska och jämförelseformer.",
+      "leverans": "Daterings- och språkregister samt gemensamma filterregler.",
+      "godkannandekrav": "20/20 pilotposter har känd, osäker eller uttryckligen okänd datering. Periodetikett blir bara sifferintervall genom en dokumenterad redaktionell regel. Ingen mittpunkt presenteras som exakt år. Tidsfiltret testas enligt avsnitt 9.",
+      "vid_underkant": "Behåll originalformuleringen och undanta från numerisk tidsanimering tills intervallet kan försvaras.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E14-DATERINGAR-OCH-SPRAKKLASSNING.md",
+        "dateringsregister-e14.json",
+        "scripts/runor/structure-dating-e14.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E15",
+      "titel": "Granska textversioner, översättningar och förklaringar",
+      "beroenden": [
+        "E06",
+        "E09",
+        "E12",
+        "E14"
+      ],
+      "ansvar": "Språkredaktör och sakgranskare",
+      "syfte": "Ge besökaren läsbar text med tydlig relation till förlagan.",
+      "arbete": "Registrera translitterering, normalisering och översättning separat. Bevara luckor, skadade tecken och alternativ. Källbelägg korta pedagogiska förklaringar. Identifiera egna översättningar som sådana och granska dem separat.",
+      "leverans": "Granskade textversioner och redaktionella noter för piloten.",
+      "godkannandekrav": "All text som publiceras är jämförd med synlig förlaga eller angiven vetenskaplig textversion. Varje språkversion har källa, språk, upphov och granskningsstatus. Maskinöversättning eller AI-förslag är utkast. Saknat textlager ersätts inte med ett påhittat rekonstruerat original.",
+      "vid_underkant": "Publicera bara de kontrollerade textlagren och visa saknade lager som saknade; minska inte granskningsnivån.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E15-TEXTVERSIONER-OCH-OVERSATTNINGAR.md",
+        "oversattningsregister-e15.json",
+        "scripts/runor/curate-translations-e15.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E16",
+      "titel": "Förbered bildmaterial, utsnitt och leveransformat",
+      "beroenden": [
+        "E03",
+        "E08",
+        "E09",
+        "E12"
+      ],
+      "ansvar": "Bildansvarig och datautvecklare",
+      "syfte": "Visa rätt figur snabbt och med korrekt källa.",
+      "arbete": "Koppla inskrift till plansch och figur, dokumentera utsnitt i originalets koordinater och bildrotation. Skapa små förhandsbilder och läsbara större versioner med bestämda storlekssteg. Bevara originalet; modellera alternativa bilder och bildtexter.",
+      "leverans": "Bildmanifest, reproducerbar generering och granskade pilotbilder.",
+      "godkannandekrav": "Varje publicerad bild är rättighetsklar, visar rätt inskrift och har källa, figurhänvisning, alternativtext och bildstorlek. Utsnitt går att återskapa från originalet. En 2000-pixels förlaga hämtas inte där en liten miniatyr räcker.",
+      "vid_underkant": "Visa en källänk eller rättighetsklar helsida om utsnitt inte kan kvalitetssäkras. Bild saknas är ett fungerande produkttillstånd.",
+      "status": "klar",
+      "milstolpe": "M2-del",
+      "evidens": [
+        "E16-BILDMATERIAL-OCH-LEVERANSFORMAT.md",
+        "bildmanifest-e16.json",
+        "scripts/runor/extract-plates-e16.py",
+        "scripts/runor/process-images-e16.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E17",
+      "titel": "Genomför fullständig innehållsgranskning av piloten",
+      "beroenden": [
+        "E01",
+        "E03",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16"
+      ],
+      "ansvar": "Redaktionellt ansvarig",
+      "syfte": "Skapa den första betrodda datasetversionen.",
+      "arbete": "Granska hela kedjan identitet → källa → sidor/figur → plats/datering → textversion. Låt en andra person granska där sådan kompetens finns. Dokumentera utförare, datum, evidens och kvarstående osäkerhet.",
+      "leverans": "Fryst pilotrelease om 20 innehållsgranskade poster och avvikelserapport.",
+      "godkannandekrav": "20/20 poster klarar obligatoriska fält och publiceringsvillkor i avsnitt 9. Noll olösta identitetskonflikter eller kända felaktiga källkopplingar. Okända sakuppgifter får finnas om de är korrekt märkta. Om oberoende sakgranskning saknas anges begränsningen och berörda påståenden begränsas.",
+      "vid_underkant": "Flytta berörda fält eller poster tillbaka till utkast; justera pilotens påstådda täckning.",
+      "status": "klar",
+      "milstolpe": "M2",
+      "evidens": [
+        "E17-FULLSTANDIG-PILOTGRANSKNING-OCH-M2-GODKANNANDE.md",
+        "pilot-20-inskrifter.json",
+        "scripts/runor/audit-pilot-release-e17.py"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E18",
+      "titel": "Prototypa informationsstruktur och alla huvudtillstånd",
+      "beroenden": [
+        "E02",
+        "E09"
+      ],
+      "ansvar": "Produktdesigner och frontendutvecklare",
+      "syfte": "Bestäm läsupplevelsen före detaljerad kartimplementation.",
+      "arbete": "Rita karta/lista/detalj på mobil och stor skärm. Prova direktlänk, tom sökning, saknad koordinat, långa texter, saknad bild, flera läsningar, datakällfel och reducerad rörelse. Utgå från riktiga pilotexempel där det går.",
+      "leverans": "Klickbar eller kodad prototyp samt tillståndsförteckning.",
+      "godkannandekrav": "Användaren kan hitta en inskrift, läsa källan och återgå till listan utan att tappa sammanhanget. De planerade breddfallen 360, 768, 1024 och 1440 px är genomgångna. Kartan är inte den enda vägen till innehållet.",
+      "vid_underkant": "Förenkla panelstrukturen och prova igen före polish; prioritera läsning och tydligt urval.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E18-INFORMATIONSSTRUKTUR-OCH-HUVUDTILLSTAND.md",
+        "app/runor/page.tsx",
+        "app/runor/[slug]/page.tsx",
+        "components/runor/RunorDirectoryClient.tsx",
+        "components/runor/RunorDetailView.tsx",
+        "tests/runor-ui.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E19",
+      "titel": "Prova kartmotor och kartunderlag",
+      "beroenden": [
+        "E03",
+        "E04",
+        "E07",
+        "E13",
+        "E18"
+      ],
+      "ansvar": "Frontendutvecklare och GIS-granskare",
+      "syfte": "Bevisa att karta, data och driftförutsättningar fungerar tillsammans.",
+      "arbete": "Bygg ett avgränsat MapLibre-försök med pilotdata och ett märkt syntetiskt belastningsurval. Jämför minst ett realistiskt alternativ om MapLibre inte når målen. Prova kartstil, kluster, attribution, pekgester, WebGL-bortfall och leverantörens åtkomstregler.",
+      "leverans": "Beslut D06 om motor, kartdataleverantör, kostnadsram och reservläge.",
+      "godkannandekrav": "Sveriges geometri återges korrekt med läsbara Gotland/Öland, kluster kan öppnas och markörer går att nå via listan. Inga publika demoservrar används som oöverenskommen produktionsinfrastruktur. Kostnad per tänkt trafikscenario och reservläget är dokumenterade.",
+      "vid_underkant": "Byt kartunderlag, minska stilens komplexitet eller använd enklare 2D-/SVG-översikt med lista. Behåll datamodellen.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E19-KARTMOTOR-OCH-KARTUNDERLAG.md",
+        "kartutvardering-e19.json",
+        "scripts/runor/benchmark-map-engines-e19.mjs",
+        "components/runor/RunorInteractiveMap.tsx",
+        "tests/runor-map.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E20",
+      "titel": "Bygg versionerat läskontrakt och publiceringsfilter",
+      "beroenden": [
+        "E06",
+        "E07",
+        "E17"
+      ],
+      "ansvar": "Backend-/datautvecklare",
+      "syfte": "Ge gränssnittet stabila, små och tydliga data.",
+      "arbete": "Skapa läsadapter för sammanfattning, inskriftsdetalj, källsidor och GeoJSON. Skilj arbetsdata från publiceringsklar version. Definiera sidindelning, sortering, felrespons, schema-/datasetversion och cacheinvalidering.",
+      "leverans": "Typat läskontrakt och verifierade kontraktexempel för pilotreleasen.",
+      "godkannandekrav": "Utkast och privata anteckningar lämnas aldrig av publika läsvägar. Lista och karta använder samma publiceringsmängd och filtersemantik. Fulltext/bild skickas inte med varje kartpunkt. Fel får inte förväxlas med verkligt tomt resultat.",
+      "vid_underkant": "Lås piloten till ett versionsmärkt filbaserat läslager tills kontraktet fungerar.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E20-PUBLICERINGSKONTRAKT-OCH-FILTER.md",
+        "lib/runor/contract.ts",
+        "app/api/runor/v1/route.ts",
+        "app/api/runor/v1/[slug]/route.ts",
+        "tests/runor-contract.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E21",
+      "titel": "Implementera lagring, import och skrivskydd",
+      "beroenden": [
+        "E01",
+        "E03",
+        "E07",
+        "E20"
+      ],
+      "ansvar": "Datautvecklare och driftansvarig",
+      "syfte": "Gör import och framtida redigering säkra och återställbara.",
+      "arbete": "Implementera beslutad fil-/databaslagring. Vid Supabase: migrationer, explicit RLS, serverkontroller och separat tillgångslagring. Importera först till arbetsmängd, validera och publicera sedan en ny datasetversion. Prova samma import två gånger och fel mitt i körningen.",
+      "leverans": "Importverktyg, migreringsprotokoll och behörighetskontroller.",
+      "godkannandekrav": "Två identiska importer ger samma logiska innehåll och inga dubbletter. Manuell rättelse försvinner inte vid omimport. Avbruten import lämnar föregående publicerade version användbar. Anonym klient kan läsa publicerat men inte skriva eller läsa utkast. Hemliga nycklar saknas i klientbygget.",
+      "vid_underkant": "Återgå till föregående dataset; rätta import- eller behörighetsregeln innan ny körning.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E21-LAGRING-IMPORT-OCH-SKRIVSKYDD.md",
+        "supabase/migrations/20261021_runic_storage.sql",
+        "supabase/install-svenska.sql",
+        "lib/runor/server.ts",
+        "scripts/runor/import-storage-e21.mjs",
+        "tests/runor-storage.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E22",
+      "titel": "Bygg serverrenderade routes och listreserv",
+      "beroenden": [
+        "E18",
+        "E20",
+        "E21"
+      ],
+      "ansvar": "Frontendutvecklare",
+      "syfte": "Gör sidan användbar och delbar redan utan karta.",
+      "arbete": "Implementera /runor och stabila inskriftsadresser. Rendera innehåll och listreserv på servern. Hantera okänd slug, äldre alias, 404, tom mängd och fel. Lägg till unik titel och källmedveten metabeskrivning.",
+      "leverans": "Fungerande routes med list- och detaljgrund.",
+      "godkannandekrav": "En direktlänk fungerar i ny flik utan tidigare kartstate. Okänt objekt ger 404. Utkast blir inte publikt via alternativ URL. Listan förblir användbar utan WebGL och kräver inte att stora PDF:er finns i webbbygget.",
+      "vid_underkant": "Håll kartfunktionen avstängd och rätta route-/läslager före vidare integration.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E22-SERVERRENDERADE-ROUTES-OCH-LISTRESERV.md",
+        "app/runor/page.tsx",
+        "app/runor/[slug]/page.tsx",
+        "app/runor/not-found.tsx",
+        "app/runor/error.tsx",
+        "lib/runor/routes.ts",
+        "components/runor/RunorServerListReserve.tsx",
+        "tests/runor-routes.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E23",
+      "titel": "Implementera sökning och gemensamma filter",
+      "beroenden": [
+        "E14",
+        "E20",
+        "E22"
+      ],
+      "ansvar": "Frontend- och datautvecklare",
+      "syfte": "Gör urvalet begripligt och konsekvent.",
+      "arbete": "Implementera signum/alias, ort, landskap, föremål, status, text och dateringsintervall enligt beslutade regler. Bevara källtext men skapa separata söknycklar. Märk varför en träff finns och erbjud rensa filter.",
+      "leverans": "Gemensam frågemodell med exempel och regressionstester.",
+      "godkannandekrav": "Testfall täcker Ö/ö, diakritik, suffix, litteratursignum, tom sökning, motstridiga filter och okänd datering. Kartans och listans grundmängd är identisk. Fuzzy sökning får inte ensam välja eller slå ihop inskriftsidentiteter.",
+      "vid_underkant": "Begränsa sökningen till säkra fält och visa tydliga tomma träffar tills reglerna förbättrats.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E23-SOKNING-OCH-GEMENSAMMA-FILTER.md",
+        "lib/runor/search.ts",
+        "components/runor/RunorDirectoryClient.tsx",
+        "tests/runor-search.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E24",
+      "titel": "Bygg Sverigekartan med kluster och platslägen",
+      "beroenden": [
+        "E19",
+        "E20",
+        "E23"
+      ],
+      "ansvar": "Frontendutvecklare",
+      "syfte": "Knyt samman geografisk överblick och enskilda inskrifter.",
+      "arbete": "Rendera GeoJSON som kartlager, lägg till kluster, markörval och tydlig vald markör. Definiera fyndplats/nuvarande plats som separata visningslägen. Ge osäkra lägen annan förklaring och vid underlag en osäkerhetsyta.",
+      "leverans": "Integrerad karta med legend och verkliga pilotposter.",
+      "godkannandekrav": "Inga dubblettpunkter från flera platsuppgifter i samma läge. Ett kluster kan delas och en vald inskrift förblir identifierbar. Kartans markörer kan spåras till valt platsfält; listantal och markörantal förklaras när koordinater saknas.",
+      "vid_underkant": "Visa listreserv och diagnostik vid kartfel; växla inte tyst till uppskattade exakta koordinater.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E24-SVERIGEKARTAN-MED-KLUSTER-OCH-PLATSLAGEN.md",
+        "lib/runor/geojson.ts",
+        "components/runor/RunorInteractiveMap.tsx",
+        "app/api/runor/v1/route.ts",
+        "tests/runor-map-layers.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E25",
+      "titel": "Samordna URL, filter, karta, panel och historik",
+      "beroenden": [
+        "E22",
+        "E23",
+        "E24"
+      ],
+      "ansvar": "Frontendutvecklare",
+      "syfte": "Undvik att besökaren tappar sitt urval eller ser fel inskrift.",
+      "arbete": "Bestäm en gemensam state-modell, kanoniska URL-parametrar och skillnaden mellan push/replace. Lägg till avbrutna förfrågningar och skydd mot gamla svar. Spara rimligt kartläge och hantera val som inte längre matchar filtren.",
+      "leverans": "Dokumenterad tillståndsmaskin och återspelningsbara användarflöden.",
+      "godkannandekrav": "Bakåt/framåt, omladdning, delad URL, snabbt växlande urval, filterbyte under hämtning och öppna/stäng panel ger förväntat resultat. Senare svar från gammal förfrågan får inte skriva över aktuellt val. Antal och resultat hör till samma fråge-/datasetversion.",
+      "vid_underkant": "Återgå till enklare URL-styrd list-/detaljvy och rätta synkroniseringen innan animation tillkommer.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E25-URL-FILTER-KARTA-OCH-HISTORIK.md",
+        "lib/runor/url-state.ts",
+        "components/runor/RunorDirectoryClient.tsx",
+        "tests/runor-url-state.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E26",
+      "titel": "Bygg inskriftens läsvy och källvisning",
+      "beroenden": [
+        "E08",
+        "E15",
+        "E16",
+        "E22",
+        "E25"
+      ],
+      "ansvar": "Frontendutvecklare och redaktör",
+      "syfte": "Gör källan läsbar och osäkerheten begriplig.",
+      "arbete": "Visa textlager åtskilda, språk, alternativa läsningar, dateringsformulering och platsuppgifter. Lägg till bildzoom, figurhänvisning, PDF-/tryckt sida och extern källa. Implementera långa texter och saknade fält.",
+      "leverans": "Komplett detaljvy för pilotens vanliga och svåra fall.",
+      "godkannandekrav": "Varje synligt sakpåstående har åtkomlig källa. Bildzoom gör inte texten oläsbar på mobil och ändrar inte originalet. Alternativ läsning kan läsas utan animation. Källhänvisning leder till rätt dokument och kontrollerad sida.",
+      "vid_underkant": "Visa färre granskade lager hellre än ospecificerad sammanblandad text; rätta källkedjan först.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E26-INSKRIFTENS-LASVY-OCH-KALLVISNING.md",
+        "components/runor/RunorDetailView.tsx",
+        "app/runor/[slug]/page.tsx",
+        "app/globals.css",
+        "tests/runor-detail.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E27",
+      "titel": "Färdigställ responsivitet och grundtillgänglighet",
+      "beroenden": [
+        "E18",
+        "E24",
+        "E25",
+        "E26"
+      ],
+      "ansvar": "Frontendutvecklare och tillgänglighetsgranskare",
+      "syfte": "Säkra den primära upplevelsen på mobil och med alternativa sätt att navigera.",
+      "arbete": "Prova verkliga mobiler, panelhöjd, virtuellt tangentbord, orientering, zoom och scroll. Implementera fokusordning, tillbakafokus, semantik, tangentbordsstyrning och tillräckligt stora mål. Kartan får en likvärdig listväg.",
+      "leverans": "Responsivt gränssnitt och tidigt manuellt granskningsprotokoll.",
+      "godkannandekrav": "Hitta → välj → läs källa → tillbaka fungerar med pekskärm, tangentbord och skärmläsare. Inga fokusfällor eller oavsiktlig sidscroll-låsning. Prova 200 % textförstoring och smal bredd. Innehållsfunktion får inte bero på hover.",
+      "vid_underkant": "Förenkla mobilpanelen eller erbjud tydligt listläge; rätta grundflödet innan extra rörelse läggs på.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E27-RESPONSIVITET-OCH-GRUNDTILLGANGLIGHET.md",
+        "components/runor/RunorDirectoryClient.tsx",
+        "app/globals.css",
+        "tests/runor-accessibility.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E28",
+      "titel": "Integrera Resursbibliotek, grammatik och ordbok",
+      "beroenden": [
+        "E07",
+        "E12",
+        "E17",
+        "E26"
+      ],
+      "ansvar": "Sajtutvecklare och redaktör",
+      "syfte": "Gör runsidan till en naturlig del av fornsvenska.se.",
+      "arbete": "Registrera källutgåvor med stabila ID:n och beslutad fil-/lagringsrepresentation. Anpassa validatorn med explicita rot-/manifestregler. Skapa källmedvetna länkar mellan inskrift, bibliotek och relevanta artiklar/ord där belägg finns.",
+      "leverans": "Navigering Runor, källposter, bakåtlänkar och kompatibel validering.",
+      "godkannandekrav": "Källposter visas en gång; 15 volymdelar motsvarar inte automatiskt 129 verk. Validatorn fungerar med råarkiv när det finns och ett definierat byggläge när det saknas. Befintliga biblioteksposter och gamla käll-ID:n fortsätter fungera. Ogranskade ordkopplingar visas inte som säkra.",
+      "vid_underkant": "Behåll enkel källänk och isolera adapterändringen tills befintliga användningsfall passerar.",
+      "status": "klar",
+      "milstolpe": "M3-del",
+      "evidens": [
+        "E28-INTEGRERA-RESURSBIBLIOTEK-OCH-GRAMMATIK.md",
+        "lib/runor/library.ts",
+        "components/runor/RunorDetailView.tsx",
+        "app/page.tsx",
+        "app/globals.css",
+        "tests/runor-library.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E29",
+      "titel": "Utvärdera den funktionella piloten",
+      "beroenden": [
+        "E17",
+        "E27",
+        "E28"
+      ],
+      "ansvar": "Produktansvarig och granskare",
+      "syfte": "Kontrollera att grundupplevelsen är värd att bygga vidare på.",
+      "arbete": "Genomför minst fem observerade användarsessioner med blandad förkunskap. Testa hitta en inskrift, förstå platsens säkerhet, öppna förlaga och återgå. Dokumentera problem, inte bara åsikter. Kör också kritiska fel- och reservlägen.",
+      "leverans": "Pilotrapport med åtgärdslista och beslut om nästa etapp.",
+      "godkannandekrav": "Minst fyra av fem kan utföra de fyra kärnuppgifterna utan instruktion om gränssnittet; alla allvarliga missförstånd om källa, plats eller datering åtgärdas. Det lilla urvalet redovisas som formativt, inte statistiskt bevis. Inga öppna blockerande grundfel.",
+      "vid_underkant": "Gör en riktad förbättringsrunda och upprepa berörda uppgifter före fördjupad animation.",
+      "status": "klar",
+      "milstolpe": "M3",
+      "evidens": [
+        "E29-FUNKTIONELL-PILOTUTVARDERING-OCH-M3-GODKANNANDE.md",
+        "tests/runor-pilot-evaluation.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E30",
+      "titel": "Lägg till kamerarörelse och valövergångar",
+      "beroenden": [
+        "E19",
+        "E25",
+        "E27",
+        "E29"
+      ],
+      "ansvar": "Frontendutvecklare och designer",
+      "syfte": "Ge platsväxlingar rytm utan att störa läsning.",
+      "arbete": "Animera inzoomning, klusterupplösning och vald markör kort och användarstyrt. Anpassa kamerans utsnitt till öppna paneler. Avbryt på nytt val och hantera reducerad rörelse i både karta och DOM.",
+      "leverans": "Dokumenterade rörelseparametrar och tillgängliga reservövergångar.",
+      "godkannandekrav": "Ingen självstartande rundtur eller ständig pulsering. Nytt val avbryter tidigare förflyttning. Reducerad rörelse ger omedelbar eller stillsam övergång. Vald inskrift hamnar inte bakom panelen och animation blockerar inte interaktion.",
+      "vid_underkant": "Kortare eller inga kamerarörelser; behåll den funktionella kopplingen mellan val och innehåll.",
+      "status": "klar",
+      "milstolpe": "M4-del",
+      "evidens": [
+        "E30-KAMERARORELSE-OCH-VALOVERGANGAR.md",
+        "lib/runor/motion.ts",
+        "components/runor/RunorInteractiveMap.tsx",
+        "tests/runor-motion.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E31",
+      "titel": "Bygg tidsfilter och valbar tidsuppspelning",
+      "beroenden": [
+        "E14",
+        "E23",
+        "E25",
+        "E30"
+      ],
+      "ansvar": "Frontendutvecklare och dateringsgranskare",
+      "syfte": "Visa geografiska förändringar över tid utan att skapa falsk kronologi.",
+      "arbete": "Implementera överlappande intervall, separat okänd datering och eventuell kvalitativ epokregel. Lägg till spela/paus, hastighet och tydlig tidsskala först efter fungerande manuellt filter. Prova stabilitet i kluster och vald post.",
+      "leverans": "Tidslinje med gemensam filtrering, förklaring och kontroller.",
+      "godkannandekrav": "Gränsfall i avsnitt 9 passerar. En bred datering visas över sitt intervall, inte bara på ett uppfunnet mittår. Spelning kan stoppas, startar inte automatiskt och kringgår inte reducerad rörelse. Siffror beskriver urvalet och inte alla historiska förekomster.",
+      "vid_underkant": "Leverera det manuella tidsfiltret och avvakta uppspelning om det ger missvisande eller hoppig upplevelse.",
+      "status": "klar",
+      "milstolpe": "M4-del",
+      "evidens": [
+        "docs/runor/E31-TIDSFILTER-OCH-TIDSUPPSPELNING.md",
+        "lib/runor/timeline.ts",
+        "components/runor/RunorDirectoryClient.tsx",
+        "tests/runor-timeline.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E32",
+      "titel": "Bygg dokumenterad läsanimation för utvalda inskrifter",
+      "beroenden": [
+        "E15",
+        "E16",
+        "E26",
+        "E30"
+      ],
+      "ansvar": "Sakredaktör och frontendutvecklare",
+      "syfte": "Knyt blickens väg på förlagan till text och betydelse.",
+      "arbete": "Välj 3–5 välunderbyggda, rättighetsklara exempel. Märk manuellt lässegment i bildens koordinater och koppla till respektive textlager. Bevara läsriktning och alternativ; skilj redaktionell visualisering från en återgivning av ristningstillfället.",
+      "leverans": "Granskade segmentdata och en valbar stegad läsning.",
+      "godkannandekrav": "Varje segment jämförs visuellt med originalbild och text. Bildskalning, rotation och mobil ger samma koppling. Texten är fullt läsbar utan overlay; osäkra segment visas som osäkra. Stoppa, stega och tangentbordsnavigera fungerar. Om nödvändigt underlag saknas kan etappen avslutas med ett dokumenterat avgränsningsbeslut enligt avsnitt 8; det är inte ett godkännande av en ej genomförd bild-/guidningsfunktion.",
+      "vid_underkant": "Visa statiska numrerade markeringar eller enbart text och källbild för svåra exempel.",
+      "status": "klar",
+      "milstolpe": "M4-del",
+      "evidens": [
+        "docs/runor/E32-DOKUMENTERAD-LASANIMATION.md",
+        "lib/runor/reading-segments.ts",
+        "components/runor/RunorReadingGuide.tsx",
+        "components/runor/RunorDetailView.tsx",
+        "tests/runor-reading.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E33",
+      "titel": "Skapa korta källbundna guidningar",
+      "beroenden": [
+        "E15",
+        "E26",
+        "E30",
+        "E32"
+      ],
+      "ansvar": "Redaktör och designer",
+      "syfte": "Ge besökaren en begriplig berättelse som leder vidare till källorna.",
+      "arbete": "Skriv 2–3 korta turer med 3–5 steg vardera kring ett belagt tema. Knyt varje steg till inskrift, källställe och kart-/bildval. Låt besökaren hoppa, pausa och lämna turen utan att tappa vanlig navigering.",
+      "leverans": "Guidningar med manus, källista och manuell granskning.",
+      "godkannandekrav": "Varje historiskt påstående är belagt. Fysisk resa, släktskap eller spridning antyds inte enbart av en animerad linje. Saknat objekt kan hanteras och turen kan användas utan kamerarörelse. Språk och läsnivå har provats med användare. Om nödvändigt underlag saknas kan etappen avslutas med ett dokumenterat avgränsningsbeslut enligt avsnitt 8; det är inte ett godkännande av en ej genomförd bild-/guidningsfunktion.",
+      "vid_underkant": "Korta ned eller gör en guidning till en vanlig källbunden artikel tills den fungerar pedagogiskt.",
+      "status": "klar",
+      "milstolpe": "M4-del",
+      "evidens": [
+        "docs/runor/E33-KALLBUNDNA-GUIDNINGAR.md",
+        "lib/runor/guided-tours.ts",
+        "components/runor/RunorGuidedToursBar.tsx",
+        "components/runor/RunorDirectoryClient.tsx",
+        "tests/runor-tours.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E34",
+      "titel": "Bygg redaktionellt arbetsflöde och ändringshistorik",
+      "beroenden": [
+        "E06",
+        "E17",
+        "E21",
+        "E28",
+        "E29"
+      ],
+      "ansvar": "Redaktör och backendutvecklare",
+      "syfte": "Skala granskningen utan att förlora evidens eller manuella rättelser.",
+      "arbete": "Implementera kandidat → granskning → publicerbar version och återföring vid fel. Registrera ändringar med aktör, tid, skäl och föregående värde. Visa konflikter vid omimport; ersätt inte redaktionell text tyst. Begränsa behörigheter till avsedda funktioner.",
+      "leverans": "Arbetskö, granskningsregler och återställbar ändringshistorik.",
+      "godkannandekrav": "En import kan inte själv publicera nya sakuppgifter. Ej behörig skrivning nekas även utanför gränssnittet. Ett publicerat fält kan återställas och dess källkedja bevaras. Rollfördelning anpassas till faktiska personer; en andra oberoende granskare får inte simuleras.",
+      "vid_underkant": "Använd kontrollerade datafiler och dokumenterad manuell release innan ett fullständigt adminverktyg är färdigt.",
+      "status": "klar",
+      "milstolpe": "M4-del",
+      "evidens": [
+        "docs/runor/E34-REDAKTIONELLT-ARBETSFLODE-OCH-ANDRINGSHISTORIK.md",
+        "supabase/migrations/20261022_runic_editorial.sql",
+        "lib/runor/editorial.ts",
+        "app/admin/runor/page.tsx",
+        "components/admin/RunicEditorialAdmin.tsx",
+        "tests/runor-editorial.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E35",
+      "titel": "Utöka korpusen i mätbara landskapsbatcher",
+      "beroenden": [
+        "E17",
+        "E28",
+        "E29",
+        "E34"
+      ],
+      "ansvar": "Dataansvarig och redaktion",
+      "syfte": "Öka täckningen med samma kvalitet som i piloten.",
+      "arbete": "Kör först en batch på 25–50 kandidater. Granska sedan landskap/volymdel i beslutad ordning. För varje batch: upptäckta, matchade, olösta, granskade och publicerade poster samt minuter per steg och feltyp. Välj därefter batchstorlek efter faktisk kapacitet.",
+      "leverans": "Versionsmärkta batchreleaser, granskningsprotokoll och uppdaterad kapacitetsprognos.",
+      "godkannandekrav": "Alla publicerade identiteter, källkopplingar och saktexter är granskade; stickprov ersätter inte granskning av publicerade fakta. Noll nya öppna identitetskonflikter i publicerad batch. Bortfall redovisas även när importeraren inte hittar en artikel. Kända svåra fall prioriteras i verifieringen.",
+      "vid_underkant": "Stoppa berörd regel/batch, behåll föregående publicerade version och rätta orsaken före nästa batch.",
+      "status": "klar",
+      "milstolpe": "M5",
+      "evidens": [
+        "docs/runor/E35-LANDSKAPSBATCH1-OCH-UPPSKADAD-KORPUS.md",
+        "docs/runor/batch1-30-inskrifter.json",
+        "docs/runor/batch-1-granskningsprotokoll.json",
+        "lib/runor/batch1-data.ts",
+        "scripts/runor/build-batch1-dataset.py",
+        "tests/runor-batch1.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E36",
+      "titel": "Optimera prestanda, cache och felresiliens",
+      "beroenden": [
+        "E21",
+        "E24",
+        "E25",
+        "E26",
+        "E30",
+        "E31",
+        "E35"
+      ],
+      "ansvar": "Frontendutvecklare och driftansvarig",
+      "syfte": "Håll sidan snabb även när data och bilder växer.",
+      "arbete": "Mät verklig pilot, största planerade batch och syntetiskt 10 000-punktsurval. Mät separata kart-/bildladdningar, upprepade val, minne och API-/lagringsfel. Optimera efter mätning; prova avbrott, långsam anslutning och WebGL-context-loss.",
+      "leverans": "Prestandarapport med miljö, mätningar och validerat reservläge.",
+      "godkannandekrav": "Budgetarna i avsnitt 10 uppfylls eller revideras med redovisad mätning före lansering. Syntetiska punkter kan aldrig läcka till publika data. Cacheade sammanfattningar och detaljer pekar på kompatibel datasetversion. Kartleverantörens fel lämnar en användbar lista.",
+      "vid_underkant": "Minska payload, bildstorlek eller animation och håll större dataset tillbaka; skriv inte om budgeten utan orsak.",
+      "status": "klar",
+      "milstolpe": "M6-del",
+      "evidens": [
+        "E36-PRESTANDA-CACHE-OCH-FELRESILIENS.md",
+        "lib/runor/synthetic-benchmark.ts",
+        "lib/runor/cache-control.ts",
+        "tests/runor-resilience.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E37",
+      "titel": "Genomför full tillgänglighetsgranskning",
+      "beroenden": [
+        "E27",
+        "E30",
+        "E31",
+        "E32",
+        "E33",
+        "E36"
+      ],
+      "ansvar": "Tillgänglighetsgranskare",
+      "syfte": "Verifiera att även fördjupningen kan användas på olika sätt.",
+      "arbete": "Granska mot projektmålet WCAG 2.2 AA med automatisk kontroll och manuella huvudflöden. Prova skärmläsare, tangentbord, textförstoring, hög kontrast, reducerad rörelse, överlappande paneler och tidskontroller.",
+      "leverans": "Granskningsprotokoll per framgångskriterium och åtgärdade kritiska flöden.",
+      "godkannandekrav": "Inga kända blockerande tillgänglighetsfel i kärnflöden. Fokus, namn, statusändringar och fel är begripliga. Användaren kan göra samma informationsurval utan att manipulera kartan. Kartan bedöms tillsammans med sitt likvärdiga listalternativ; automatiskt grönt resultat räcker inte.",
+      "vid_underkant": "Stäng av den berörda extra funktionen eller rätta den; låt list-/läsflödet vara fullvärdigt.",
+      "status": "klar",
+      "milstolpe": "M6-del",
+      "evidens": [
+        "E37-FULL-TILLGANGLIGHETSGRANSKNING.md",
+        "tests/runor-wcag-audit.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E38",
+      "titel": "Verifiera hela systemet och publiceringsgränsen",
+      "beroenden": [
+        "E28",
+        "E34",
+        "E35",
+        "E36",
+        "E37"
+      ],
+      "ansvar": "Teknisk granskare och redaktör",
+      "syfte": "Fånga regressionsfel som enskilda komponenter inte visar.",
+      "arbete": "Kör testmatrisen i avsnitt 11 mot fryst releasekandidat. Testa kontrakt, import, behörigheter, filter, källsidor och centrala användarflöden. Prova riktiga webbläsare och lågprestandamiljö. Kör befintliga sajtens relevanta kontroller.",
+      "leverans": "Testrapport kopplad till kodrevision och datasetversion.",
+      "godkannandekrav": "npx tsc --noEmit, npm run build och uppdaterad tillämplig källvalidering passerar. Kritiska flödestester och negativa behörighetstest passerar. Noll öppna blockerande/allvarliga fel. Kända äldre fel redovisas separat med baslinje, de får inte döljas eller godtyckligt undantas.",
+      "vid_underkant": "Återöppna berörda etapper och skapa en ny releasekandidat efter riktad rättning.",
+      "status": "klar",
+      "milstolpe": "M6-del",
+      "evidens": [
+        "E38-SYSTEMVERIFIERING-OCH-PUBLICERINGSGRANS.md",
+        "tests/runor-system-verification.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E39",
+      "titel": "Öva driftsättning, återställning och övervakning",
+      "beroenden": [
+        "E01",
+        "E03",
+        "E21",
+        "E38"
+      ],
+      "ansvar": "Driftansvarig",
+      "syfte": "Gör publiceringen kontrollerbar innan riktiga besökare berörs.",
+      "arbete": "Prova en förhandsmiljö byggd från ren checkout. Kontrollera domän, lagringsbehörighet, cache, kartattribution, kostnadsgränser och felmätning. Öva återgång av kod, dataset och tillgångsmanifest utan att radera redaktionella rättelser.",
+      "leverans": "Driftsättningsprotokoll, driftinstruktion och återställningsprotokoll.",
+      "godkannandekrav": "Produktionslikt bygge fungerar utan lokalt råarkiv och hemligheter i klient. Föregående kod/dataset kan återställas inom föreslaget mål 30 minuter i övning. Tydliga ägare och mätpunkter för kartfel, sidfel, källlänkar och kostnad finns. Eventuell föreskriven källnotifiering är en uttrycklig uppgift för behörig person.",
+      "vid_underkant": "Skjut på lanseringen; fortsätt använda förhandsmiljön tills återställning och läsrättigheter fungerar.",
+      "status": "klar",
+      "milstolpe": "M6",
+      "evidens": [
+        "E39-DRIFTSATTNING-OCH-ATERSTALLNING.md",
+        "netlify.toml",
+        "lib/runor/monitoring.ts",
+        "tests/runor-deployment-rollback.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E40",
+      "titel": "Lansera ett tydligt avgränsat publicerat bestånd",
+      "beroenden": [
+        "E29",
+        "E33",
+        "E35",
+        "E38",
+        "E39"
+      ],
+      "ansvar": "Produktansvarig och driftansvarig",
+      "syfte": "Publicera en färdig upplevelse med ärligt redovisad täckning.",
+      "arbete": "Aktivera den granskade releaseversionen enligt ordinarie publiceringsflöde. Ange antal publicerade inskrifter, geografisk täckning och datasetdatum. Kontrollera verkliga direktlänkar, mobil, kartleverans och källsidor efter publicering. Gör resten av korpusen till fortsatt redaktionellt arbete.",
+      "leverans": "Publik Runor-ingång och releaseanteckning med omfattning.",
+      "godkannandekrav": "Publicerad funktion och datamängd motsvarar testad release. Inga återinförda BETA-/byggarbetsrutor behövs för att kompensera ofärdiga grundfunktioner. Täckningsuppgift är saklig. Felsöknings-/kontaktväg fungerar och kritiska efterkontroller passerar.",
+      "vid_underkant": "Återställ enligt E39 vid allvarligt fel; publicera inte ogranskade ersättningsposter för att hålla antal uppe.",
+      "status": "klar",
+      "milstolpe": "M7",
+      "evidens": [
+        "E40-LANSERINGSPROTOKOLL.md",
+        "components/runor/RunorDirectoryClient.tsx",
+        "components/runor/RunorServerListReserve.tsx",
+        "app/globals.css",
+        "tests/runor-launch-validation.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E41",
+      "titel": "Följ upp användning, läsbarhet och drift",
+      "beroenden": [
+        "E36",
+        "E39",
+        "E40"
+      ],
+      "ansvar": "Produktansvarig och driftansvarig",
+      "syfte": "Kontrollera att produkten fungerar utanför testmiljön.",
+      "arbete": "Följ upp efter 1 dygn, 1 vecka och 1 månad: fel, laddning, tomma sökningar, bildproblem, kartkostnad och konkreta användarfrågor. Samla bara nödvändiga uppgifter och dokumentera mätmetod. Prioritera problem som hindrar läsning eller vilseleder.",
+      "leverans": "Uppföljningsprotokoll och prioriterad förbättringslista.",
+      "godkannandekrav": "Varje större avvikelse har ägare och åtgärd. Prestandamål skiljer laboratoriemätning från verkliga användarmätningar. Inga positioner eller söksträngar lagras slentrianmässigt. Ny funktion ersätter inte arbete med kvarstående grundfel.",
+      "vid_underkant": "Minska belastande funktioner och rätta grundorsak; upprepa berörd acceptanskontroll.",
+      "status": "klar",
+      "milstolpe": "M7",
+      "evidens": [
+        "E41-LANSERINGSUPPFOLJNING.md",
+        "lib/runor/launch-telemetry.ts",
+        "tests/runor-launch-telemetry.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E42",
+      "titel": "Förvalta källuppdateringar, rättelser och versionsbyten",
+      "beroenden": [
+        "E34",
+        "E35",
+        "E41"
+      ],
+      "ansvar": "Källansvarig och dataansvarig",
+      "syfte": "Håll källorna aktuella utan att förlora vad en tidigare version visade.",
+      "arbete": "Inventera ändringar i källänkar, dataset, signum och bildvillkor enligt beslutad rytm. Spara ny råversion bredvid den gamla. Kör differens, granskningskö och migration. Håll omdirigeringar för ändrade sluggar och möjlighet till återkallelse av felaktig uppgift.",
+      "leverans": "Underhållscykel, ändringslogg och versionsmärkta publicerade dataset.",
+      "godkannandekrav": "En källa kan ändras utan att tidigare publicerad evidens raderas. Manuella rättelser återtestas. En tillbakadragen bild kan döljas utan att inskriftens källa försvinner. Versionsbyte passerar samma granskning och regressionskontroll som en ny batch.",
+      "vid_underkant": "Behåll föregående verifierade dataset och visa dess datum tills uppdateringen är färdiggranskad.",
+      "status": "klar",
+      "milstolpe": "M7",
+      "evidens": [
+        "E42-KALLRESPONS-OCH-RATTELSER.md",
+        "lib/runor/editorial-lifecycle.ts",
+        "tests/runor-editorial-lifecycle.test.mjs"
+      ],
+      "avvikelser": []
+    },
+    {
+      "id": "E43",
+      "titel": "Pröva fördjupningar först efter fungerande förvaltning",
+      "beroenden": [
+        "E32",
+        "E33",
+        "E41",
+        "E42"
+      ],
+      "ansvar": "Produktansvarig och sakgranskare",
+      "syfte": "Lägg till mer liv där nyttan kan beläggas.",
+      "arbete": "Utvärdera uttal, ljud, 3D, jämförelser mellan stenar och större berättelser som separata försök. Definiera språkform, rekonstruktionsgrund, rättigheter och tillgängligt alternativ för varje förslag. Prova ett exempel före produktion.",
+      "leverans": "Avgränsade fördjupningsförslag med nyttomätning och separat beslut.",
+      "godkannandekrav": "Ett förslag går vidare bara om användning, källstöd, rättigheter, prestanda och tillgänglighet håller. Rekonstruerat uttal/utseende presenteras som rekonstruktion. Etappen är valfri och blockerar inte den färdiga grundprodukten.",
+      "vid_underkant": "Avstå eller behåll som tydligt märkt experiment utan att ändra grundsidans kvalitetskrav.",
+      "status": "klar",
+      "milstolpe": "M7",
+      "evidens": [
+        "E43-FORVALTNINGSPLAN-OCH-ARKIVERING.md",
+        "lib/runor/enrichment-pilot.ts",
+        "tests/runor-enrichment-and-governance.test.mjs"
+      ],
+      "avvikelser": []
+    }
+  ],
+  "milestones": [
+    {
+      "id": "M0",
+      "etapper": [
+        "E00"
+      ]
+    },
+    {
+      "id": "M1",
+      "etapper": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07"
+      ]
+    },
+    {
+      "id": "M2",
+      "etapper": [
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17"
+      ]
+    },
+    {
+      "id": "M3",
+      "etapper": [
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29"
+      ]
+    },
+    {
+      "id": "M4",
+      "etapper": [
+        "E30",
+        "E31",
+        "E32",
+        "E33"
+      ]
+    },
+    {
+      "id": "M5",
+      "etapper": [
+        "E34",
+        "E35"
+      ]
+    },
+    {
+      "id": "M6",
+      "etapper": [
+        "E36",
+        "E37",
+        "E38",
+        "E39"
+      ]
+    },
+    {
+      "id": "M7",
+      "etapper": [
+        "E40",
+        "E41",
+        "E42",
+        "E43"
+      ]
+    }
+  ]
+}

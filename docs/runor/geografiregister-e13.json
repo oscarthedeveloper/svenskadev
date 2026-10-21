@@ -1,0 +1,347 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-10-21",
+  "count": 20,
+  "records": [
+    {
+      "signum": "Öl 1",
+      "province": "Öland",
+      "parish": "Vickleby socken",
+      "hundred": "Torslunda härad",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "place": "Karlevi",
+      "precision": "exakt_koordinat",
+      "coords": [
+        16.4398,
+        56.6075
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Öl 2",
+      "province": "Öland",
+      "parish": "Resmo socken",
+      "hundred": "Södra Möckleby härad",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "place": "Resmo kyrka",
+      "precision": "exakt_koordinat",
+      "coords": [
+        16.5278,
+        56.6788
+      ],
+      "isMoved": true,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Öl 9",
+      "province": "Öland",
+      "parish": "Kastlösa socken",
+      "hundred": "Gräsgårds härad",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "place": "Kastlösa kyrka",
+      "precision": "exakt_koordinat",
+      "coords": [
+        16.4291,
+        56.4585
+      ],
+      "isMoved": true,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Öl 15",
+      "province": "Öland",
+      "parish": "Södra Möckleby socken",
+      "hundred": "Gräsgårds härad",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "place": "Södra Möckleby kyrkogård",
+      "precision": "sockencentrum",
+      "coords": [
+        16.4214,
+        56.3565
+      ],
+      "isMoved": false,
+      "isLost": true,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Öl 16",
+      "province": "Öland",
+      "parish": "Gräsgårds socken",
+      "hundred": "Gräsgårds härad",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "place": "Gräsgårds kyrkogård",
+      "precision": "sockencentrum",
+      "coords": [
+        16.5077,
+        56.3096
+      ],
+      "isMoved": false,
+      "isLost": true,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Öl 18",
+      "province": "Öland",
+      "parish": "Segerstads socken",
+      "hundred": "Gräsgårds härad",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "place": "Seby",
+      "precision": "exakt_koordinat",
+      "coords": [
+        16.531,
+        56.3435
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Öl 23",
+      "province": "Öland",
+      "parish": "Stenåsa socken",
+      "hundred": "Möckleby härad",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "place": "Stenåsa kyrkogård",
+      "precision": "sockencentrum",
+      "coords": [
+        16.6005,
+        56.5145
+      ],
+      "isMoved": false,
+      "isLost": true,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Öl 25",
+      "province": "Öland",
+      "parish": "Sandby socken",
+      "hundred": "Möckleby härad",
+      "municipality": "Mörbylånga kommun",
+      "county": "Kalmar län",
+      "place": "Dröstorps häll, Stora Alvaret",
+      "precision": "exakt_koordinat",
+      "coords": [
+        16.5709,
+        56.5941
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Ög 136",
+      "province": "Östergötland",
+      "parish": "Röks socken",
+      "hundred": "Lysings härad",
+      "municipality": "Ödeshögs kommun",
+      "county": "Östergötlands län",
+      "place": "Röks kyrka",
+      "precision": "exakt_koordinat",
+      "coords": [
+        14.7752,
+        58.295
+      ],
+      "isMoved": true,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Ög 181",
+      "province": "Östergötland",
+      "parish": "Ledbergs socken",
+      "hundred": "Valkebo härad",
+      "municipality": "Linköpings kommun",
+      "county": "Östergötlands län",
+      "place": "Ledbergs kyrkogård",
+      "precision": "exakt_koordinat",
+      "coords": [
+        15.4469,
+        58.4422
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "U 11",
+      "province": "Uppland",
+      "parish": "Adelsö socken",
+      "hundred": "Färentuna härad",
+      "municipality": "Ekerö kommun",
+      "county": "Stockholms län",
+      "place": "Hovgården",
+      "precision": "exakt_koordinat",
+      "coords": [
+        17.534,
+        59.3601
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "U 29",
+      "province": "Uppland",
+      "parish": "Hilleshögs socken",
+      "hundred": "Färentuna härad",
+      "municipality": "Ekerö kommun",
+      "county": "Stockholms län",
+      "place": "Hillersjö",
+      "precision": "exakt_koordinat",
+      "coords": [
+        17.7049,
+        59.3881
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "U 73",
+      "province": "Uppland",
+      "parish": "Spånga socken",
+      "hundred": "Sollentuna härad",
+      "municipality": "Stockholms stad",
+      "county": "Stockholms län",
+      "place": "Hansta (fyndplats)",
+      "precision": "exakt_koordinat",
+      "coords": [
+        17.8999,
+        59.4219
+      ],
+      "isMoved": true,
+      "isLost": false,
+      "placementsCount": 2
+    },
+    {
+      "signum": "U 101",
+      "province": "Uppland",
+      "parish": "Sollentuna socken",
+      "hundred": "Sollentuna härad",
+      "municipality": "Sollentuna kommun",
+      "county": "Stockholms län",
+      "place": "Sjöstugan / S. Sätra",
+      "precision": "exakt_koordinat",
+      "coords": [
+        17.9839,
+        59.4487
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "U 104",
+      "province": "Uppland",
+      "parish": "Eds socken",
+      "hundred": "Sollentuna härad",
+      "municipality": "Upplands Väsby kommun",
+      "county": "Stockholms län",
+      "place": "Eds kyrka",
+      "precision": "exakt_koordinat",
+      "coords": [
+        17.8682,
+        59.5079
+      ],
+      "isMoved": true,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "U 112A",
+      "province": "Uppland",
+      "parish": "Eds socken",
+      "hundred": "Sollentuna härad",
+      "municipality": "Upplands Väsby kommun",
+      "county": "Stockholms län",
+      "place": "Kyrkstigen i Ed",
+      "precision": "exakt_koordinat",
+      "coords": [
+        17.8679,
+        59.503
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "U 112B",
+      "province": "Uppland",
+      "parish": "Eds socken",
+      "hundred": "Sollentuna härad",
+      "municipality": "Upplands Väsby kommun",
+      "county": "Stockholms län",
+      "place": "Kyrkstigen i Ed",
+      "precision": "exakt_koordinat",
+      "coords": [
+        17.8679,
+        59.503
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Sö 101",
+      "province": "Södermanland",
+      "parish": "Jäders socken",
+      "hundred": "Österrekarne härad",
+      "municipality": "Eskilstuna kommun",
+      "county": "Södermanlands län",
+      "place": "Ramsundsberget, Sundbyholm",
+      "precision": "exakt_koordinat",
+      "coords": [
+        16.6344,
+        59.4413
+      ],
+      "isMoved": false,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Sö 179",
+      "province": "Södermanland",
+      "parish": "Kärnbo socken",
+      "hundred": "Selebo härad",
+      "municipality": "Strängnäs kommun",
+      "county": "Södermanlands län",
+      "place": "Gripsholms slott",
+      "precision": "exakt_koordinat",
+      "coords": [
+        17.2182,
+        59.2569
+      ],
+      "isMoved": true,
+      "isLost": false,
+      "placementsCount": 1
+    },
+    {
+      "signum": "Vs 24",
+      "province": "Västmanland",
+      "parish": "Fläckebo socken",
+      "hundred": "Norrbo härad",
+      "municipality": "Sala kommun",
+      "county": "Västmanlands län",
+      "place": "Hassmyra",
+      "precision": "exakt_koordinat",
+      "coords": [
+        16.3414,
+        59.8731
+      ],
+      "isMoved": true,
+      "isLost": false,
+      "placementsCount": 1
+    }
+  ]
+}

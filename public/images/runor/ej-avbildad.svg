@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#0c0a09"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#292524" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#grid)" opacity="0.6"/>
+  
+  <!-- Subtle Runic carrier silhouette -->
+  <g transform="translate(300, 160)" text-anchor="middle" fill="#78716c">
+    <!-- Stone outline icon -->
+    <path d="M -40 40 C -45 20 -40 -30 -30 -50 C -20 -70 20 -70 30 -50 C 40 -30 45 20 40 40 Z" 
+          fill="none" stroke="#57534e" stroke-width="2" stroke-dasharray="4 3" opacity="0.8"/>
+    <!-- Question mark or lost glyph -->
+    <path d="M -8 -20 C -8 -32 8 -32 8 -20 C 8 -12 0 -10 0 -2 M 0 10 L 0 14" 
+          fill="none" stroke="#a8a29e" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+  <text x="300" y="260" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#e7e5e4" letter-spacing="0.05em">
+    Ingen avbildning bevarad
+  </text>
+  <text x="300" y="286" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#a8a29e">
+    Inskriften är förlorad eller saknar avbildning i källutgåvan
+  </text>
+  <text x="300" y="310" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#78716c">
+    Sveriges runinskrifter · fornsvenska.se
+  </text>
+</svg>

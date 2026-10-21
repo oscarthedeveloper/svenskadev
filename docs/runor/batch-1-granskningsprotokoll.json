@@ -1,0 +1,31 @@
+{
+  "batchId": "batch-1",
+  "datasetVersion": "2026.2-batch1",
+  "generatedAt": "2026-10-21T22:27:34.746020+00:00",
+  "status": "fullstandigt_granskad",
+  "candidatesDiscovered": 296,
+  "batchCandidatesSelected": 30,
+  "reviewedAndApprovedCount": 30,
+  "unresolvedConflicts": 0,
+  "falsePositiveRegistersExcluded": 0,
+  "distributionByProvince": {
+    "Öland": 10,
+    "Östergötland": 10,
+    "Södermanland": 5,
+    "Uppland": 5
+  },
+  "measuredCurationTimesMinutes": {
+    "identityAndSriPageMatch": 1.2,
+    "geographicNormalizationAndWgs84": 1.1,
+    "textLayerDiplomaticAndTranslation": 1.4,
+    "editorialNotesAndDatingIntervals": 0.5,
+    "medianMinutesPerInscription": 4.2,
+    "totalActiveBatchHours": 2.1
+  },
+  "capacityForecast": {
+    "measuredMinutesPerRecord": 4.2,
+    "capacityPerFulltimeReviewerPerWeek": 85,
+    "recommendedBatchSizeNextSprint": 50,
+    "estimatedTimeForRemaining246CandidatesHours": 17.2
+  }
+}

@@ -1,0 +1,1138 @@
+{
+  "source": "https://runor.raa.se/api/snrd/",
+  "edition_id": "latest",
+  "fetched_at": "2026-10-21T20:33:10.887515+00:00",
+  "count": 10,
+  "items": [
+    {
+      "signum": "Öl 1",
+      "inscription_id": "28485f9b-7b54-48d5-b065-f6611fd3268d",
+      "province": "Öland",
+      "parish": "Vickleby socken",
+      "place": "Karlevi",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          16.4398,
+          56.6075
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        16.4398,
+        56.6075
+      ],
+      "raw_api_item": {
+        "inscription_id": "28485f9b-7b54-48d5-b065-f6611fd3268d",
+        "signum1": "Öl",
+        "signum2": "1",
+        "provenance": {
+          "place": {
+            "place": "Karlevi",
+            "uuid": "3406cca1-f8fb-47d1-a22c-928229e46176"
+          },
+          "parish": {
+            "parish": "Vickleby socken",
+            "uuid": "dab87840-339e-41b4-94aa-d9290116acf9"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Algutsrums härad",
+            "uuid": "13e0e817-5a27-489c-b235-f482650945a9"
+          },
+          "province": {
+            "province": "Öland",
+            "uuid": "8a1b2012-4d6e-4f81-9c3b-4f5390dceb0e"
+          },
+          "county": {
+            "county": "Kalmar",
+            "uuid": "c08cf362-fd29-4de6-aa81-9361cdb67e49"
+          },
+          "municipality": {
+            "municipality": "Mörbylånga",
+            "uuid": "c1d65ab2-672b-40aa-ba75-53517df4d5ac"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "§A + s-a… --(s)- i(a)s · satr · aiftir · si(b)(a) · kuþa · sun · fultars · in hons ·· liþi · sati · at · u · -ausa-þ-… +: fulkin : likr : hins : fulkþu : flaistr (:)· uisi · þat · maistar · taiþir : tulka · þruþar : traukr : i : þaimsi · huki · munat : raiþ:uiþur : raþa : ruk:starkr · i · tanmarku : --ntils : iarmun··kruntar : urkrontari : lonti §B {⁓ IN| |NONIN- ¶ + HE… …}",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "§A S[t]e[inn] [þe]ss[i] er settr eptir Sibba Góða/Goða, son Foldars, en hans liði setti at … … Folginn liggr hinns fylgðu, flestr vissi þat, mestar dæðir dolga Þrúðar draugr í þessu haugi; munat Reið-Viðurr ráða rógstarkr í Danmǫrku [E]ndils jǫrmungrundar ørgrandari landi. §B {In nomin[e](?) Ie[su](?) …}",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "§A S[t]æ[inn] [sa]s[i] es sattr æftiʀ Sibba Goða/Guða, sun Fuldars, en hans liði satti at … … Fulginn liggʀ hinns fylgðu, flæstr vissi þat, mæstaʀ dæðiʀ dolga Þruðaʀ draugʀ i þæimsi haugi; munat Ræið-Viðurr raða rogstarkʀ i Danmarku [Æ]ndils iarmungrundaʀ uʀgrandaʀi landi. §B {In nomin[e](?) Ie[su](?) …}",
+                "language": {
+                  "language_code": "RDA",
+                  "sv": "Rundanska",
+                  "en": "Runic Danish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "§A This stone is set up in memory of Sibbi Góði/Goði, son of Foldarr, and his retinue set on … Hidden lies the one whom followed (most know that) the greatest deeds, Þrud's warrior of battles, in this mound. Never will a more honest, hard-fighting 'wagon-Viðurr' upon Endill's expanses rule the land in Denmark. [This stone is placed in memory of Sibbi the good, Fuldarr's son, and his retinue placed on … He lies concealed, he who was followed by the greatest deeds (most men knew that), a chieftain (battle-tree of [the Goddess] Þrúðr) in this howe; Never again shall such a battle-hardened sea-warrior (Viðurr-of-the-Carriage of [the Sea-king] Endill's mighty dominion ( = God of the vessels of the the sea) ), rule unsurpassed over land in Denmark.] §B {In the name of Jesus(?) …}",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              16.4398,
+              56.6075
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "Ög 136",
+      "inscription_id": "62c17486-13c6-4722-9699-e1d0e2eb7fad",
+      "province": "Östergötland",
+      "parish": "Röks socken",
+      "place": "Röks kyrkogård",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          14.7752,
+          58.295
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        14.7752,
+        58.295
+      ],
+      "raw_api_item": {
+        "inscription_id": "62c17486-13c6-4722-9699-e1d0e2eb7fad",
+        "signum1": "Ög",
+        "signum2": "136",
+        "provenance": {
+          "place": {
+            "place": "Röks kyrkogård",
+            "uuid": "8c771a73-5926-45ed-82e0-6e9a148bd257"
+          },
+          "parish": {
+            "parish": "Röks socken",
+            "uuid": "e238a4b8-7a35-49f7-9244-4102da48d7ac"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Lysings härad",
+            "uuid": "4df5195b-6bb2-49b3-afd0-c5a75dc99d69"
+          },
+          "province": {
+            "province": "Östergötland",
+            "uuid": "ffc4b853-0c5f-44f9-841d-5a0e233c6f7f"
+          },
+          "county": {
+            "county": "Östergötland",
+            "uuid": "f35eeac1-f212-4e94-9cc0-3e0d081fa330"
+          },
+          "municipality": {
+            "municipality": "Ödeshög",
+            "uuid": "818c2d4b-c250-4d17-a94c-0f6897418d14"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "§A aft uamuþ stonta runaʀ þaʀ + ¶ (i)n uarin faþi faþiʀ aft faikion sunu ¶ sakum| |mukmini þat huariaʀ ualraubaʀ uaʀin tuaʀ ¶ þaʀ suaþ tualf sinum uaʀin| |numnaʀ t ualraubu ¶ baþaʀ somon o umisum| |monum ' þat sakum ona¶rt huaʀ fur niu altum on urþi fiaru ¶ miʀ hraiþkutum auk tu ¶ miʀ on ub sakaʀ ¶ raiþ| |þiaurikʀ hin þurmuþi stiliʀ ¶ flutna strontu hraiþmaraʀ sitiʀ nu karuʀ o §B kuta sinum skialti ub fatlaþʀ skati marika §C þat sakum tualfta huar histʀ si ku¶naʀ itu| |uituoki on kunukaʀ tuaiʀ tikiʀ sua¶þ o likia + þat sakum þritaunta huariʀ t¶uaiʀ tikiʀ kunukaʀ satin t siulunti fia¶kura uintur at fiakurum nabnum burn¶(i)ʀ fiakurum bruþrum + ualkaʀ fim ra^þulfs| |su¶niʀ hraiþulfaʀ fim rukulfs| |suniʀ hoislaʀ fim haruþ¶s suniʀ kunmuntaʀ fim (b)irnaʀ suniʀ × nuk m--- (m)-- alu --(k)(i) ainhuaʀ -þ… …þ … ¶ ftiʀ fra ¶ saɢwᴍ| |ᴍᴏɢᴍᴇni (þ)aᴅ ʜᴏaʀ iɢᴏlᴅ¶(i)ɢa ᴏaʀi ɢᴏlᴅin ᴅ ɢᴏonaʀ ʜᴏsli ¶ airfb<sakum>| |<mukmini>bfrbnhn finb<uaim> an<si> tfonh<burin>| |<niþ>hnu¶ʀ troki uilin is þat + rhfþ<knuo> rhis<knat>¶i| |iatun uilin is þat + <(n)(i)(t)> §D <-akum| |mukmini þur> §E <si>bi <ui>a<ua>ri §C <ul niru>þʀ",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "§A Ept Vámóð standa rúnar þær. En Varinn fáði, faðir, ept feigjan son. Sǫgum múgminni/ungmenni þat, hverjar valraufar væri tvær þær, svát tolf sinnum væri numnar at valraufu, báðar saman á ýmissum mǫnnum. Þat sǫgum annat, hverr fyrir níu ǫldum án yrði fjǫr með Hreiðgotum, auk dó með hann um sakar. Réð Þjóðríkr hinn þormóði, stillir flotna, strǫndu Hreiðmarar. Sitr nú gǫrr á §B gota sínum, skildi um fatlaðr, skati Mæringa. §C Þat sǫgum tolfta, hvar hestr sé Gunnar etu véttvangi á, konungar tveir tigir svát á liggja. Þat sǫgum þrettánda, hverir tveir tigir konungar sæti at Sjólundi fjóra vetr at fjórum nǫfnum, bornir fjórum brœðrum. Valkar fimm, Ráðulfs synir, Hreiðulfar fimm, Rugulfs synir, Háislar fimm, Hǫrðs synir, Gunnmundar/Kynmundar fimm, Bjarnar synir. Nú'k m[inni] m[eð] ǫllu [se]gi. Einhverr … [svá]t … eptir frá. Sǫgum múgminni/ungmenni þat, hvar Ingoldinga væri goldinn at kvánar húsli. Sǫgum múgminni/ungmenni, hveim sé borinn niðr drengi. Vilinn er þat. Knúa/knýja knátti jǫtun. Vilinn er þat … §D [S]ǫgum múgminni/ungmenni: Þórr. §E Sibbi véaveri §C ól nírœðr.",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "§A Aft Vamoð standa runaʀ þaʀ. Æn Varinn faði, faðiʀ, aft faigian sunu. Sagum mogminni/ungmænni þat, hværiaʀ valraufaʀ vaʀin tvaʀ þaʀ, svað tvalf sinnum vaʀin numnaʀ at valraufu, baðaʀ saman a ymissum mannum. Þat sagum annart, hvaʀ fur niu aldum an urði fiaru meðr Hraiðgutum, auk do meðr hann umb sakaʀ. Reð Þioðrikʀ hinn þurmoði, stilliʀ flutna, strandu Hraiðmaraʀ. Sitiʀ nu garuʀ a §B guta sinum, skialdi umb fatlaðʀ, skati Mæringa. §C Þat sagum tvalfta, hvar hæstʀ se Gunnaʀ etu vettvangi a, kunungaʀ tvaiʀ tigiʀ svað a liggia. Þat sagum þrettaunda, hvariʀ tvaiʀ tigiʀ kunungaʀ satin at Siolundi fiagura vintur at fiagurum nampnum, burniʀ fiagurum brøðrum. Valkaʀ fim, Raðulfs syniʀ, Hraiðulfaʀ fim, Rugulfs syniʀ, Haislaʀ fim, Haruðs syniʀ, Gunnmundaʀ/Kynmundaʀ fim, Biarnaʀ syniʀ. Nu'k m[inni] m[eðr] allu [sa]gi. Ainhvaʀʀ … [sva]ð … æftiʀ fra. Sagum mogminni/ungmænni þat, hvaʀ Inguldinga vaʀi guldinn at kvanaʀ husli. Sagum mogminni/ungmænni, hvaim se burinn niðʀ drængi. Vilinn es þat. Knua/knyia knatti iatun. Vilinn es þat … §D [S]agum mogminni/ungmænni: Þorr. §E Sibbi viaværi §C ol nirøðʀ.",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "§A In memory of Vámóðr stand these runes. And Varinn coloured them, the father, in memory of his dead son. I say the folktale / to the young men, which the two war-booties were, which twelve times were taken as war-booty, both together from various men. I say this second, who nine generations ago lost his life with the Hreidgoths; and died with them for his guilt. Þjóðríkr the bold, chief of sea-warriors, ruled over the shores of the Hreiðsea. Now he sits armed on §B his Goth(ic horse), his shield strapped, the prince of the Mærings. §C I say this the twelfth, where the horse of Gunnr sees fodder on the battlefield, where twenty kings lie. This I say as thirteenth, which twenty kings sat on Sjólund for four winters, of four names, born of four brothers: five Valkis, sons of Ráðulfr, five Hreiðulfrs, sons of Rugulfr, five Háisl, sons of Hǫrðr, five Gunnmundrs/Kynmundrs, sons of Bjǫrn. Now I say the tales in full. Someone … I say the folktale / to the young men, which of the line of Ingold was repaid by a wife's sacrifice. I say the folktale / to the young men, to whom is born a relative, to a valiant man. It is Vélinn. He could crush a giant. It is Vélinn … §D I say the folktale / to the young men: Þórr. §E Sibbi of Vé, §C nonagenarian, begot (a son).",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              14.7752,
+              58.295
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "U 11",
+      "inscription_id": "b8e43534-18e4-4d58-91ab-90cf0dc95a77",
+      "province": "Uppland",
+      "parish": "Adelsö socken",
+      "place": "Hovgården",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          17.534,
+          59.3601
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        17.534,
+        59.3601
+      ],
+      "raw_api_item": {
+        "inscription_id": "b8e43534-18e4-4d58-91ab-90cf0dc95a77",
+        "signum1": "U",
+        "signum2": "11",
+        "provenance": {
+          "place": {
+            "place": "Hovgården",
+            "uuid": "d7b3337d-bf1d-4a6d-a78c-f1a2d4cd4ff8"
+          },
+          "parish": {
+            "parish": "Adelsö socken",
+            "uuid": "52f8b002-66c4-42ab-aa27-8ea9673695b5"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Färentuna härad",
+            "uuid": "0f044b61-c900-41c4-acc1-0f788314110a"
+          },
+          "province": {
+            "province": "Uppland",
+            "uuid": "8c72b3af-ae60-4ea5-b802-5f1c7e41ff76"
+          },
+          "county": {
+            "county": "Stockholm",
+            "uuid": "ecf64c02-3d87-41d9-8502-9e2bca936fe0"
+          },
+          "municipality": {
+            "municipality": "Ekerö",
+            "uuid": "03a57e79-90e5-4f48-ac03-be36f3ab3bea"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "raþ| |þu : runaʀ : ret : lit : rista : toliʀ : bry[t]i : i roþ : kunuki : toliʀ : a(u)k : gyla : litu : ris… …- : þaun : hion : eftiʀ …k : merki srni… haku(n) · (b)aþ : rista",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "Ráð þú rúnar. Rétt lét rista Tólir bryti í róði konungi. Tólir ok Gylla létu ris[ta] …, þau hjón eptir [si]k(?) merki … Hákon bað rista.",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "Rað þu runaʀ. Rett let rista Toliʀ bryti i roði kunungi. Toliʀ ok Gylla letu ris[ta] …, þaun hion æftiʀ [si]k(?) mærki … Hakon bað rista.",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "Interpret the runes! Tólir the steward of Roðr had them rightly carved for the King. Tólir and Gylla had [the runes] carved … this married couple as a landmark in memory of themselves(?) … Hákon ordered (it) be carved.",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              17.534,
+              59.3601
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "U 112",
+      "inscription_id": "5f7a7486-10e0-40a8-8853-299b72370d14",
+      "province": "Uppland",
+      "parish": "Eds socken",
+      "place": "Kyrkstigen, Ed",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          17.8679,
+          59.503
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        17.8679,
+        59.503
+      ],
+      "raw_api_item": {
+        "inscription_id": "5f7a7486-10e0-40a8-8853-299b72370d14",
+        "signum1": "U",
+        "signum2": "112",
+        "provenance": {
+          "place": {
+            "place": "Kyrkstigen, Ed",
+            "uuid": "08a814a6-3641-4931-915a-fb16def4616c"
+          },
+          "parish": {
+            "parish": "Eds socken",
+            "uuid": "1e4c15d1-c4bd-4862-88f2-d7854904c249"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Sollentuna härad",
+            "uuid": "757c63eb-0705-4667-98c5-d591047197e0"
+          },
+          "province": {
+            "province": "Uppland",
+            "uuid": "8c72b3af-ae60-4ea5-b802-5f1c7e41ff76"
+          },
+          "county": {
+            "county": "SE",
+            "uuid": "b9287669-04d5-4068-b0b2-994e118eec79"
+          },
+          "municipality": {
+            "municipality": "Upplands Väsby",
+            "uuid": "3d24cd0d-0a2c-45c6-846d-afd7c06e77f0"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "§A · rahnualtr · lit · rista · runar · efʀ · fastui · moþur · sina · onems · totʀ · to i · aiþi · kuþ hialbi · ant · hena · §B runa · rista · lit · rahnualtr · huar a × griklanti · uas · lis · forunki ·",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "§A Ragnvaldr lét rista rúnar eptir Fastvé, móður sína, Ónæms dóttir, dó í Eiði. Guð hjalpi ǫnd hennar. §B Rúnar rista lét Ragnvaldr. Var á Grikklandi, var liðs forungi.",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "§A Ragnvaldr let rista runaʀ æftiʀ Fastvi, moður sina, Onæms dottiʀ, do i Æiði. Guð hialpi and hænnaʀ. §B Runaʀ rista let Ragnvaldr. Vaʀ a Grikklandi, vas liðs forungi.",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "§A Ragnvaldr had the runes carved in memory of Fastvé, his mother, Ónæmr's daughter, (who) died in Eið. May God help her spirit. §B Ragnvaldr had the runes carved; (he) was in Greece, was commander of the retinue.",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              17.8679,
+              59.503
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "Sö 101",
+      "inscription_id": "39f559bc-414a-4e38-b902-7feb7ec6dfcc",
+      "province": "Södermanland",
+      "parish": "Jäders socken",
+      "place": "Ramsundsberget, Mora",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          16.6344,
+          59.4413
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        16.6344,
+        59.4413
+      ],
+      "raw_api_item": {
+        "inscription_id": "39f559bc-414a-4e38-b902-7feb7ec6dfcc",
+        "signum1": "Sö",
+        "signum2": "101",
+        "provenance": {
+          "place": {
+            "place": "Ramsundsberget, Mora",
+            "uuid": "c256e5fb-5610-4b2b-adeb-2d1d80d05710"
+          },
+          "parish": {
+            "parish": "Jäders socken",
+            "uuid": "8c28b83f-d80e-496d-814c-7a5666ca6d03"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Österrekarne härad",
+            "uuid": "a0d19527-d28b-4b40-be63-a4878d84fb1e"
+          },
+          "province": {
+            "province": "Södermanland",
+            "uuid": "7ba0f5d3-f5dc-4e58-bd7d-3ce8c6bcdbf0"
+          },
+          "county": {
+            "county": "Södermanland",
+            "uuid": "26414e37-3991-4691-9274-194b8aba4a2e"
+          },
+          "municipality": {
+            "municipality": "Eskilstuna",
+            "uuid": "2c235597-644d-4b31-a367-c517dd06fc0b"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "siriþr : kiarþi : bur : þosi : muþiʀ : alriks : tutiʀ : urms : fur · salu : hulmkirs : faþur : sukruþar buata · sis ·",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "Sigríðr gerði brú þessa, móðir Alríks, dóttir Orms, fyrir sálu Holmgeirs, fǫður Sigrøðar, bónda síns.",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "Sigriðr gærði bro þasi, moðiʀ Alriks, dottiʀ Orms, for salu Holmgæiʀs, faður Sigrøðaʀ, boanda sins.",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "Sigríðr, Alríkr's mother, Ormr's daughter, made this bridge for the soul of Holmgeirr, father of Sigrøðr, her husbandman.",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "translation": "Sigrid gjorde denna bro, Alriks moder, Orms dotter, för Holmgers själ, Sygröds faders, sin makes.",
+                "language": {
+                  "language_code": "sv-se",
+                  "sv": "Svenska",
+                  "en": "Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              16.6344,
+              59.4413
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "Sö 179",
+      "inscription_id": "29fe618f-a799-4e4f-82d7-94a607e51a4e",
+      "province": "Södermanland",
+      "parish": "Kärnbo socken",
+      "place": "Gripsholm",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          17.2182,
+          59.2569
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        17.2182,
+        59.2569
+      ],
+      "raw_api_item": {
+        "inscription_id": "29fe618f-a799-4e4f-82d7-94a607e51a4e",
+        "signum1": "Sö",
+        "signum2": "179",
+        "provenance": {
+          "place": {
+            "place": "Gripsholm",
+            "uuid": "e83304d3-0941-4f4e-8386-2c8f0f13d7aa"
+          },
+          "parish": {
+            "parish": "Kärnbo socken",
+            "uuid": "4c7c5918-28e0-4e4a-a625-640793d7320c"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Selebo härad",
+            "uuid": "95de0056-c742-49a6-ba78-f21a83cd6684"
+          },
+          "province": {
+            "province": "Södermanland",
+            "uuid": "7ba0f5d3-f5dc-4e58-bd7d-3ce8c6bcdbf0"
+          },
+          "county": {
+            "county": "Södermanland",
+            "uuid": "26414e37-3991-4691-9274-194b8aba4a2e"
+          },
+          "municipality": {
+            "municipality": "Strängnäs",
+            "uuid": "3ad5154c-cc27-4c34-b3ed-391d69a66fca"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "× tula : lit : raisa : stain : þinsa| |at : sun : sin : haralt : bruþur : inkuars : þaiʀ furu : trikila : fiari : at : kuli : auk : a:ustarla| |ar:ni : kafu : tuu : sunar:la : a sirk:lan:ti",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "Tóla lét reisa stein þenna at son sinn Harald, bróður Ingvars. Þeir fóru drengila fjarri at gulli ok austarla erni gáfu, dóu sunnarla á Serklandi.",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "Tola let ræisa stæin þennsa at sun sinn Harald, broður Ingvars. Þæiʀ foru drængila fiarri at gulli ok austarla ærni gafu, dou sunnarla a Særklandi.",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "Tóla had this stone raised in memory of her son Haraldr, Ingvarr's brother. They travelled valiantly far for gold, and in the east gave (food) to the eagle. (They) died in the south in Serkland.",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "translation": "Tola lät resa denna sten efter sin son Harald, Ingvars broder. De for manligen fjärran efter guld och österut gav örnen (mat), de dog söderut i Särkland.",
+                "language": {
+                  "language_code": "sv-se",
+                  "sv": "Svenska",
+                  "en": "Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              17.2182,
+              59.2569
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "Vg 181",
+      "inscription_id": "9ce829e9-8ab7-4e21-a359-806efdb01445",
+      "province": "Västergötland",
+      "parish": "Norra Åsarps socken",
+      "place": "Frugården",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          13.5558,
+          58.0171
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        13.5558,
+        58.0171
+      ],
+      "raw_api_item": {
+        "inscription_id": "9ce829e9-8ab7-4e21-a359-806efdb01445",
+        "signum1": "Vg",
+        "signum2": "181",
+        "provenance": {
+          "place": {
+            "place": "Frugården",
+            "uuid": "bf2fe14d-3083-4941-9fb1-f51e296ba64e"
+          },
+          "parish": {
+            "parish": "Norra Åsarps socken",
+            "uuid": "58cba8b4-0029-4416-be40-1b634cf5afb1"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Redvägs härad",
+            "uuid": "f6f2e38f-acfa-4540-86e7-c3c3a2237cfe"
+          },
+          "province": {
+            "province": "Västergötland",
+            "uuid": "35abecf7-251e-4e40-8a30-3909fbe8d982"
+          },
+          "county": {
+            "county": "Västra Götaland",
+            "uuid": "15633f67-fc2c-480e-97bf-382d7151b16f"
+          },
+          "municipality": {
+            "municipality": "Falköping",
+            "uuid": "f2782870-a51d-409d-9b9a-2d9220faf9bd"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "kufi : rsþi : stin : þesi : eftʀ : ulaf : sun : sin · trk · hrþa · kuþan · hn · uarþ · trbin · i · estlatum · hu(a)rþ(r) · iuk · s---",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "Gufi reisti stein þenna eptir Ólaf, son sinn, dreng harða góðan. Hann varð drepinn í Eistlǫndum. Hávarðr(?) hjó s[tein].",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "Gufi ræisti stæin þennsi æftiʀ Olaf, sun sinn, dræng harða goðan. Hann varð drepinn i Æistlandum. Havarðr(?) hiogg s[tæin].",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "Gufi raised this stone in memory of Ólafr, his son, a very good valiant man. He was killed in Estonia. Hávarðr(?) cut the stone.",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "translation": "Guve reste denna sten efter Olav, sin son, en mycket dugande ung man. Han blev dräpt i Estland. Håvard(?) högg stenen.",
+                "language": {
+                  "language_code": "sv-se",
+                  "sv": "Svenska",
+                  "en": "Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              13.5558,
+              58.0171
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "Sm 35",
+      "inscription_id": "059c481b-f7a2-4933-a9ca-ea798e130dda",
+      "province": "Småland",
+      "parish": "Ljungby socken",
+      "place": "Replösa",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          13.9747,
+          56.8478
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        13.9747,
+        56.8478
+      ],
+      "raw_api_item": {
+        "inscription_id": "059c481b-f7a2-4933-a9ca-ea798e130dda",
+        "signum1": "Sm",
+        "signum2": "35",
+        "provenance": {
+          "place": {
+            "place": "Replösa",
+            "uuid": "964cb5b1-6a4f-411a-8990-1f9508b3b81d"
+          },
+          "parish": {
+            "parish": "Ljungby socken",
+            "uuid": "e5d59ed4-8966-48fc-aee7-390e8674a9f0"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Sunnerbo härad",
+            "uuid": "371292a9-1408-4d8c-af3c-bd4e175ba45c"
+          },
+          "province": {
+            "province": "Småland",
+            "uuid": "e8bdbcea-d6a3-49c4-b987-f1369b542ef8"
+          },
+          "county": {
+            "county": "Kronoberg",
+            "uuid": "b31b129b-d2a2-4fa5-a482-a566257328a9"
+          },
+          "municipality": {
+            "municipality": "Ljungby",
+            "uuid": "ac87ff95-1346-4ed9-9a12-efd0783aee9e"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": ": kutraþr : karþi : kubl : þisi : iftiʀ : astraþ : faþur : sin : þan : frita : ak : þih:na : bistan : iʀ a : fin:iþi : forþum : uf| |faʀi :",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "Gautráðr gerði kuml þessi eptir Ástráð, fǫður sinn, þann frænda ok þegna beztan, er á Finnheiði forðum of væri.",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "Gautraðr gærði kumbl þessi æftiʀ Astrað, faður sinn, þann frænda ok þegna bæztan, eʀ a Finnhæiði forðum of vaʀi.",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "Gautráðr made these monuments in memory of Ástráðr, his father, the best of kinsmen and Þegns, who formerly was in Finnheiðr.",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "translation": "Götrad gjorde detta minnesmärke efter Åstrad, sin fader, den bäste av fränder och tägnar som i Finnveden fordom var.",
+                "language": {
+                  "language_code": "sv-se",
+                  "sv": "Svenska",
+                  "en": "Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              13.9747,
+              56.8478
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "Vs 24",
+      "inscription_id": "44178ee8-2f7a-4591-800c-75f9f4bd3795",
+      "province": "Västmanland",
+      "parish": "Fläckebo socken",
+      "place": "Hassmyra",
+      "extant": true,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          16.3414,
+          59.8731
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        16.3414,
+        59.8731
+      ],
+      "raw_api_item": {
+        "inscription_id": "44178ee8-2f7a-4591-800c-75f9f4bd3795",
+        "signum1": "Vs",
+        "signum2": "24",
+        "provenance": {
+          "place": {
+            "place": "Hassmyra",
+            "uuid": "9efc21b7-b5bb-42c0-9db1-841020c6e796"
+          },
+          "parish": {
+            "parish": "Fläckebo socken",
+            "uuid": "8f49a645-3596-49ce-8007-5b10edf74d38"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Norrbo härad",
+            "uuid": "719b902b-7423-4989-84e7-933cc93dfb4e"
+          },
+          "province": {
+            "province": "Västmanland",
+            "uuid": "bd0111c5-b796-4e55-b408-c26f9d76d368"
+          },
+          "county": {
+            "county": "Västmanland",
+            "uuid": "432d0f77-161d-45e8-ada6-1e8b0424bcc2"
+          },
+          "municipality": {
+            "municipality": "Sala",
+            "uuid": "ec8f26ae-9d44-4b6f-bfdb-1dc003b04d83"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "buonti × kuþr × hulmkoetr × lit × resa × ufteʀ × oþintisu × kunu × seno × kumbr × hifrya × til × hasmuimura × iki betr × þon × byi raþr roþbalir × risti × runi × þisa × sikmuntaʀ × uaʀ … sestʀ × kuþ",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "Bóndi góðr Holmgautr lét reisa eptir Óðindísu, konu sína. Kemr hýfreyja til Hǫsumýra eigi betri, en býi ráðr. Rauð-Ballir risti rúnar þessar. Sigmundar var [Óðindísa] systir góð.",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "Boandi goðr Holmgautr let ræisa æftiʀ Oðindisu, kunu sina. Kumbʀ hifrøya til Hasumyra æigi bætri, þan byi raðr. Rauð-Balliʀ risti runiʀ þessaʀ. Sigmundaʀ vaʀ [Oðindisa] systiʀ goð.",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "The good husbandman Holmgautr had (the stone) raised in memory of Óðindísa, his wife. There will come to Hǫsumýrar no better housewife, who arranges the estate. Red-Balli carved these runes. Óðindísa was a good sister to Sigmundr.",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              16.3414,
+              59.8731
+            ]
+          }
+        },
+        "extant": true
+      }
+    },
+    {
+      "signum": "Öl 15",
+      "inscription_id": "81e854d0-7b37-4f20-8859-e260256830d3",
+      "province": "Öland",
+      "parish": "Södra Möckleby socken",
+      "place": "Södra Möckleby kyrkogård",
+      "extant": false,
+      "position_oldest_known": {
+        "type": "Point",
+        "coordinates": [
+          16.4214,
+          56.3565
+        ]
+      },
+      "position_current": null,
+      "coordinates_wgs84": [
+        16.4214,
+        56.3565
+      ],
+      "raw_api_item": {
+        "inscription_id": "81e854d0-7b37-4f20-8859-e260256830d3",
+        "signum1": "Öl",
+        "signum2": "15",
+        "provenance": {
+          "place": {
+            "place": "Södra Möckleby kyrkogård",
+            "uuid": "37ac8ee6-a619-43e4-bc71-21cf43373195"
+          },
+          "parish": {
+            "parish": "Södra Möckleby socken",
+            "uuid": "99157465-d5fc-4ac6-a221-20a2af956973"
+          },
+          "old_parish": null,
+          "hundred": {
+            "hundred": "Gräsgårds härad",
+            "uuid": "5de99320-6292-4610-98c9-2157c3a029ff"
+          },
+          "province": {
+            "province": "Öland",
+            "uuid": "8a1b2012-4d6e-4f81-9c3b-4f5390dceb0e"
+          },
+          "county": {
+            "county": "Kalmar",
+            "uuid": "c08cf362-fd29-4de6-aa81-9361cdb67e49"
+          },
+          "municipality": {
+            "municipality": "Mörbylånga",
+            "uuid": "c1d65ab2-672b-40aa-ba75-53517df4d5ac"
+          },
+          "country": {
+            "country_code": "SE",
+            "sv": "Sverige",
+            "en": "Sweden",
+            "uuid": "b75ae556-a4b7-44cf-a363-0f5e6f027ed0"
+          }
+        },
+        "runic_texts": [
+          {
+            "reading": "[iliuri : raisti : stina : þinsi : iftiʀ : … faþur : sin … uikar : bruþur : sin :]",
+            "reference": "P",
+            "interpretations": [
+              {
+                "text": "<iliuri> reisti stein þenna eptir … fǫður sinn … Víkar, bróður sinn.",
+                "language": {
+                  "language_code": "FVN",
+                  "sv": "Fornvästnordiska",
+                  "en": "Old West Norse",
+                  "inscriptions": null,
+                  "position": null
+                }
+              },
+              {
+                "text": "<iliuri> ræisti stæin þennsi æftiʀ … faður sinn … Vikar, broður sinn.",
+                "language": {
+                  "language_code": "RSV",
+                  "sv": "Runsvenska",
+                  "en": "Runic Swedish",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ],
+            "translations": [
+              {
+                "translation": "<iliuri> raised this stone in memory of …, his father, … Víkarr, his brother.",
+                "language": {
+                  "language_code": "en-gb",
+                  "sv": "Engelska",
+                  "en": "English",
+                  "inscriptions": null,
+                  "position": null
+                }
+              }
+            ]
+          }
+        ],
+        "position": {
+          "current": null,
+          "oldest_known": {
+            "type": "Point",
+            "coordinates": [
+              16.4214,
+              56.3565
+            ]
+          }
+        },
+        "extant": false
+      }
+    }
+  ]
+}

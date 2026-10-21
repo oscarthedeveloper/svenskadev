@@ -1,0 +1,479 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-10-21",
+  "verifiedCount": 20,
+  "unresolvedConflicts": 0,
+  "crossReferences": [
+    {
+      "canonicalSignum": "Öl 1",
+      "canonicalSlug": "ol-1",
+      "itemNumber": 1,
+      "suffix": null,
+      "carrierId": "carrier-ol-1",
+      "carrierType": "runsten",
+      "aliases": [
+        "Bautil 1",
+        "Bautil 1071 (delvis)",
+        "Karlevistenen",
+        "Liljegren 1361"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_oland_b01_h01.pdf",
+        "sriPages": "PDF s. 19–35",
+        "sriPrinted": "s. 15–28",
+        "plate": "Plansch I & II",
+        "samnordiskUuid": "28485f9b-7b54-48d5-b065-f6611fd3268d",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=28485f9b-7b54-48d5-b065-f6611fd3268d",
+        "candidateMatch": "Karlevistenen"
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Öl 2",
+      "canonicalSlug": "ol-2",
+      "itemNumber": 2,
+      "suffix": null,
+      "carrierId": "carrier-ol-2",
+      "carrierType": "fragment",
+      "aliases": [
+        "Bautil 2"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_oland_b01_h01.pdf",
+        "sriPages": "PDF s. 36–40",
+        "sriPrinted": "s. 28–32",
+        "plate": "Plansch III",
+        "samnordiskUuid": "f42d5457-7fb6-4c7e-b184-78a09dfbeaca",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=f42d5457-7fb6-4c7e-b184-78a09dfbeaca",
+        "candidateMatch": "ALGUTSRUMS KYRKA."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Öl 9",
+      "canonicalSlug": "ol-9",
+      "itemNumber": 9,
+      "suffix": null,
+      "carrierId": "carrier-ol-9",
+      "carrierType": "fragment",
+      "aliases": [
+        "Bautil 9"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_oland_b01_h01.pdf",
+        "sriPages": "PDF s. 62–66",
+        "sriPrinted": "s. 51–55",
+        "plate": "Plansch IV",
+        "samnordiskUuid": "73eec346-70ba-4532-a3d4-8e04d48eb1a5",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=73eec346-70ba-4532-a3d4-8e04d48eb1a5",
+        "candidateMatch": "Kastlösa kyrka."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Öl 15",
+      "canonicalSlug": "ol-15",
+      "itemNumber": 15,
+      "suffix": null,
+      "carrierId": "carrier-ol-15",
+      "carrierType": "runsten",
+      "aliases": [
+        "Bautil 15"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_oland_b01_h01.pdf",
+        "sriPages": "PDF s. 74–76",
+        "sriPrinted": "s. 60–62",
+        "plate": null,
+        "samnordiskUuid": "81e854d0-7b37-4f20-8859-e260256830d3",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=81e854d0-7b37-4f20-8859-e260256830d3",
+        "candidateMatch": "SÖDRA MYCKLEBY KYRKOGÅRD."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Öl 16",
+      "canonicalSlug": "ol-16",
+      "itemNumber": 16,
+      "suffix": null,
+      "carrierId": "carrier-ol-16",
+      "carrierType": "runsten",
+      "aliases": [
+        "Bautil 16"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_oland_b01_h01.pdf",
+        "sriPages": "PDF s. 76–79",
+        "sriPrinted": "s. 62–65",
+        "plate": null,
+        "samnordiskUuid": "ecb025f7-2fcd-43dc-95a0-2cd85f451358",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=ecb025f7-2fcd-43dc-95a0-2cd85f451358",
+        "candidateMatch": "GRÄSGÅRDS KYRKOGÅRD."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Öl 18",
+      "canonicalSlug": "ol-18",
+      "itemNumber": 18,
+      "suffix": null,
+      "carrierId": "carrier-ol-18",
+      "carrierType": "runsten",
+      "aliases": [
+        "Bautil 18"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_oland_b01_h01.pdf",
+        "sriPages": "PDF s. 82–84",
+        "sriPrinted": "s. 68–70",
+        "plate": "Plansch VI",
+        "samnordiskUuid": "d7f8e942-955e-4661-a084-d5318976e655",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=d7f8e942-955e-4661-a084-d5318976e655",
+        "candidateMatch": "Säby, Segerstads socken."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Öl 23",
+      "canonicalSlug": "ol-23",
+      "itemNumber": 23,
+      "suffix": null,
+      "carrierId": "carrier-ol-23",
+      "carrierType": "gravhall",
+      "aliases": [
+        "Bautil 23"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_oland_b01_h01.pdf",
+        "sriPages": "PDF s. 92–96",
+        "sriPrinted": "s. 78–82",
+        "plate": "Plansch VIII",
+        "samnordiskUuid": "bfe10f09-4352-45fb-8ae8-9aff527849b8",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=bfe10f09-4352-45fb-8ae8-9aff527849b8",
+        "candidateMatch": "STENÅSA KYRKOGÅRb."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Öl 25",
+      "canonicalSlug": "ol-25",
+      "itemNumber": 25,
+      "suffix": null,
+      "carrierId": "carrier-ol-25",
+      "carrierType": "fast_hall",
+      "aliases": [
+        "Bautil 25"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_oland_b01_h01.pdf",
+        "sriPages": "PDF s. 97–100",
+        "sriPrinted": "s. 83–86",
+        "plate": "Plansch IX",
+        "samnordiskUuid": "39c389b8-cf32-46fe-8b77-9feb2026fdbd",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=39c389b8-cf32-46fe-8b77-9feb2026fdbd",
+        "candidateMatch": "DRÖSTORP, SANDBY SOCKEN."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Ög 136",
+      "canonicalSlug": "og-136",
+      "itemNumber": 136,
+      "suffix": null,
+      "carrierId": "carrier-og-136",
+      "carrierType": "runsten",
+      "aliases": [
+        "Bautil 848",
+        "Liljegren 133",
+        "Rökstenen"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_ostergotland_b02_h02_text.pdf",
+        "sriPages": "PDF s. 34–62",
+        "sriPrinted": "s. 130–158",
+        "plate": "Plansch XXXIII–XXXVI",
+        "samnordiskUuid": "62c17486-13c6-4722-9699-e1d0e2eb7fad",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=62c17486-13c6-4722-9699-e1d0e2eb7fad",
+        "candidateMatch": "Rök, Lysings hd, se Bugge, Der Runenstein von Rök in Östergötland, Schweden. Nach dem"
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Ög 181",
+      "canonicalSlug": "og-181",
+      "itemNumber": 181,
+      "suffix": null,
+      "carrierId": "carrier-og-181",
+      "carrierType": "runsten",
+      "aliases": [
+        "Bautil 894",
+        "Ledbergsstenen"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_ostergotland_b02_h02_text.pdf",
+        "sriPages": "PDF s. 78–81",
+        "sriPrinted": "s. 174–177",
+        "plate": "Plansch XLIV",
+        "samnordiskUuid": "d4122c62-f4b0-4852-beda-3a283e382ba1",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=d4122c62-f4b0-4852-beda-3a283e382ba1",
+        "candidateMatch": "LEDBERGS KYRKOGÅRD, VALKEBO HD."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "U 11",
+      "canonicalSlug": "u-11",
+      "itemNumber": 11,
+      "suffix": null,
+      "carrierId": "carrier-u-11",
+      "carrierType": "runblock",
+      "aliases": [
+        "Bautil 11"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_uppland_b06_text_1.pdf",
+        "sriPages": "PDF s. 13–21",
+        "sriPrinted": "s. 13–21",
+        "plate": "Plansch 4",
+        "samnordiskUuid": "b8e43534-18e4-4d58-91ab-90cf0dc95a77",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=b8e43534-18e4-4d58-91ab-90cf0dc95a77",
+        "candidateMatch": "HOVGÅRDEN, ADELSÖ SN."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "U 29",
+      "canonicalSlug": "u-29",
+      "itemNumber": 29,
+      "suffix": null,
+      "carrierId": "carrier-u-29",
+      "carrierType": "fast_hall",
+      "aliases": [
+        "Bautil 29"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_uppland_b06_text_1.pdf",
+        "sriPages": "PDF s. 34–44",
+        "sriPrinted": "s. 34–44",
+        "plate": "Plansch 12",
+        "samnordiskUuid": "7b83b0e9-df25-4bf0-94c5-52979aee0d6c",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=7b83b0e9-df25-4bf0-94c5-52979aee0d6c",
+        "candidateMatch": "Hillersjö, Hilleshögs sn. Efter B"
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "U 73",
+      "canonicalSlug": "u-73",
+      "itemNumber": 73,
+      "suffix": null,
+      "carrierId": "carrier-u-73",
+      "carrierType": "runsten",
+      "aliases": [
+        "Bautil 155",
+        "Greklandsstenen i Hansta",
+        "Skansenstenen U 73"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_uppland_b06_text_2.pdf",
+        "sriPages": "PDF s. 26–31",
+        "sriPrinted": "s. 95–100",
+        "plate": "Plansch 32",
+        "samnordiskUuid": "7ab0a494-2b24-4292-b944-60809b694bdf",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=7ab0a494-2b24-4292-b944-60809b694bdf",
+        "candidateMatch": "HANSTA, SPÅNGA SN"
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "U 101",
+      "canonicalSlug": "u-101",
+      "itemNumber": 101,
+      "suffix": null,
+      "carrierId": "carrier-u-101",
+      "carrierType": "runsten",
+      "aliases": [],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_uppland_b06_text_2.pdf",
+        "sriPages": "PDF s. 69–77",
+        "sriPrinted": "s. 138–145",
+        "plate": "Plansch 45",
+        "samnordiskUuid": "8ad2a81e-891d-41cd-b407-6a59484d8825",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=8ad2a81e-891d-41cd-b407-6a59484d8825",
+        "candidateMatch": "S. SÄTRA, SOLLENTUNA SN."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "U 104",
+      "canonicalSlug": "u-104",
+      "itemNumber": 104,
+      "suffix": null,
+      "carrierId": "carrier-u-104",
+      "carrierType": "runsten",
+      "aliases": [],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_uppland_b06_text_2.pdf",
+        "sriPages": "PDF s. 79–86",
+        "sriPrinted": "s. 148–154",
+        "plate": "Plansch 48",
+        "samnordiskUuid": "656f51f0-0632-4dd1-869f-9e1eafbb2bc5",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=656f51f0-0632-4dd1-869f-9e1eafbb2bc5",
+        "candidateMatch": "EDS KYRKA."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "U 112A",
+      "canonicalSlug": "u-112a",
+      "itemNumber": 112,
+      "suffix": "A",
+      "carrierId": "carrier-u-112a",
+      "carrierType": "runblock",
+      "aliases": [
+        "Bautil 166",
+        "Kyrkstigsblocket",
+        "Ragnvaldsristningen"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_uppland_b06_text_3.pdf",
+        "sriPages": "PDF s. 1–9",
+        "sriPrinted": "s. 157–165",
+        "plate": "Plansch 51",
+        "samnordiskUuid": "5f7a7486-10e0-40a8-8853-299b72370d14",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=5f7a7486-10e0-40a8-8853-299b72370d14",
+        "candidateMatch": "ED, KYRKSTIGEN, EDS SN."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "U 112B",
+      "canonicalSlug": "u-112b",
+      "itemNumber": 112,
+      "suffix": "B",
+      "carrierId": "carrier-u-112b",
+      "carrierType": "runblock",
+      "aliases": [
+        "Bautil 166",
+        "Kyrkstigsblocket",
+        "Ragnvaldsristningen"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_uppland_b06_text_3.pdf",
+        "sriPages": "PDF s. 1–9",
+        "sriPrinted": "s. 157–165",
+        "plate": "Plansch 52",
+        "samnordiskUuid": "5f7a7486-10e0-40a8-8853-299b72370d14",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=5f7a7486-10e0-40a8-8853-299b72370d14",
+        "candidateMatch": "ED, KYRKSTIGEN, EDS SN."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Sö 101",
+      "canonicalSlug": "so-101",
+      "itemNumber": 101,
+      "suffix": null,
+      "carrierId": "carrier-so-101",
+      "carrierType": "fast_hall",
+      "aliases": [
+        "Bautil 730",
+        "Ramsundsberget",
+        "Sigurdsristningen"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_sodermanland_b03_h01_text_2.pdf",
+        "sriPages": "PDF s. 20–24",
+        "sriPrinted": "s. 72–76",
+        "plate": "Plansch 38",
+        "samnordiskUuid": "39f559bc-414a-4e38-b902-7feb7ec6dfcc",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=39f559bc-414a-4e38-b902-7feb7ec6dfcc",
+        "candidateMatch": "Ramsundsristningen"
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Sö 179",
+      "canonicalSlug": "so-179",
+      "itemNumber": 179,
+      "suffix": null,
+      "carrierId": "carrier-so-179",
+      "carrierType": "runsten",
+      "aliases": [],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_sodermanland_b03_h04_text_1a.pdf",
+        "sriPages": "PDF s. 17–21",
+        "sriPrinted": "s. 153–157",
+        "plate": "Plansch 67",
+        "samnordiskUuid": "29fe618f-a799-4e4f-82d7-94a607e51a4e",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=29fe618f-a799-4e4f-82d7-94a607e51a4e",
+        "candidateMatch": "GllIPSHOLM, KÄRNBO SN, SELEBO HD."
+      },
+      "conflictNote": null
+    },
+    {
+      "canonicalSignum": "Vs 24",
+      "canonicalSlug": "vs-24",
+      "itemNumber": 24,
+      "suffix": null,
+      "carrierId": "carrier-vs-24",
+      "carrierType": "runsten",
+      "aliases": [
+        "Bautil 1162",
+        "Bautil 24",
+        "Hassmyrastenen",
+        "Odendisastenen"
+      ],
+      "status": "verifierad",
+      "rule": "E12.1 Stabilitet på kanoniskt signum och volymreferens",
+      "evidence": {
+        "sriPdf": "sri_vastmanland_b13_text_2.pdf",
+        "sriPages": "PDF s. 15–22",
+        "sriPrinted": "s. 69–76",
+        "plate": "Plansch 18",
+        "samnordiskUuid": "44178ee8-2f7a-4591-800c-75f9f4bd3795",
+        "raaRunorUri": "https://app.raa.se/open/runor/inscription?item_key=44178ee8-2f7a-4591-800c-75f9f4bd3795",
+        "candidateMatch": "Hassmyra, Fläckebo sn. Efter teckningar av H. Hofberg."
+      },
+      "conflictNote": null
+    }
+  ]
+}

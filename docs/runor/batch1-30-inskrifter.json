@@ -1,0 +1,2558 @@
+{
+  "version": "2026.2-batch1",
+  "dataset": "fornsvenska-runor-batch1",
+  "generatedAt": "2026-10-21T22:27:34.744051+00:00",
+  "count": 30,
+  "inscriptions": [
+    {
+      "id": "runa-ol-5",
+      "canonicalSignum": "Öl 5",
+      "provinceCode": "Öl",
+      "itemNumber": 5,
+      "suffix": null,
+      "name": "Borgby",
+      "canonicalSlug": "ol-5",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Mörbylånga socken",
+      "carrier": {
+        "id": "carrier-ol-5",
+        "type": "runsten",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Borgby, Mörbylånga socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Mörbylånga socken",
+          "hundred": "Algutsrums härad",
+          "placeName": "Borgby",
+          "coordinatesWgs84": [
+            16.425,
+            56.528
+          ],
+          "precision": "sockencentrum",
+          "sourceNote": "Ölands runinskrifter, s. 55"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1000–1050",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1000,
+        "latestYear": 1050,
+        "isUncertain": false,
+        "datingMethod": "Stilistisk och ortografisk analys"
+      },
+      "textLayer": {
+        "id": "text-ol-5",
+        "readingTransliteration": "…-(u)r · lit · raisa · stain · þina · iftiʀ · faþur · sin …",
+        "normalizationRunicSwedish": "… let ræisa stæin þenna æftiʀ faður sinn …",
+        "normalizationOldWestNorse": "… lét reisa stein þenna eptir fǫður sinn …",
+        "translationSwedish": "… lät resa denna sten efter sin fader …",
+        "translationEnglish": "… had this stone raised in memory of his father …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 55,
+        "printedPageEnd": 56,
+        "pdfPageStart": 55,
+        "pdfPageEnd": 56,
+        "plateNumber": "Plansch VI",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%205"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-5",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Borgby (Öl 5) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743710+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Minnessten i Borgby. Skadad vid inskriftens början och slut."
+    },
+    {
+      "id": "runa-ol-6",
+      "canonicalSignum": "Öl 6",
+      "provinceCode": "Öl",
+      "itemNumber": 6,
+      "suffix": null,
+      "name": "Mörbylånga kyrkogård I",
+      "canonicalSlug": "ol-6",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Mörbylånga socken",
+      "carrier": {
+        "id": "carrier-ol-6",
+        "type": "gravhall",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Mörbylånga kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Mörbylånga socken",
+          "hundred": "Algutsrums härad",
+          "placeName": "Mörbylånga kyrka",
+          "coordinatesWgs84": [
+            16.385,
+            56.525
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 57"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1050–1100",
+        "periodLabel": "Sen vikingatid / tidig medeltid",
+        "earliestYear": 1050,
+        "latestYear": 1100,
+        "isUncertain": false,
+        "datingMethod": "Gravkistetyp och runformer"
+      },
+      "textLayer": {
+        "id": "text-ol-6",
+        "readingTransliteration": "… (l)it · giaua · kumbl · þ(i)na · a(f)tiʀ …",
+        "normalizationRunicSwedish": "… let gæra kumbl þenna æftiʀ …",
+        "normalizationOldWestNorse": "… lét gera kuml þenna eptir …",
+        "translationSwedish": "… lät göra detta minnesmärke efter …",
+        "translationEnglish": "… had this monument made in memory of …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 57,
+        "printedPageEnd": 58,
+        "pdfPageStart": 57,
+        "pdfPageEnd": 58,
+        "plateNumber": "Plansch VI",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%206"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-6",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Mörbylånga kyrkogård I (Öl 6) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743883+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Gavelhäll ur en kristen kistgrav på Mörbylånga kyrkogård."
+    },
+    {
+      "id": "runa-ol-7",
+      "canonicalSignum": "Öl 7",
+      "provinceCode": "Öl",
+      "itemNumber": 7,
+      "suffix": null,
+      "name": "Mörbylånga kyrka II",
+      "canonicalSlug": "ol-7",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Mörbylånga socken",
+      "carrier": {
+        "id": "carrier-ol-7",
+        "type": "gravhall",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Mörbylånga kyrka"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Mörbylånga socken",
+          "hundred": "Algutsrums härad",
+          "placeName": "Mörbylånga kyrka",
+          "coordinatesWgs84": [
+            16.3852,
+            56.5252
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 59"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1075–1125",
+        "periodLabel": "Tidig medeltid",
+        "earliestYear": 1075,
+        "latestYear": 1125,
+        "isUncertain": false,
+        "datingMethod": "Kristen kistornamentik"
+      },
+      "textLayer": {
+        "id": "text-ol-7",
+        "readingTransliteration": "… stain · þina · at · sun · sin …",
+        "normalizationRunicSwedish": "… stæin þenna at sun sinn …",
+        "normalizationOldWestNorse": "… stein þenna at son sinn …",
+        "translationSwedish": "… denna sten efter sin son …",
+        "translationEnglish": "… this stone in memory of his son …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 59,
+        "printedPageEnd": 60,
+        "pdfPageStart": 59,
+        "pdfPageEnd": 60,
+        "plateNumber": "Plansch VII",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%207"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-7",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Mörbylånga kyrka II (Öl 7) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743888+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Fragment av lockhäll med korsmönster."
+    },
+    {
+      "id": "runa-ol-8",
+      "canonicalSignum": "Öl 8",
+      "provinceCode": "Öl",
+      "itemNumber": 8,
+      "suffix": null,
+      "name": "Mörbylånga kyrkogård III",
+      "canonicalSlug": "ol-8",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Mörbylånga socken",
+      "carrier": {
+        "id": "carrier-ol-8",
+        "type": "gravhall",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Mörbylånga kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Mörbylånga socken",
+          "hundred": "Algutsrums härad",
+          "placeName": "Mörbylånga kyrka",
+          "coordinatesWgs84": [
+            16.3853,
+            56.5251
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 60"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1080–1130",
+        "periodLabel": "Tidig medeltid",
+        "earliestYear": 1080,
+        "latestYear": 1130,
+        "isUncertain": false,
+        "datingMethod": "Paleografisk datering"
+      },
+      "textLayer": {
+        "id": "text-ol-8",
+        "readingTransliteration": "… (k)uþ · hialbi · ant …",
+        "normalizationRunicSwedish": "… Guð hialpi and …",
+        "normalizationOldWestNorse": "… Guð hjalpi ǫnd …",
+        "translationSwedish": "… Gud hjälpe själen …",
+        "translationEnglish": "… God help the soul …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 60,
+        "printedPageEnd": 61,
+        "pdfPageStart": 60,
+        "pdfPageEnd": 61,
+        "plateNumber": "Plansch VII",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%208"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-8",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Mörbylånga kyrkogård III (Öl 8) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743891+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Kristen förböneformel på kistfragment."
+    },
+    {
+      "id": "runa-ol-10",
+      "canonicalSignum": "Öl 10",
+      "provinceCode": "Öl",
+      "itemNumber": 10,
+      "suffix": null,
+      "name": "Albrunna (Alflösa)",
+      "canonicalSlug": "ol-10",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Södra Möckleby socken",
+      "carrier": {
+        "id": "carrier-ol-10",
+        "type": "runsten",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Albrunna, Södra Möckleby socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Södra Möckleby socken",
+          "hundred": "Gräsgårds härad",
+          "placeName": "Albrunna",
+          "coordinatesWgs84": [
+            16.415,
+            56.368
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 64"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1000–1050",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1000,
+        "latestYear": 1050,
+        "isUncertain": false,
+        "datingMethod": "Ristningsstil och runformer"
+      },
+      "textLayer": {
+        "id": "text-ol-10",
+        "readingTransliteration": "… lit · raisa · stain · at · bruþur · sin ·",
+        "normalizationRunicSwedish": "… let ræisa stæin at broður sinn.",
+        "normalizationOldWestNorse": "… lét reisa stein at bróður sinn.",
+        "translationSwedish": "… lät resa stenen efter sin broder.",
+        "translationEnglish": "… had the stone raised in memory of his brother.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 64,
+        "printedPageEnd": 66,
+        "pdfPageStart": 64,
+        "pdfPageEnd": 66,
+        "plateNumber": "Plansch VIII",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%2010"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-10",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Albrunna (Alflösa) (Öl 10) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743895+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Runsten med flätad slinga rest till minne av en broder."
+    },
+    {
+      "id": "runa-ol-11",
+      "canonicalSignum": "Öl 11",
+      "provinceCode": "Öl",
+      "itemNumber": 11,
+      "suffix": null,
+      "name": "Alflösa, Smedby",
+      "canonicalSlug": "ol-11",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Smedby socken",
+      "carrier": {
+        "id": "carrier-ol-11",
+        "type": "runsten",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Smedby kyrka"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Smedby socken",
+          "hundred": "Gräsgårds härad",
+          "placeName": "Alflösa",
+          "coordinatesWgs84": [
+            16.425,
+            56.402
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 67"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1060",
+        "periodLabel": "Vikingatid (sen)",
+        "earliestYear": 1020,
+        "latestYear": 1060,
+        "isUncertain": false,
+        "datingMethod": "Slingornamentik"
+      },
+      "textLayer": {
+        "id": "text-ol-11",
+        "readingTransliteration": "… stain · þina · iftiʀ · sun · sin …",
+        "normalizationRunicSwedish": "… stæin þenna æftiʀ sun sinn …",
+        "normalizationOldWestNorse": "… stein þenna eptir son sinn …",
+        "translationSwedish": "… denna sten efter sin son …",
+        "translationEnglish": "… this stone in memory of his son …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 67,
+        "printedPageEnd": 68,
+        "pdfPageStart": 67,
+        "pdfPageEnd": 68,
+        "plateNumber": "Plansch VIII",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%2011"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-11",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Alflösa, Smedby (Öl 11) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743899+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Fragment med djurslinga bevarat i Smedby kyrkomur."
+    },
+    {
+      "id": "runa-ol-12",
+      "canonicalSignum": "Öl 12",
+      "provinceCode": "Öl",
+      "itemNumber": 12,
+      "suffix": null,
+      "name": "Smedby kyrkogård",
+      "canonicalSlug": "ol-12",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Smedby socken",
+      "carrier": {
+        "id": "carrier-ol-12",
+        "type": "gravhall",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Smedby kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Smedby socken",
+          "hundred": "Gräsgårds härad",
+          "placeName": "Smedby kyrkogård",
+          "coordinatesWgs84": [
+            16.4254,
+            56.4025
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 69"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1080–1120",
+        "periodLabel": "Tidig medeltid",
+        "earliestYear": 1080,
+        "latestYear": 1120,
+        "isUncertain": false,
+        "datingMethod": "Korsgravhäll med raminskrift"
+      },
+      "textLayer": {
+        "id": "text-ol-12",
+        "readingTransliteration": "… (k)uþ · hialbi · salu · hans ·",
+        "normalizationRunicSwedish": "… Guð hialpi salu hans.",
+        "normalizationOldWestNorse": "… Guð hjalpi sálu hans.",
+        "translationSwedish": "… Gud hjälpe hans själ.",
+        "translationEnglish": "… God help his soul.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 69,
+        "printedPageEnd": 71,
+        "pdfPageStart": 69,
+        "pdfPageEnd": 71,
+        "plateNumber": "Plansch IX",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%2012"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-12",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Smedby kyrkogård (Öl 12) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743903+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Välbevarad tidigkristen gravhäll."
+    },
+    {
+      "id": "runa-ol-14",
+      "canonicalSignum": "Öl 14",
+      "provinceCode": "Öl",
+      "itemNumber": 14,
+      "suffix": null,
+      "name": "Kastlösa kyrka II",
+      "canonicalSlug": "ol-14",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Kastlösa socken",
+      "carrier": {
+        "id": "carrier-ol-14",
+        "type": "gravhall",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Kastlösa kyrka"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Kastlösa socken",
+          "hundred": "Gräsgårds härad",
+          "placeName": "Kastlösa kyrka",
+          "coordinatesWgs84": [
+            16.428,
+            56.457
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 74"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1070–1110",
+        "periodLabel": "Tidig medeltid",
+        "earliestYear": 1070,
+        "latestYear": 1110,
+        "isUncertain": false,
+        "datingMethod": "Sydskandinavisk runortografi"
+      },
+      "textLayer": {
+        "id": "text-ol-14",
+        "readingTransliteration": "… (r)aisti · stain · þina ·",
+        "normalizationRunicSwedish": "… ræisti stæin þenna.",
+        "normalizationOldWestNorse": "… reisti stein þenna.",
+        "translationSwedish": "… reste denna sten.",
+        "translationEnglish": "… raised this stone.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 74,
+        "printedPageEnd": 75,
+        "pdfPageStart": 74,
+        "pdfPageEnd": 75,
+        "plateNumber": "Plansch X",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%2014"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-14",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Kastlösa kyrka II (Öl 14) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743913+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Fragment med sydskandinavisk diftongstavning (raisti)."
+    },
+    {
+      "id": "runa-ol-21",
+      "canonicalSignum": "Öl 21",
+      "provinceCode": "Öl",
+      "itemNumber": 21,
+      "suffix": null,
+      "name": "Hulterstads kyrka",
+      "canonicalSlug": "ol-21",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Hulterstads socken",
+      "carrier": {
+        "id": "carrier-ol-21",
+        "type": "runsten",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Hulterstads kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Hulterstads socken",
+          "hundred": "Möckleby härad",
+          "placeName": "Hulterstads kyrka",
+          "coordinatesWgs84": [
+            16.574,
+            56.446
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 86"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1050",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1020,
+        "latestYear": 1050,
+        "isUncertain": false,
+        "datingMethod": "Stilgrupp Fp"
+      },
+      "textLayer": {
+        "id": "text-ol-21",
+        "readingTransliteration": "… lit · resa · stain · þina · at · faþur · sin ·",
+        "normalizationRunicSwedish": "… let ræisa stæin þenna at faður sinn.",
+        "normalizationOldWestNorse": "… lét reisa stein þenna at fǫður sinn.",
+        "translationSwedish": "… lät resa denna sten efter sin fader.",
+        "translationEnglish": "… had this stone raised in memory of his father.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 86,
+        "printedPageEnd": 88,
+        "pdfPageStart": 86,
+        "pdfPageEnd": 88,
+        "plateNumber": "Plansch XII",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%2021"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-21",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Hulterstads kyrka (Öl 21) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743919+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Runsten med rundjur på östra Öland."
+    },
+    {
+      "id": "runa-ol-22",
+      "canonicalSignum": "Öl 22",
+      "provinceCode": "Öl",
+      "itemNumber": 22,
+      "suffix": null,
+      "name": "Gösslunda",
+      "canonicalSlug": "ol-22",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Öland, Hulterstads socken",
+      "carrier": {
+        "id": "carrier-ol-22",
+        "type": "runsten",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Gösslunda, Hulterstads socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Öland",
+          "parish": "Hulterstads socken",
+          "hundred": "Möckleby härad",
+          "placeName": "Gösslunda",
+          "coordinatesWgs84": [
+            16.545,
+            56.453
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Ölands runinskrifter, s. 89"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1010–1050",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1010,
+        "latestYear": 1050,
+        "isUncertain": false,
+        "datingMethod": "Ristning på Alvaret"
+      },
+      "textLayer": {
+        "id": "text-ol-22",
+        "readingTransliteration": "… risti · runiʀ · þisar …",
+        "normalizationRunicSwedish": "… risti runiʀ þessaʀ …",
+        "normalizationOldWestNorse": "… risti rúnar þessar …",
+        "translationSwedish": "… ristade dessa runor …",
+        "translationEnglish": "… carved these runes …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-01",
+        "sriVolumeTitle": "Ölands runinskrifter",
+        "author": "Sven Söderberg & Erik Brate",
+        "publicationYear": 1906,
+        "pdfFil": "sri_oland_b01_h01.pdf",
+        "printedPageStart": 89,
+        "printedPageEnd": 91,
+        "pdfPageStart": 89,
+        "pdfPageEnd": 91,
+        "plateNumber": "Plansch XIII",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Öl%2022"
+        }
+      },
+      "images": [
+        {
+          "id": "img-ol-22",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Gösslunda (Öl 22) ur Ölands runinskrifter",
+          "photographerOrArtist": "Sven Söderberg & Erik Brate",
+          "year": 1906,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743926+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Runsten i Gösslunda rör vid Stora Alvarets kant."
+    },
+    {
+      "id": "runa-og-97",
+      "canonicalSignum": "Ög 97",
+      "provinceCode": "Ög",
+      "itemNumber": 97,
+      "suffix": null,
+      "name": "Grönlund",
+      "canonicalSlug": "og-97",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Åsbo socken",
+      "carrier": {
+        "id": "carrier-og-97",
+        "type": "runsten",
+        "material": "Granit",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Grönlund, Åsbo socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Åsbo socken",
+          "hundred": "Göstrings härad",
+          "placeName": "Grönlund",
+          "coordinatesWgs84": [
+            15.158,
+            58.234
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 97"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1010–1050",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1010,
+        "latestYear": 1050,
+        "isUncertain": false,
+        "datingMethod": "Stilgrupp Pr2"
+      },
+      "textLayer": {
+        "id": "text-og-97",
+        "readingTransliteration": "… lit · resa · stain · þina · at · sun · sin ·",
+        "normalizationRunicSwedish": "… let ræisa stæin þenna at sun sinn.",
+        "normalizationOldWestNorse": "… lét reisa stein þenna at son sinn.",
+        "translationSwedish": "… lät resa denna sten efter sin son.",
+        "translationEnglish": "… had this stone raised in memory of his son.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 97,
+        "printedPageEnd": 98,
+        "pdfPageStart": 1,
+        "pdfPageEnd": 2,
+        "plateNumber": "Figur 92",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%2097"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-97",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Grönlund (Ög 97) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743930+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Välbevarad minnessten i Åsbo socken."
+    },
+    {
+      "id": "runa-og-99",
+      "canonicalSignum": "Ög 99",
+      "provinceCode": "Ög",
+      "itemNumber": 99,
+      "suffix": null,
+      "name": "Hov, Mogata",
+      "canonicalSlug": "og-99",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Mogata socken",
+      "carrier": {
+        "id": "carrier-og-99",
+        "type": "runsten",
+        "material": "Gnejs",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Hov, Mogata socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Mogata socken",
+          "hundred": "Hammarkinds härad",
+          "placeName": "Hov",
+          "coordinatesWgs84": [
+            16.471,
+            58.423
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 99"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1060",
+        "periodLabel": "Vikingatid (sen)",
+        "earliestYear": 1020,
+        "latestYear": 1060,
+        "isUncertain": false,
+        "datingMethod": "Hammarkinds runtradition"
+      },
+      "textLayer": {
+        "id": "text-og-99",
+        "readingTransliteration": "… stain · þasi · iftiʀ · faþur ·",
+        "normalizationRunicSwedish": "… stæin þannsi æftiʀ faður.",
+        "normalizationOldWestNorse": "… stein þenna eptir fǫður.",
+        "translationSwedish": "… denna sten efter fadern.",
+        "translationEnglish": "… this stone in memory of the father.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 99,
+        "printedPageEnd": 101,
+        "pdfPageStart": 3,
+        "pdfPageEnd": 5,
+        "plateNumber": "Figur 94",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%2099"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-99",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Hov, Mogata (Ög 99) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743934+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Reslig runsten vid gården Hov i Mogata."
+    },
+    {
+      "id": "runa-og-103",
+      "canonicalSignum": "Ög 103",
+      "provinceCode": "Ög",
+      "itemNumber": 103,
+      "suffix": null,
+      "name": "Kaga kyrka I",
+      "canonicalSlug": "og-103",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Kaga socken",
+      "carrier": {
+        "id": "carrier-og-103",
+        "type": "runsten",
+        "material": "Granit",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Kaga kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Kaga socken",
+          "hundred": "Hanekinds härad",
+          "placeName": "Kaga kyrka",
+          "coordinatesWgs84": [
+            15.518,
+            58.455
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 103"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1030–1070",
+        "periodLabel": "Vikingatid (sen)",
+        "earliestYear": 1030,
+        "latestYear": 1070,
+        "isUncertain": false,
+        "datingMethod": "Hanekinds stilgrupp"
+      },
+      "textLayer": {
+        "id": "text-og-103",
+        "readingTransliteration": "… lit · raisa · stain · at · sunu · sina ·",
+        "normalizationRunicSwedish": "… let ræisa stæin at sunu sina.",
+        "normalizationOldWestNorse": "… lét reisa stein at sonu sína.",
+        "translationSwedish": "… lät resa stenen efter sina söner.",
+        "translationEnglish": "… had the stone raised in memory of his sons.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 103,
+        "printedPageEnd": 104,
+        "pdfPageStart": 7,
+        "pdfPageEnd": 8,
+        "plateNumber": "Figur 98",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%20103"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-103",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Kaga kyrka I (Ög 103) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743938+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Runsten inmurad i Kaga kyrkas södra korvägg."
+    },
+    {
+      "id": "runa-og-104",
+      "canonicalSignum": "Ög 104",
+      "provinceCode": "Ög",
+      "itemNumber": 104,
+      "suffix": null,
+      "name": "Gillberga",
+      "canonicalSlug": "og-104",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Kaga socken",
+      "carrier": {
+        "id": "carrier-og-104",
+        "type": "runsten",
+        "material": "Gnejsgranit",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Gillberga, Kaga socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Kaga socken",
+          "hundred": "Hanekinds härad",
+          "placeName": "Gillberga",
+          "coordinatesWgs84": [
+            15.534,
+            58.461
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 104"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1050",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1020,
+        "latestYear": 1050,
+        "isUncertain": false,
+        "datingMethod": "Ristningsanalys"
+      },
+      "textLayer": {
+        "id": "text-og-104",
+        "readingTransliteration": "… risti · runaʀ · iftiʀ · buanta · sin ·",
+        "normalizationRunicSwedish": "… risti runaʀ æftiʀ boanda sinn.",
+        "normalizationOldWestNorse": "… risti rúnar eptir bónda sinn.",
+        "translationSwedish": "… ristade runorna efter sin make.",
+        "translationEnglish": "… carved the runes in memory of her husband.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 104,
+        "printedPageEnd": 105,
+        "pdfPageStart": 8,
+        "pdfPageEnd": 9,
+        "plateNumber": "Figur 99",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%20104"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-104",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Gillberga (Ög 104) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743941+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Hustruns minnessten över maken i Gillberga."
+    },
+    {
+      "id": "runa-og-105",
+      "canonicalSignum": "Ög 105",
+      "provinceCode": "Ög",
+      "itemNumber": 105,
+      "suffix": null,
+      "name": "Kärna kyrkogård I",
+      "canonicalSlug": "og-105",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Kärna socken",
+      "carrier": {
+        "id": "carrier-og-105",
+        "type": "gravhall",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Kärna kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Kärna socken",
+          "hundred": "Hanekinds härad",
+          "placeName": "Kärna kyrka",
+          "coordinatesWgs84": [
+            15.526,
+            58.411
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 105"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1060–1100",
+        "periodLabel": "Sen vikingatid / tidig medeltid",
+        "earliestYear": 1060,
+        "latestYear": 1100,
+        "isUncertain": false,
+        "datingMethod": "Tidigkristen kistform"
+      },
+      "textLayer": {
+        "id": "text-og-105",
+        "readingTransliteration": "… kuþ · hialbi · salu ·",
+        "normalizationRunicSwedish": "… Guð hialpi salu.",
+        "normalizationOldWestNorse": "… Guð hjalpi sálu.",
+        "translationSwedish": "… Gud hjälpe själen.",
+        "translationEnglish": "… God help the soul.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 105,
+        "printedPageEnd": 106,
+        "pdfPageStart": 9,
+        "pdfPageEnd": 10,
+        "plateNumber": "Figur 100",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%20105"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-105",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Kärna kyrkogård I (Ög 105) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743945+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Vacker tidigkristen kistlockshäll med kors."
+    },
+    {
+      "id": "runa-og-107",
+      "canonicalSignum": "Ög 107",
+      "provinceCode": "Ög",
+      "itemNumber": 107,
+      "suffix": null,
+      "name": "Kärna kyrkogård II",
+      "canonicalSlug": "og-107",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Kärna socken",
+      "carrier": {
+        "id": "carrier-og-107",
+        "type": "gravhall",
+        "material": "Kalksten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Kärna kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Kärna socken",
+          "hundred": "Hanekinds härad",
+          "placeName": "Kärna kyrka",
+          "coordinatesWgs84": [
+            15.5262,
+            58.4112
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 107"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1070–1110",
+        "periodLabel": "Tidig medeltid",
+        "earliestYear": 1070,
+        "latestYear": 1110,
+        "isUncertain": false,
+        "datingMethod": "Gravkistefragment"
+      },
+      "textLayer": {
+        "id": "text-og-107",
+        "readingTransliteration": "… stain · at · faþur ·",
+        "normalizationRunicSwedish": "… stæin at faður.",
+        "normalizationOldWestNorse": "… stein at fǫður.",
+        "translationSwedish": "… stenen efter fadern.",
+        "translationEnglish": "… the stone in memory of the father.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 107,
+        "printedPageEnd": 108,
+        "pdfPageStart": 11,
+        "pdfPageEnd": 12,
+        "plateNumber": "Figur 102",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%20107"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-107",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Kärna kyrkogård II (Ög 107) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743951+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Gavelstycke till kista i Kärna."
+    },
+    {
+      "id": "runa-og-109",
+      "canonicalSignum": "Ög 109",
+      "provinceCode": "Ög",
+      "itemNumber": 109,
+      "suffix": null,
+      "name": "Frössle",
+      "canonicalSlug": "og-109",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Kärna socken",
+      "carrier": {
+        "id": "carrier-og-109",
+        "type": "runsten",
+        "material": "Granit",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Frössle, Kärna socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Kärna socken",
+          "hundred": "Hanekinds härad",
+          "placeName": "Frössle",
+          "coordinatesWgs84": [
+            15.541,
+            58.398
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 109"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1010–1050",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1010,
+        "latestYear": 1050,
+        "isUncertain": false,
+        "datingMethod": "Stilgrupp Fp"
+      },
+      "textLayer": {
+        "id": "text-og-109",
+        "readingTransliteration": "… lit · raisa · stain · at · sun ·",
+        "normalizationRunicSwedish": "… let ræisa stæin at sun.",
+        "normalizationOldWestNorse": "… lét reisa stein at son.",
+        "translationSwedish": "… lät resa stenen efter sonen.",
+        "translationEnglish": "… had the stone raised in memory of the son.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 109,
+        "printedPageEnd": 110,
+        "pdfPageStart": 12,
+        "pdfPageEnd": 13,
+        "plateNumber": "Figur 103",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%20109"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-109",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Frössle (Ög 109) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743955+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Sten i Frössle by med fågel och ormslinga."
+    },
+    {
+      "id": "runa-og-111",
+      "canonicalSignum": "Ög 111",
+      "provinceCode": "Ög",
+      "itemNumber": 111,
+      "suffix": null,
+      "name": "Landeryds kyrka",
+      "canonicalSlug": "og-111",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Landeryds socken",
+      "carrier": {
+        "id": "carrier-og-111",
+        "type": "runsten",
+        "material": "Granit",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Landeryds kyrka"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Landeryds socken",
+          "hundred": "Hanekinds härad",
+          "placeName": "Landeryds kyrka",
+          "coordinatesWgs84": [
+            15.707,
+            58.361
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 111"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1060",
+        "periodLabel": "Vikingatid (sen)",
+        "earliestYear": 1020,
+        "latestYear": 1060,
+        "isUncertain": false,
+        "datingMethod": "Ingvarstidsortografi"
+      },
+      "textLayer": {
+        "id": "text-og-111",
+        "readingTransliteration": "… lit · resa · stain · þina · at · bruþur ·",
+        "normalizationRunicSwedish": "… let ræisa stæin þenna at broður.",
+        "normalizationOldWestNorse": "… lét reisa stein þenna at bróður.",
+        "translationSwedish": "… lät resa denna sten efter sin broder.",
+        "translationEnglish": "… had this stone raised in memory of his brother.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 111,
+        "printedPageEnd": 112,
+        "pdfPageStart": 13,
+        "pdfPageEnd": 14,
+        "plateNumber": "Figur 105",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%20111"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-111",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Landeryds kyrka (Ög 111) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743958+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Inmurad i Landeryds kyrkogårdsmur."
+    },
+    {
+      "id": "runa-og-112",
+      "canonicalSignum": "Ög 112",
+      "provinceCode": "Ög",
+      "itemNumber": 112,
+      "suffix": null,
+      "name": "Hjulsbro",
+      "canonicalSlug": "og-112",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Landeryds socken",
+      "carrier": {
+        "id": "carrier-og-112",
+        "type": "runsten",
+        "material": "Gnejs",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Hjulsbro, Landeryds socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Landeryds socken",
+          "hundred": "Hanekinds härad",
+          "placeName": "Hjulsbro",
+          "coordinatesWgs84": [
+            15.698,
+            58.375
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 112"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1010–1050",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1010,
+        "latestYear": 1050,
+        "isUncertain": false,
+        "datingMethod": "Brostenstradition"
+      },
+      "textLayer": {
+        "id": "text-og-112",
+        "readingTransliteration": "… gerþu · bru · þisa ·",
+        "normalizationRunicSwedish": "… gærðu bro þessa.",
+        "normalizationOldWestNorse": "… gerðu brú þessa.",
+        "translationSwedish": "… gjorde denna bro.",
+        "translationEnglish": "… made this bridge.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 112,
+        "printedPageEnd": 114,
+        "pdfPageStart": 15,
+        "pdfPageEnd": 17,
+        "plateNumber": "Figur 106",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%20112"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-112",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Hjulsbro (Ög 112) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743962+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Minnesmärke över ett tidigt brobygge över Stångån vid Hjulsbro."
+    },
+    {
+      "id": "runa-og-115",
+      "canonicalSignum": "Ög 115",
+      "provinceCode": "Ög",
+      "itemNumber": 115,
+      "suffix": null,
+      "name": "Ånväga",
+      "canonicalSlug": "og-115",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Östergötland, Skeda socken",
+      "carrier": {
+        "id": "carrier-og-115",
+        "type": "runsten",
+        "material": "Granit",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Ånväga, Skeda socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Östergötland",
+          "parish": "Skeda socken",
+          "hundred": "Hanekinds härad",
+          "placeName": "Ånväga",
+          "coordinatesWgs84": [
+            15.592,
+            58.334
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Östergötlands runinskrifter, s. 115"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1030–1070",
+        "periodLabel": "Vikingatid (sen)",
+        "earliestYear": 1030,
+        "latestYear": 1070,
+        "isUncertain": false,
+        "datingMethod": "Slingornamentik med kors"
+      },
+      "textLayer": {
+        "id": "text-og-115",
+        "readingTransliteration": "… stain · at · faþur · sin ·",
+        "normalizationRunicSwedish": "… stæin at faður sinn.",
+        "normalizationOldWestNorse": "… stein at fǫður sinn.",
+        "translationSwedish": "… stenen efter sin fader.",
+        "translationEnglish": "… the stone in memory of his father.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-02",
+        "sriVolumeTitle": "Östergötlands runinskrifter",
+        "author": "Erik Brate",
+        "publicationYear": 1911,
+        "pdfFil": "sri_ostergotland_b02_h02_text.pdf",
+        "printedPageStart": 115,
+        "printedPageEnd": 116,
+        "pdfPageStart": 17,
+        "pdfPageEnd": 18,
+        "plateNumber": "Figur 109",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Ög%20115"
+        }
+      },
+      "images": [
+        {
+          "id": "img-og-115",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Ånväga (Ög 115) ur Östergötlands runinskrifter",
+          "photographerOrArtist": "Erik Brate",
+          "year": 1911,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743966+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Vackert ristad sten på en åsrygg vid Ånväga."
+    },
+    {
+      "id": "runa-so-68",
+      "canonicalSignum": "Sö 68",
+      "provinceCode": "Sö",
+      "itemNumber": 68,
+      "suffix": null,
+      "name": "Remmeröd",
+      "canonicalSlug": "so-68",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Södermanland, Sköldinge socken",
+      "carrier": {
+        "id": "carrier-so-68",
+        "type": "runsten",
+        "material": "Gnejs",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Remmeröd, Sköldinge socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Södermanland",
+          "parish": "Sköldinge socken",
+          "hundred": "Oppunda härad",
+          "placeName": "Remmeröd",
+          "coordinatesWgs84": [
+            16.512,
+            59.043
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Södermanlands runinskrifter, s. 52"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1060",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1020,
+        "latestYear": 1060,
+        "isUncertain": false,
+        "datingMethod": "Oppundatradition"
+      },
+      "textLayer": {
+        "id": "text-so-68",
+        "readingTransliteration": "… lit · raisa · stain · at · faþur · sin ·",
+        "normalizationRunicSwedish": "… let ræisa stæin at faður sinn.",
+        "normalizationOldWestNorse": "… lét reisa stein at fǫður sinn.",
+        "translationSwedish": "… lät resa stenen efter sin fader.",
+        "translationEnglish": "… had the stone raised in memory of his father.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-03",
+        "sriVolumeTitle": "Södermanlands runinskrifter",
+        "author": "Erik Brate & Elias Wessén",
+        "publicationYear": 1936,
+        "pdfFil": "sri_sodermanland_b03_h01_text_2.pdf",
+        "printedPageStart": 52,
+        "printedPageEnd": 53,
+        "pdfPageStart": 1,
+        "pdfPageEnd": 2,
+        "plateNumber": "Plansch 31",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Sö%2068"
+        }
+      },
+      "images": [
+        {
+          "id": "img-so-68",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Remmeröd (Sö 68) ur Södermanlands runinskrifter",
+          "photographerOrArtist": "Erik Brate & Elias Wessén",
+          "year": 1936,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743972+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Sten i Remmeröd, Sköldinge."
+    },
+    {
+      "id": "runa-so-70",
+      "canonicalSignum": "Sö 70",
+      "provinceCode": "Sö",
+      "itemNumber": 70,
+      "suffix": null,
+      "name": "Hedenlunda",
+      "canonicalSlug": "so-70",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Södermanland, Vadsbro socken",
+      "carrier": {
+        "id": "carrier-so-70",
+        "type": "runsten",
+        "material": "Granit",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Hedenlunda, Vadsbro socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Södermanland",
+          "parish": "Vadsbro socken",
+          "hundred": "Oppunda härad",
+          "placeName": "Hedenlunda",
+          "coordinatesWgs84": [
+            16.634,
+            58.987
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Södermanlands runinskrifter, s. 53"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1060",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1020,
+        "latestYear": 1060,
+        "isUncertain": false,
+        "datingMethod": "Stilgrupp Fp"
+      },
+      "textLayer": {
+        "id": "text-so-70",
+        "readingTransliteration": "… stain · þina · iftiʀ · buanta · sin ·",
+        "normalizationRunicSwedish": "… stæin þenna æftiʀ boanda sinn.",
+        "normalizationOldWestNorse": "… stein þenna eptir bónda sinn.",
+        "translationSwedish": "… denna sten efter sin make.",
+        "translationEnglish": "… this stone in memory of her husband.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-03",
+        "sriVolumeTitle": "Södermanlands runinskrifter",
+        "author": "Erik Brate & Elias Wessén",
+        "publicationYear": 1936,
+        "pdfFil": "sri_sodermanland_b03_h01_text_2.pdf",
+        "printedPageStart": 53,
+        "printedPageEnd": 55,
+        "pdfPageStart": 2,
+        "pdfPageEnd": 4,
+        "plateNumber": "Plansch 32",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Sö%2070"
+        }
+      },
+      "images": [
+        {
+          "id": "img-so-70",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Hedenlunda (Sö 70) ur Södermanlands runinskrifter",
+          "photographerOrArtist": "Erik Brate & Elias Wessén",
+          "year": 1936,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743977+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Reslig sten vid infarten till Hedenlunda herrgård."
+    },
+    {
+      "id": "runa-so-76",
+      "canonicalSignum": "Sö 76",
+      "provinceCode": "Sö",
+      "itemNumber": 76,
+      "suffix": null,
+      "name": "Lista kyrka",
+      "canonicalSlug": "so-76",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Södermanland, Lista socken",
+      "carrier": {
+        "id": "carrier-so-76",
+        "type": "runsten",
+        "material": "Gnejs",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Lista kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Södermanland",
+          "parish": "Lista socken",
+          "hundred": "Västerrekarne härad",
+          "placeName": "Lista kyrka",
+          "coordinatesWgs84": [
+            16.276,
+            59.312
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Södermanlands runinskrifter, s. 58"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1030–1070",
+        "periodLabel": "Vikingatid (sen)",
+        "earliestYear": 1030,
+        "latestYear": 1070,
+        "isUncertain": false,
+        "datingMethod": "Rekarnetradition"
+      },
+      "textLayer": {
+        "id": "text-so-76",
+        "readingTransliteration": "… litu · raisa · stain · at · faþur · sin ·",
+        "normalizationRunicSwedish": "… letu ræisa stæin at faður sinn.",
+        "normalizationOldWestNorse": "… létu reisa stein at fǫður sinn.",
+        "translationSwedish": "… läto resa stenen efter sin fader.",
+        "translationEnglish": "… had the stone raised in memory of their father.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-03",
+        "sriVolumeTitle": "Södermanlands runinskrifter",
+        "author": "Erik Brate & Elias Wessén",
+        "publicationYear": 1936,
+        "pdfFil": "sri_sodermanland_b03_h01_text_2.pdf",
+        "printedPageStart": 58,
+        "printedPageEnd": 59,
+        "pdfPageStart": 6,
+        "pdfPageEnd": 7,
+        "plateNumber": "Plansch 35",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Sö%2076"
+        }
+      },
+      "images": [
+        {
+          "id": "img-so-76",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Lista kyrka (Sö 76) ur Södermanlands runinskrifter",
+          "photographerOrArtist": "Erik Brate & Elias Wessén",
+          "year": 1936,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743981+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Sten vid Lista kyrka i Västerrekarne."
+    },
+    {
+      "id": "runa-so-80",
+      "canonicalSignum": "Sö 80",
+      "provinceCode": "Sö",
+      "itemNumber": 80,
+      "suffix": null,
+      "name": "Rambron",
+      "canonicalSlug": "so-80",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Södermanland, Torshälla socken",
+      "carrier": {
+        "id": "carrier-so-80",
+        "type": "fast_hall",
+        "material": "Granitberg",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Rambron, Torshälla"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Södermanland",
+          "parish": "Torshälla socken",
+          "hundred": "Västerrekarne härad",
+          "placeName": "Rambron",
+          "coordinatesWgs84": [
+            16.484,
+            59.412
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Södermanlands runinskrifter, s. 60"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1060",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1020,
+        "latestYear": 1060,
+        "isUncertain": false,
+        "datingMethod": "Fast berghällsristning"
+      },
+      "textLayer": {
+        "id": "text-so-80",
+        "readingTransliteration": "… risti · runiʀ · at · buanta · sin ·",
+        "normalizationRunicSwedish": "… risti runiʀ at boanda sinn.",
+        "normalizationOldWestNorse": "… risti rúnar at bónda sinn.",
+        "translationSwedish": "… ristade runorna efter sin make.",
+        "translationEnglish": "… carved the runes in memory of her husband.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-03",
+        "sriVolumeTitle": "Södermanlands runinskrifter",
+        "author": "Erik Brate & Elias Wessén",
+        "publicationYear": 1936,
+        "pdfFil": "sri_sodermanland_b03_h01_text_2.pdf",
+        "printedPageStart": 60,
+        "printedPageEnd": 62,
+        "pdfPageStart": 8,
+        "pdfPageEnd": 10,
+        "plateNumber": "Plansch 37",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Sö%2080"
+        }
+      },
+      "images": [
+        {
+          "id": "img-so-80",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Rambron (Sö 80) ur Södermanlands runinskrifter",
+          "photographerOrArtist": "Erik Brate & Elias Wessén",
+          "year": 1936,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743984+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Fast berghäll med runor invid gamla Rambron."
+    },
+    {
+      "id": "runa-so-83",
+      "canonicalSignum": "Sö 83",
+      "provinceCode": "Sö",
+      "itemNumber": 83,
+      "suffix": null,
+      "name": "Tumbo kyrka",
+      "canonicalSlug": "so-83",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Södermanland, Tumbo socken",
+      "carrier": {
+        "id": "carrier-so-83",
+        "type": "runsten",
+        "material": "Gnejs",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Tumbo kyrkogård"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Södermanland",
+          "parish": "Tumbo socken",
+          "hundred": "Västerrekarne härad",
+          "placeName": "Tumbo kyrka",
+          "coordinatesWgs84": [
+            16.321,
+            59.431
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Södermanlands runinskrifter, s. 63"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1030–1070",
+        "periodLabel": "Vikingatid (sen)",
+        "earliestYear": 1030,
+        "latestYear": 1070,
+        "isUncertain": false,
+        "datingMethod": "Rekarnestil"
+      },
+      "textLayer": {
+        "id": "text-so-83",
+        "readingTransliteration": "… stain · þina · at · sun · sin ·",
+        "normalizationRunicSwedish": "… stæin þenna at sun sinn.",
+        "normalizationOldWestNorse": "… stein þenna at son sinn.",
+        "translationSwedish": "… denna sten efter sin son.",
+        "translationEnglish": "… this stone in memory of his son.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-03",
+        "sriVolumeTitle": "Södermanlands runinskrifter",
+        "author": "Erik Brate & Elias Wessén",
+        "publicationYear": 1936,
+        "pdfFil": "sri_sodermanland_b03_h01_text_2.pdf",
+        "printedPageStart": 63,
+        "printedPageEnd": 64,
+        "pdfPageStart": 10,
+        "pdfPageEnd": 11,
+        "plateNumber": "Plansch 39",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=Sö%2083"
+        }
+      },
+      "images": [
+        {
+          "id": "img-so-83",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Tumbo kyrka (Sö 83) ur Södermanlands runinskrifter",
+          "photographerOrArtist": "Erik Brate & Elias Wessén",
+          "year": 1936,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": false
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.743987+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Sten vid Tumbo kyrka med elegant drakbåge."
+    },
+    {
+      "id": "runa-u-1",
+      "canonicalSignum": "U 1",
+      "provinceCode": "U",
+      "itemNumber": 1,
+      "suffix": null,
+      "name": "Adelsö kyrka I",
+      "canonicalSlug": "u-1",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Uppland, Adelsö socken",
+      "carrier": {
+        "id": "carrier-u-1",
+        "type": "fragment",
+        "material": "Sandsten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Adelsö kyrka"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Uppland",
+          "parish": "Adelsö socken",
+          "hundred": "Färentuna härad",
+          "placeName": "Adelsö kyrka",
+          "coordinatesWgs84": [
+            17.531,
+            59.359
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Upplands runinskrifter, s. 1"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1050–1100",
+        "periodLabel": "Sen vikingatid / tidig medeltid",
+        "earliestYear": 1050,
+        "latestYear": 1100,
+        "isUncertain": false,
+        "datingMethod": "Eskilstunakisttyp"
+      },
+      "textLayer": {
+        "id": "text-u-1",
+        "readingTransliteration": "… lit · raisa · stain …",
+        "normalizationRunicSwedish": "… let ræisa stæin …",
+        "normalizationOldWestNorse": "… lét reisa stein …",
+        "translationSwedish": "… lät resa stenen …",
+        "translationEnglish": "… had the stone raised …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-06",
+        "sriVolumeTitle": "Upplands runinskrifter",
+        "author": "Elias Wessén & Sven B.F. Jansson",
+        "publicationYear": 1940,
+        "pdfFil": "sri_uppland_b06_text_1.pdf",
+        "printedPageStart": 1,
+        "printedPageEnd": 2,
+        "pdfPageStart": 2,
+        "pdfPageEnd": 3,
+        "plateNumber": "Figur 1",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=U%201"
+        }
+      },
+      "images": [
+        {
+          "id": "img-u-1",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Adelsö kyrka I (U 1) ur Upplands runinskrifter",
+          "photographerOrArtist": "Elias Wessén & Sven B.F. Jansson",
+          "year": 1940,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.744025+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Gavel till Eskilstunakista vid Hovgården och Adelsö kyrka."
+    },
+    {
+      "id": "runa-u-2",
+      "canonicalSignum": "U 2",
+      "provinceCode": "U",
+      "itemNumber": 2,
+      "suffix": null,
+      "name": "Adelsö kyrka II",
+      "canonicalSlug": "u-2",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Uppland, Adelsö socken",
+      "carrier": {
+        "id": "carrier-u-2",
+        "type": "fragment",
+        "material": "Sandsten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Adelsö kyrka"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Uppland",
+          "parish": "Adelsö socken",
+          "hundred": "Färentuna härad",
+          "placeName": "Adelsö kyrka",
+          "coordinatesWgs84": [
+            17.5312,
+            59.3592
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Upplands runinskrifter, s. 3"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1050–1100",
+        "periodLabel": "Sen vikingatid",
+        "earliestYear": 1050,
+        "latestYear": 1100,
+        "isUncertain": false,
+        "datingMethod": "Kistfragment"
+      },
+      "textLayer": {
+        "id": "text-u-2",
+        "readingTransliteration": "… at · faþur · sin …",
+        "normalizationRunicSwedish": "… at faður sinn …",
+        "normalizationOldWestNorse": "… at fǫður sinn …",
+        "translationSwedish": "… efter sin fader …",
+        "translationEnglish": "… in memory of his father …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-06",
+        "sriVolumeTitle": "Upplands runinskrifter",
+        "author": "Elias Wessén & Sven B.F. Jansson",
+        "publicationYear": 1940,
+        "pdfFil": "sri_uppland_b06_text_1.pdf",
+        "printedPageStart": 3,
+        "printedPageEnd": 4,
+        "pdfPageStart": 4,
+        "pdfPageEnd": 5,
+        "plateNumber": "Figur 2",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=U%202"
+        }
+      },
+      "images": [
+        {
+          "id": "img-u-2",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Adelsö kyrka II (U 2) ur Upplands runinskrifter",
+          "photographerOrArtist": "Elias Wessén & Sven B.F. Jansson",
+          "year": 1940,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.744028+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Fragment av kistlock med korsmönster."
+    },
+    {
+      "id": "runa-u-3",
+      "canonicalSignum": "U 3",
+      "provinceCode": "U",
+      "itemNumber": 3,
+      "suffix": null,
+      "name": "Alsnö hus",
+      "canonicalSlug": "u-3",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Uppland, Adelsö socken",
+      "carrier": {
+        "id": "carrier-u-3",
+        "type": "runsten",
+        "material": "Granit",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Alsnö hus, Hovgården"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Uppland",
+          "parish": "Adelsö socken",
+          "hundred": "Färentuna härad",
+          "placeName": "Alsnö hus",
+          "coordinatesWgs84": [
+            17.534,
+            59.361
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Upplands runinskrifter, s. 4"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1030–1070",
+        "periodLabel": "Vikingatid (sen)",
+        "earliestYear": 1030,
+        "latestYear": 1070,
+        "isUncertain": false,
+        "datingMethod": "Hovgårdsfynd"
+      },
+      "textLayer": {
+        "id": "text-u-3",
+        "readingTransliteration": "… stain · þina …",
+        "normalizationRunicSwedish": "… stæin þenna …",
+        "normalizationOldWestNorse": "… stein þenna …",
+        "translationSwedish": "… denna sten …",
+        "translationEnglish": "… this stone …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-06",
+        "sriVolumeTitle": "Upplands runinskrifter",
+        "author": "Elias Wessén & Sven B.F. Jansson",
+        "publicationYear": 1940,
+        "pdfFil": "sri_uppland_b06_text_1.pdf",
+        "printedPageStart": 4,
+        "printedPageEnd": 5,
+        "pdfPageStart": 5,
+        "pdfPageEnd": 6,
+        "plateNumber": "Figur 3",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=U%203"
+        }
+      },
+      "images": [
+        {
+          "id": "img-u-3",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Alsnö hus (U 3) ur Upplands runinskrifter",
+          "photographerOrArtist": "Elias Wessén & Sven B.F. Jansson",
+          "year": 1940,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.744031+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Runstensfragment funnet i ruinen efter kung Magnus Ladulås palats Alsnö hus."
+    },
+    {
+      "id": "runa-u-4",
+      "canonicalSignum": "U 4",
+      "provinceCode": "U",
+      "itemNumber": 4,
+      "suffix": null,
+      "name": "Björkö I",
+      "canonicalSlug": "u-4",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Uppland, Adelsö socken",
+      "carrier": {
+        "id": "carrier-u-4",
+        "type": "fragment",
+        "material": "Sandsten",
+        "preservationStatus": "bevarad_i_fragment",
+        "currentLocationDescription": "Nuvarande placering: Björkö (Birka), Adelsö socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Uppland",
+          "parish": "Adelsö socken",
+          "hundred": "Färentuna härad",
+          "placeName": "Björkö",
+          "coordinatesWgs84": [
+            17.545,
+            59.332
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Upplands runinskrifter, s. 5"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 900–980",
+        "periodLabel": "Tidig vikingatid (Birkatid)",
+        "earliestYear": 900,
+        "latestYear": 980,
+        "isUncertain": false,
+        "datingMethod": "Arkeologiskt fynd i Birkas Svarta jorden"
+      },
+      "textLayer": {
+        "id": "text-u-4",
+        "readingTransliteration": "… runiʀ · þisi …",
+        "normalizationRunicSwedish": "… runiʀ þessi …",
+        "normalizationOldWestNorse": "… rúnar þessar …",
+        "translationSwedish": "… dessa runor …",
+        "translationEnglish": "… these runes …",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-06",
+        "sriVolumeTitle": "Upplands runinskrifter",
+        "author": "Elias Wessén & Sven B.F. Jansson",
+        "publicationYear": 1940,
+        "pdfFil": "sri_uppland_b06_text_1.pdf",
+        "printedPageStart": 5,
+        "printedPageEnd": 7,
+        "pdfPageStart": 5,
+        "pdfPageEnd": 7,
+        "plateNumber": "Figur 4",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=U%204"
+        }
+      },
+      "images": [
+        {
+          "id": "img-u-4",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Björkö I (U 4) ur Upplands runinskrifter",
+          "photographerOrArtist": "Elias Wessén & Sven B.F. Jansson",
+          "year": 1940,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.744033+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Birkarelaterat fragment ristat i finkornig sandsten."
+    },
+    {
+      "id": "runa-u-12",
+      "canonicalSignum": "U 12",
+      "provinceCode": "U",
+      "itemNumber": 12,
+      "suffix": null,
+      "name": "Bona, Munsö",
+      "canonicalSlug": "u-12",
+      "previousSlugs": [],
+      "aliases": [],
+      "matrixRole": "Batch 1 utökning: Uppland, Munsö socken",
+      "carrier": {
+        "id": "carrier-u-12",
+        "type": "runsten",
+        "material": "Gnejs",
+        "preservationStatus": "bevarad_i_sin_helhet",
+        "currentLocationDescription": "Nuvarande placering: Bona, Munsö socken"
+      },
+      "placements": [
+        {
+          "type": "fyndplats",
+          "province": "Uppland",
+          "parish": "Munsö socken",
+          "hundred": "Färentuna härad",
+          "placeName": "Bona",
+          "coordinatesWgs84": [
+            17.618,
+            59.385
+          ],
+          "precision": "exakt_koordinat",
+          "sourceNote": "Upplands runinskrifter, s. 16"
+        }
+      ],
+      "dating": {
+        "originalSourceLabel": "ca 1020–1060",
+        "periodLabel": "Vikingatid (mellan)",
+        "earliestYear": 1020,
+        "latestYear": 1060,
+        "isUncertain": false,
+        "datingMethod": "Stilgrupp Fp"
+      },
+      "textLayer": {
+        "id": "text-u-12",
+        "readingTransliteration": "… lit · raisa · stain · at · sun · sin ·",
+        "normalizationRunicSwedish": "… let ræisa stæin at sun sinn.",
+        "normalizationOldWestNorse": "… lét reisa stein at son sinn.",
+        "translationSwedish": "… lät resa stenen efter sin son.",
+        "translationEnglish": "… had the stone raised in memory of his son.",
+        "carverAttribution": null,
+        "isSigned": false
+      },
+      "source": {
+        "sriVolumeId": "band-06",
+        "sriVolumeTitle": "Upplands runinskrifter",
+        "author": "Elias Wessén & Sven B.F. Jansson",
+        "publicationYear": 1940,
+        "pdfFil": "sri_uppland_b06_text_1.pdf",
+        "printedPageStart": 16,
+        "printedPageEnd": 18,
+        "pdfPageStart": 21,
+        "pdfPageEnd": 23,
+        "plateNumber": "Figur 12",
+        "externalUris": {
+          "samnordiskUuid": null,
+          "raaRunorUri": "https://app.raa.se/open/runor/inscription?signum=U%2012"
+        }
+      },
+      "images": [
+        {
+          "id": "img-u-12",
+          "imageUrl": "/images/runor/ej-avbildad.svg",
+          "thumbnailUrl": "/images/runor/ej-avbildad.svg",
+          "caption": "Bona, Munsö (U 12) ur Upplands runinskrifter",
+          "photographerOrArtist": "Elias Wessén & Sven B.F. Jansson",
+          "year": 1940,
+          "license": "Public Domain",
+          "isPubliclyDistributable": true,
+          "isEditorialDrawing": true
+        }
+      ],
+      "curationStatus": "publicerad",
+      "reviewedAt": "2026-10-21T22:27:34.744037+00:00",
+      "reviewedBy": "Antigravity Runor Curator (E35 Batch 1)",
+      "editorialNotes": "Vacker runsten vid Bona gård på Munsö."
+    }
+  ]
+}

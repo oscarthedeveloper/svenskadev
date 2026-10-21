@@ -1,0 +1,16 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[headers]]
+  for = "/api/runor/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization, X-Dataset-Version"
+    Cache-Control = "public, s-maxage=3600, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/images/runor/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

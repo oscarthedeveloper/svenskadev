@@ -85,6 +85,25 @@ export default function ArchivePage({
         )}
       </div>
 
+      {root === "sprakliv" && path.length === 0 && (
+        <section className="thesis-sprakliv-feature" aria-label="Utvald interaktiv studie">
+          <div>
+            <span className="eyebrow">Interaktiv forskningsutgåva · Pilot v1</span>
+            <h2>
+              <Link href="/sprakliv/person-och-numerus">
+                Från person till person — Sydvästsvensk person- och numerusböjning
+              </Link>
+            </h2>
+            <p>
+              Utforska Karta 10 (s. 148), Tablå 28 (s. 147), Tablå 29 (s. 153) och förändringsmodellen i Figur 6 (s. 160) ur Adam Horn af Åminnes avhandling (2022) med källkritiska sidhänvisningar och ordlista.
+            </p>
+          </div>
+          <Link className="button button-primary" href="/sprakliv/person-och-numerus">
+            Öppna studien <span aria-hidden="true">↗</span>
+          </Link>
+        </section>
+      )}
+
       {!items.length && <p className="empty-archive">Det här avsnittet väntar på sina första artiklar.</p>}
       <div className="folder-list">
         {items.map((item, index) => {

@@ -1,6 +1,12 @@
 import Link from "next/link";
 
-const NAV = [{ label: "Språkråd", href: "/sprakrad" }, { label: "Grammatik", href: "/grammatik" }, { label: "Ordval", href: "/ordval" }, { label: "Språkliv", href: "/sprakliv" }];
+const NAV = [
+  { label: "Språkråd", href: "/sprakrad" },
+  { label: "Grammatik", href: "/grammatik" },
+  { label: "Ordval", href: "/ordval" },
+  { label: "Språkliv", href: "/sprakliv" },
+  { label: "Runor", href: "/runor" },
+];
 
 export default function StudyFrame({ children, title, active }: { children: React.ReactNode; title: string; active?: string }) {
   return (

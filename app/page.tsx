@@ -41,8 +41,36 @@ export default async function Home() {
         <div className="study-note"><span>SV / Ord & tanke</span><p>Ett levande språk förtjänar mer än en lista med rätt och fel.</p></div>
       </section>
       <section className="word-section" aria-labelledby="word-title"><div><p className="eyebrow">Säg det på svenska</p><h2 id="word-title">Ett ordval.<br />Flera möjligheter.</h2><Link className="text-link" href={wordHref}>Fler svenska alternativ →</Link></div><div className="word-pairs"><p><span>makea sense</span><strong>låta rimligt / vara begripligt</strong></p><p><span>brainstorma</span><strong>spåna / kläcka idéer</strong></p><p><span>en deadline</span><strong>en sista dag / en tidsfrist</strong></p><small>Välj efter sammanhang. Alternativen är redaktionella förslag.</small></div></section>
-      <section className="more-section" aria-labelledby="more-title"><div><p className="eyebrow">Det finns mer att upptäcka</p><h2 id="more-title">Svenskan i livet.</h2></div><p>Dialekter, språkhistoria, stil och uttryck. Här börjar nästa del av arkivet ta form.</p><Link className="button" href="/sprakliv">Till språklivet ↗</Link></section>
-      <footer className="home-footer"><span>svenska.dev — med ordet i centrum</span><span>Språkråd · grammatik · ordval · språkliv</span><Link href="/admin">Administration ↗</Link></footer>
+      <section className="more-section" aria-labelledby="more-title">
+        <div>
+          <p className="eyebrow">Det finns mer att upptäcka</p>
+          <h2 id="more-title">Svenskan i livet & historien.</h2>
+        </div>
+        <p>
+          Dialekter, språkhistoria, stil och uttryck — bland annat den interaktiva studien{' '}
+          <Link className="text-link" href="/sprakliv/person-och-numerus">
+            Från person till person ↗
+          </Link>{' '}
+          om sydvästsvensk verbböjning samt det nya källkritiska verket{' '}
+          <Link className="text-link" href="/runor">
+            Runor ↗
+          </Link>{' '}
+          med Sveriges runinskrifter, digitala faksimil och interaktiv karta.
+        </p>
+        <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
+          <Link className="button" href="/sprakliv">
+            Till språklivet ↗
+          </Link>
+          <Link className="button button-primary" href="/runor">
+            Utforska Runor ↗
+          </Link>
+        </div>
+      </section>
+      <footer className="home-footer">
+        <span>svenska.dev — med ordet i centrum</span>
+        <span>Språkråd · grammatik · ordval · språkliv · runor</span>
+        <Link href="/admin">Administration ↗</Link>
+      </footer>
     </main>
   );
 }

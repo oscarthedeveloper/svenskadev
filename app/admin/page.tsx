@@ -101,6 +101,8 @@ export default async function AdminPage() {
               <EditorialOverview />
               <HomepageSettings />
               <div className="admin-actions">
+                <Link href="/admin/avhandling">Avhandlingsutgåva (/admin/avhandling) →</Link>
+                <Link href="/admin/runor">Runologiskt arbetsflöde (/admin/runor) →</Link>
                 <Link href="/grammatik">Till grammatiken →</Link>
                 <Link href="/sprakliv">Till språklivet →</Link>
                 <form action={signOut}><button type="submit">Logga ut</button></form>

@@ -1,0 +1,327 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-10-21",
+  "count": 20,
+  "dateringar": [
+    {
+      "canonicalSignum": "Öl 1",
+      "period": "Vikingatid (tidig/mellan)",
+      "interval": [
+        990,
+        1010
+      ],
+      "label": "ca 990–1010 (strax efter slaget vid Fyrisvallarna ca 985)",
+      "method": "Historisk händelsekoppling och skaldemetrik (dróttkvætt)",
+      "styleGroup": "RAK",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": "Fornvästnordiska (FVN, dróttkvætt)"
+      },
+      "metricForm": "Dróttkvætt (drottkvätt)"
+    },
+    {
+      "canonicalSignum": "Öl 2",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1020,
+        1070
+      ],
+      "label": "1000-talet (vikingatid)",
+      "method": "Stilgruppering och runformer",
+      "styleGroup": "Pr1–Pr2",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "Öl 9",
+      "period": "Tidigmedeltid / Senvikingatid",
+      "interval": [
+        1050,
+        1120
+      ],
+      "label": "ca 1050–1120 (kistlockhäll)",
+      "method": "Gravskick och ornamentik",
+      "styleGroup": "Gravhällsstil",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "Öl 15",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1000,
+        1080
+      ],
+      "label": "1000-talet",
+      "method": "Äldre teckning och runformer",
+      "styleGroup": "Okänd (förlorad)",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "Öl 16",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1000,
+        1080
+      ],
+      "label": "1000-talet (känd genom Bautil 1071)",
+      "method": "Bautil-avritning",
+      "styleGroup": "Fågel/slinga (enligt Bautil)",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "Öl 18",
+      "period": "Vikingatid (mellan/sen)",
+      "interval": [
+        1010,
+        1060
+      ],
+      "label": "ca 1010–1060",
+      "method": "Stilgruppering (kors och rundjurslinga)",
+      "styleGroup": "Pr1",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "Öl 23",
+      "period": "Tidigmedeltid / Senvikingatid",
+      "interval": [
+        1060,
+        1130
+      ],
+      "label": "ca 1060–1130 (kristen gravhäll)",
+      "method": "Typologisk datering av gravkors och runformer",
+      "styleGroup": "Eskilstunakist/gravhällsstil",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "Öl 25",
+      "period": "Vikingatid (mellan/sen)",
+      "interval": [
+        1020,
+        1070
+      ],
+      "label": "ca 1020–1070",
+      "method": "Stilgruppering av hällristning",
+      "styleGroup": "Pr2",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "Ög 136",
+      "period": "Tidig vikingatid",
+      "interval": [
+        800,
+        850
+      ],
+      "label": "ca 800–850 (kortkvistrunor, urnordiska arkaismer)",
+      "method": "Språkhistoriska arkaismer, kortkvistrunor och chiffermetodik",
+      "styleGroup": "RAK (äldre vikingatid)",
+      "languages": {
+        "primary": "Runsvenska (RSV / tidig runsvenska med urnordiska drag)",
+        "secondary": "Fornvästnordiska (FVN, fornyrðislag)"
+      },
+      "metricForm": "Fornyrðislag (fornyrdislag)"
+    },
+    {
+      "canonicalSignum": "Ög 181",
+      "period": "Vikingatid",
+      "interval": [
+        1000,
+        1050
+      ],
+      "label": "ca 1000–1050 (Ragnarök-motiv)",
+      "method": "Ikonografisk stilgruppering och runformer",
+      "styleGroup": "Ringerikestil / bildsten",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "U 11",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1060,
+        1085
+      ],
+      "label": "ca 1060–1085 (Håkon jarl)",
+      "method": "Historisk personidentifiering och Gräslunds stilgrupp Pr3",
+      "styleGroup": "Pr3",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "U 29",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1060,
+        1090
+      ],
+      "label": "ca 1060–1090 (Torbjörn skald)",
+      "method": "Gräslunds stilgrupp Pr2 / Pr3 och genealogisk analys",
+      "styleGroup": "Pr2–Pr3",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": "Allittererad prosa"
+    },
+    {
+      "canonicalSignum": "U 73",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1060,
+        1100
+      ],
+      "label": "ca 1060–1100 (Greklandsresenärer)",
+      "method": "Gräslunds stilgrupp Pr3 och historisk kontext (Väringagardet)",
+      "styleGroup": "Pr3",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "U 101",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1060,
+        1080
+      ],
+      "label": "ca 1060–1080 (Jarlabanke)",
+      "method": "Historisk kronologi för Jarlabankesläkten och stilgrupp Pr2",
+      "styleGroup": "Pr2",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "U 104",
+      "period": "Vikingatid (mycket sen)",
+      "interval": [
+        1070,
+        1110
+      ],
+      "label": "ca 1070–1110 (Öpir risti)",
+      "method": "Ristarsignatur (Öpir) och Gräslunds stilgrupp Pr4/Pr5 (Urnesstil)",
+      "styleGroup": "Pr4–Pr5",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "U 112A",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1060,
+        1100
+      ],
+      "label": "ca 1060–1100 (Ragnvald och Fastvi)",
+      "method": "Gräslunds stilgrupp Pr3 (Urnesstil)",
+      "styleGroup": "Pr3",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "U 112B",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1060,
+        1100
+      ],
+      "label": "ca 1060–1100 (Ragnvald i Grekland)",
+      "method": "Gräslunds stilgrupp Pr3 och historisk kontext (Väringagardet)",
+      "styleGroup": "Pr3",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": "Allittererad skaldestrof"
+    },
+    {
+      "canonicalSignum": "Sö 101",
+      "period": "Vikingatid (mellan)",
+      "interval": [
+        1020,
+        1050
+      ],
+      "label": "ca 1020–1050 (Sigrid och Torir)",
+      "method": "Gräslunds stilgrupp Pr1–Pr2 och ikonografi (Völsungasagan)",
+      "styleGroup": "Pr1–Pr2",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": null
+    },
+    {
+      "canonicalSignum": "Sö 179",
+      "period": "Vikingatid (mellan)",
+      "interval": [
+        1040,
+        1050
+      ],
+      "label": "ca 1040–1050 (Ingvarståget)",
+      "method": "Historisk händelse (Ingvar den vittfarnes tåg till Särkland 1036–1041) och stilgrupp Fp",
+      "styleGroup": "Fp",
+      "languages": {
+        "primary": "Runsvenska (RSV)",
+        "secondary": null
+      },
+      "metricForm": "Allittererad fornyrðislag-dikt ('De foro manligen...')"
+    },
+    {
+      "canonicalSignum": "Vs 24",
+      "period": "Vikingatid (sen)",
+      "interval": [
+        1050,
+        1080
+      ],
+      "label": "ca 1050–1080 (Balle den röde)",
+      "method": "Ristarsignatur (Balle), runformer och Gräslunds stilgrupp Pr3",
+      "styleGroup": "Pr3",
+      "languages": {
+        "primary": "Runsvenska (RSV / fornvästmanländska särdrag)",
+        "secondary": "Fornvästnordiska (FVN)"
+      },
+      "metricForm": "Fornyrðislag (kvinnomäktig allittererad strof)"
+    }
+  ]
+}
